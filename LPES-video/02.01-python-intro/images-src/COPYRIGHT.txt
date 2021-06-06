@@ -1,0 +1,9 @@
+Matplotlib_screenshot.png
+	https://commons.wikimedia.org/wiki/File:Matplotlib_screenshot.png
+	CC-BY
+	Author: Geek3
+
+upython-with-micro.jpg
+	https://raw.githubusercontent.com/micropython/micropython/master/logo/upython-with-micro.jpg
+	MIT
+	Author: Damien P. George

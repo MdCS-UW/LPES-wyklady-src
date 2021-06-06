@@ -1,0 +1,25 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[12pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\begin{itemize}
+	\item \Verb{/etc}
+	      konfiguracje ogólnosystemowe
+	\item \Verb{/var}
+	      dane programów i usług (takie jak kolejka poczty, harmonogramy zadań, bazy danych)
+	\item \Verb{/home}
+	      katalogi domowe użytkowników (często montowany z innego systemu plików, dlatego też root ma swój katalog domowy w \texttt{/root}, aby był dostępny nawet gdy takie montowanie nie doszło do skutku)
+	\item \Verb{/tmp}
+	      pliki tymczasowe (typowo czyszczony przy starcie systemu);
+	\item \Verb{/run}
+		dane tymczasowych działających usług, takie jak numery pid, blokady, itp. (specyficzny dla Linuxa)
+\end{itemize}
+
+\end{frame}
+\end{document}

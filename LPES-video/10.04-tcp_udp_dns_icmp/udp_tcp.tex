@@ -1,0 +1,17 @@
+\documentclass{standalone}
+\usepackage{tikzPackets}
+\usepackage{varwidth}
+\usepackage{adjustbox}
+
+\newcommand{\inputFileContent}[1]{
+	\providecommand{\inputOnlyContent}{TRUE}
+	\input{#1}
+	\let\inputOnlyContent\undefined
+}
+\input{booklets-sections/network/preambule.tex}
+
+\begin{document}
+\inputSideBySide
+	{Datagram UDP}{booklets-sections/network/ilustracje/20-udp.tex}
+	{Pakiet TCP}{booklets-sections/network/ilustracje/20-tcp.tex}
+\end{document}

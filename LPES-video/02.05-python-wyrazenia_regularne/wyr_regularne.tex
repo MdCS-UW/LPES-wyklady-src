@@ -1,0 +1,36 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[12pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\frametitle{Wyrażenia regularne}
+
+\begin{Verbatim}
+.      - dowolny znak
+[a-z]  - znak z zakresu
+[^a-z] - znak z poza zakresu
+^      - początek napisu/linii
+$      - koniec napisu/linii
+\end{Verbatim}
+\vspace{4pt}
+\begin{Verbatim}
+*      - dowolna ilość powtórzeń (także 0)
+?      - 0 lub jedno powtórzenie
++      - jedno lub więcej powtórzeń
+{n,m}  - od n do m powtórzeń
+\end{Verbatim}
+\vspace{4pt}
+\begin{Verbatim}
+()     - pod-wyrażenie (może być używane dla operatorów
+         powtórzeń oraz dla referencji wstecznych)
+|      - alternatywa: wystąpienie wyrażenia podanego po lewej stronie
+         albo wyrażenia podanego prawej stronie
+\end{Verbatim}
+
+\end{frame}
+\end{document}

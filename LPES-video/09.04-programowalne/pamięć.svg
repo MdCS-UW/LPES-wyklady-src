@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1248"
+   height="702"
+   viewBox="0 0 330.19999 185.73751"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="pamięć.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748738"
+     inkscape:cx="1114.2873"
+     inkscape:cy="243.5587"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-111.26247)">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#060003;stroke-width:0.26499996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect812"
+       width="55.485725"
+       height="102.50746"
+       x="187.94388"
+       y="130.81883" />
+    <g
+       id="g1182"
+       transform="translate(352.17923,35.523965)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path814"
+         d="m -185.88541,131.38887 h 21.5152"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         id="text818"
+         y="130.69316"
+         x="-180.84148"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:4.58611107px;stroke-width:0.26458332"
+           y="130.69316"
+           x="-180.84148"
+           id="tspan816"
+           sodipodi:role="line">adr[0]</tspan></text>
+    </g>
+    <text
+       id="text1477"
+       y="139.37106"
+       x="71.715569"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332"
+         y="139.37106"
+         x="71.715569"
+         id="tspan1475"
+         sodipodi:role="line">pamięć:</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332"
+         y="145.1037"
+         x="71.715569"
+         sodipodi:role="line"
+         id="tspan1320"> * 16 bitów</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332"
+         y="150.83633"
+         x="71.715569"
+         sodipodi:role="line"
+         id="tspan1318"> * 1 bitowe wyjście (<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
+   id="tspan1358">out</tspan>)</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332"
+         y="156.56898"
+         x="71.715569"
+         sodipodi:role="line"
+         id="tspan1332"> * adresowanie bitowe</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332"
+         y="162.30162"
+         x="71.715569"
+         sodipodi:role="line"
+         id="tspan1326">   (każdy bit ma własny adres)</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332"
+         y="168.03426"
+         x="71.715569"
+         sodipodi:role="line"
+         id="tspan1314"> * 4 bitowe wejście adresowe (<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
+   id="tspan1360">adr</tspan>)</tspan></text>
+    <g
+       id="g1187"
+       transform="translate(352.17923,35.611443)">
+      <text
+         id="text818-44-8-4"
+         y="147.65706"
+         x="-108.05198"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:4.58611107px;fill:#000000;fill-opacity:1;stroke-width:0.26458332"
+           y="147.65706"
+           x="-108.05198"
+           id="tspan816-3-6-9"
+           sodipodi:role="line">out</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path814-0-4-0-8"
+         d="m -108.91287,148.35299 h 14.365738"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1177"
+       transform="translate(345.69849,39.038269)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path814-3"
+         d="m -179.40467,139.33032 h 21.5152"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         id="text818-67"
+         y="138.63461"
+         x="-174.36073"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:4.58611107px;stroke-width:0.26458332"
+           y="138.63461"
+           x="-174.36073"
+           id="tspan816-5"
+           sodipodi:role="line">adr[1]</tspan></text>
+    </g>
+    <g
+       id="g1172"
+       transform="translate(354.11748,45.014988)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path814-35"
+         d="m -187.82366,144.80935 h 21.5152"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         id="text818-62"
+         y="144.11363"
+         x="-182.77972"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:4.58611107px;stroke-width:0.26458332"
+           y="144.11363"
+           x="-182.77972"
+           id="tspan816-9"
+           sodipodi:role="line">adr[2]</tspan></text>
+    </g>
+    <g
+       id="g1167"
+       transform="translate(356.38927,43.508151)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path814-35-1"
+         d="m -190.09545,157.77192 h 21.5152"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         id="text818-62-2"
+         y="157.0762"
+         x="-185.05151"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:4.58611107px;stroke-width:0.26458332"
+           y="157.0762"
+           x="-185.05151"
+           id="tspan816-9-7"
+           sodipodi:role="line">adr[3]</tspan></text>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1189"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:28.00000064px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:sans-serif;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion1191"><rect
+           id="rect1193"
+           width="140.71428"
+           height="169.28572"
+           x="-592.85712"
+           y="59.14286" /></flowRegion><flowPara
+         id="flowPara1195" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1197"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:'DejaVu Sans Mono';font-style:normal;font-weight:normal;font-size:17.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'DejaVu Sans Mono';font-stretch:normal;font-variant:normal;"><flowRegion
+         id="flowRegion1199"
+         style="font-size:17.33333333px;"><rect
+           id="rect1201"
+           width="111.42857"
+           height="142.85715"
+           x="-587.85712"
+           y="71.285721"
+           style="font-size:17.33333333px;" /></flowRegion><flowPara
+         id="flowPara1203" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1205"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.33333397px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,350.47834,119.21667)"><flowRegion
+         id="flowRegion1207"
+         style="font-size:17.33333397px"><rect
+           id="rect1209"
+           width="180.71422"
+           height="406.42862"
+           x="-590"
+           y="55.571434"
+           style="font-size:17.33333397px" /></flowRegion><flowPara
+         id="flowPara1211"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono Bold'">adr     =&gt;  out</flowPara><flowPara
+         id="flowPara1215">0b0000  =&gt;  0</flowPara><flowPara
+         id="flowPara1219">0b0001  =&gt;  0</flowPara><flowPara
+         id="flowPara1221">0b0010  =&gt;  0</flowPara><flowPara
+         id="flowPara1223">0b0011  =&gt;  1</flowPara><flowPara
+         id="flowPara1225">0b0100  =&gt;  0</flowPara><flowPara
+         id="flowPara1227">0b0101  =&gt;  0</flowPara><flowPara
+         id="flowPara1229">0b0110  =&gt;  0</flowPara><flowPara
+         id="flowPara1231">0b0111  =&gt;  1</flowPara><flowPara
+         id="flowPara1298">0b1000  =&gt;  0</flowPara><flowPara
+         id="flowPara1300">0b1001  =&gt;  0</flowPara><flowPara
+         id="flowPara1302">0b1010  =&gt;  0</flowPara><flowPara
+         id="flowPara1306">0b1011  =&gt;  1</flowPara><flowPara
+         id="flowPara1304">0b1100  =&gt;  1</flowPara><flowPara
+         id="flowPara1308">0b1101  =&gt;  1</flowPara><flowPara
+         id="flowPara1310">0b1110  =&gt;  1</flowPara><flowPara
+         id="flowPara1312">0b1111  =&gt;  1</flowPara><flowPara
+         id="flowPara1233" /><flowPara
+         id="flowPara1235" /><flowPara
+         id="flowPara1237" /><flowPara
+         id="flowPara1239" /><flowPara
+         id="flowPara1241" /><flowPara
+         id="flowPara1243" /><flowPara
+         id="flowPara1245" /><flowPara
+         id="flowPara1247" /><flowPara
+         id="flowPara1249" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1346"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,52.302635,96.611678)"><flowRegion
+         id="flowRegion1348"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"><rect
+           id="rect1350"
+           width="285.87317"
+           height="94.954346"
+           x="81.822357"
+           y="296.92883"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'" /></flowRegion><flowPara
+         id="flowPara1354">na przykład 16 przerzutników RS, których wyjścia podłaczone są do multipleksera 16 → 1 z 4 bitowym wejściem adresowym</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="71.628235"
+       y="210.76875"
+       id="text1364"><tspan
+         sodipodi:role="line"
+         id="tspan1362"
+         x="71.628235"
+         y="210.76875"
+         style="font-size:4.58611107px;stroke-width:0.26458332">może zrealizować dowolną</tspan><tspan
+         sodipodi:role="line"
+         x="71.628235"
+         y="216.50139"
+         style="font-size:4.58611107px;stroke-width:0.26458332"
+         id="tspan1366">funkcję logiczną (układ bramek)</tspan><tspan
+         sodipodi:role="line"
+         x="71.628235"
+         y="222.23402"
+         style="font-size:4.58611107px;stroke-width:0.26458332"
+         id="tspan1368">o 4 wejściach i jednym wyjściu</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="71.715569"
+       y="243.01155"
+       id="text1372"><tspan
+         sodipodi:role="line"
+         x="71.715569"
+         y="243.01155"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1374"><tspan
+           id="tspan1388"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;stroke-width:0.26458332">w tym przykładzie realizowana jest funkcja: </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="71.715569"
+         y="248.74419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1410">    out = (adr[0] AND adr[1]) OR (adr[2] AND adr[3])</tspan><tspan
+         sodipodi:role="line"
+         x="71.715569"
+         y="254.47682"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1382" /><tspan
+         sodipodi:role="line"
+         x="71.715569"
+         y="260.20947"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1386">realizacja innej funkcji wymaga tylko innego zaprogramowania</tspan><tspan
+         sodipodi:role="line"
+         x="71.715569"
+         y="265.94211"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1412">pamięci (wartości bitów pod poszczególnymi adresami)</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1394"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:bold;font-size:28.00000064px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'sans-serif Bold';font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion1396"><rect
+           id="rect1398"
+           width="754.58392"
+           height="150.51273"
+           x="262.63965"
+           y="595.93396" /></flowRegion><flowPara
+         id="flowPara1400" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1402"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:bold;font-size:28.00000064px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'sans-serif Bold';font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion1404"><rect
+           id="rect1406"
+           width="14.142136"
+           height="29.294424"
+           x="1064.7008"
+           y="680.7868" /></flowRegion><flowPara
+         id="flowPara1408" /></flowRoot>  </g>
+</svg>

@@ -1,0 +1,23 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[12pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\begin{itemize}
+	\item \Verb{/bin}
+	      pliki wykonywalne podstawowych programów
+	\item \Verb{/sbin}
+	      pliki wykonywalne podstawowych programów administracyjnych
+	\item \Verb{/lib}
+	      pliki podstawowych bibliotek
+	\item \Verb{/usr}
+	      oprogramowanie dodatkowe (wewnętrznie ma podobną strukturę do głównego - tzn. katalogi \texttt{/usr/bin}, \texttt{/usr/sbin}, \texttt{/usr/lib}, itd)
+\end{itemize}
+
+\end{frame}
+\end{document}

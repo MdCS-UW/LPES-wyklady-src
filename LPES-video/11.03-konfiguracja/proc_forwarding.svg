@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1248"
+   height="702"
+   viewBox="0 0 330.19999 185.73751"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="proc_forwarding.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path956"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#ee00ff;stroke-width:1pt;stroke-opacity:1;fill:#ee00ff;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1237"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1235"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#ee00ff;stroke-width:1pt;stroke-opacity:1;fill:#ee00ff;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path953"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#ee00ff;stroke-width:1pt;stroke-opacity:1;fill:#ee00ff;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path956-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-139.1073"
+     inkscape:cy="281.25862"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-111.26247)">
+    <g
+       id="g933"
+       transform="translate(4.0828567,59.795865)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1984"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:28.00000064px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion1986"><rect
+           id="rect1988"
+           width="190.71428"
+           height="53.571426"
+           x="473.57141"
+           y="295.57144" /></flowRegion><flowPara
+         id="flowPara1990"></flowPara></flowRoot>    <g
+       id="g2077"
+       transform="translate(47.026121,8.4709239)">
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-9.0714285,130.01011)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot812"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
+           id="flowRegion814"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
+             y="87.827255"
+             x="109.09647"
+             height="299.80716"
+             width="982.62823"
+             id="rect816" /></flowRegion><flowPara
+           id="flowPara842">  /proc/sys/net/<flowSpan
+   id="flowSpan832"
+   style="fill:#ee00ff;fill-opacity:1">ipv4</flowSpan>/conf/<flowSpan
+   id="flowSpan824"
+   style="fill:#ff0000;fill-opacity:1">eth0</flowSpan>/forwardnig</flowPara><flowPara
+           id="flowPara822">  /proc/sys/net/<flowSpan
+   id="flowSpan840"
+   style="fill:#ee00ff;fill-opacity:1">ipv6</flowSpan>/conf/<flowSpan
+   id="flowSpan830"
+   style="fill:#ff0000;fill-opacity:1">eth0</flowSpan>/forwardnig</flowPara><flowPara
+           id="flowPara820" /></flowRoot>      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot812-5"
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-8.6006064,116.01043)"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
+           id="flowRegion814-1"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
+             y="87.827255"
+             x="109.09647"
+             height="299.80716"
+             width="982.62823"
+             id="rect816-7" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+           id="flowPara822-8">Pliki* kontrolujące przekazywanie pakietów:</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+           id="flowPara820-3" /></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot911"
+         style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(0.26458333,0,0,0.26458333,4.6876187,154.65414)"><flowRegion
+           id="flowRegion913"
+           style="font-size:17.33333397px;text-align:justify;text-anchor:start"><rect
+             id="rect915"
+             width="718.57147"
+             height="105.71426"
+             x="81.428574"
+             y="303.42859"
+             style="font-size:17.33333397px;text-align:justify;text-anchor:start" /></flowRegion><flowPara
+           id="flowPara919">są to wirtualne pliki w systemie /proc i stanowią one mechanizm komunikacji z jądrem w kwestiach konfiguracji systemu, wszelkie ustawienia w nich wykonywane zostaną utracone po wyłączeniu (restarcie) systemu</flowPara></flowRoot>      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="17.129999"
+         y="179.19336"
+         id="text925"
+         transform="translate(4.0828566,59.795866)"><tspan
+           sodipodi:role="line"
+           id="tspan923"
+           x="17.129999"
+           y="179.19336"
+           style="font-size:4.58611107px;stroke-width:0.26458332">*)  </tspan></text>
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-69.78247,50.323103)"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ee00ff;fill-opacity:1;stroke:none"
+         id="flowRoot943"
+         xml:space="preserve"><flowRegion
+           style="font-size:21.33333397px;text-align:center;text-anchor:middle;fill:#ee00ff;fill-opacity:1"
+           id="flowRegion945"><rect
+             style="font-size:21.33333397px;text-align:center;text-anchor:middle;fill:#ee00ff;fill-opacity:1"
+             y="530.27405"
+             x="400.02042"
+             height="78.842651"
+             width="276.72739"
+             id="rect947" /></flowRegion><flowPara
+           id="flowPara949">wersja protokołu IP <flowSpan
+   id="flowSpan2036"
+   style="font-size:17.33333397px">(przekazywanie włączamy dla różnych wersji IP niezależnie)</flowSpan></flowPara></flowRoot>      <path
+         inkscape:connector-curvature="0"
+         id="path951"
+         d="M 72.681275,190.24466 96.24495,172.67964"
+         style="fill:none;stroke:#ee00ff;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path951-1"
+         d="M 167.1077,190.24466 143.54403,172.67964"
+         style="fill:none;stroke:#ff0000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-4)" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,18.819241,50.323103)"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none"
+         id="flowRoot943-3"
+         xml:space="preserve"><flowRegion
+           style="font-size:21.33333397px;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1"
+           id="flowRegion945-7"><rect
+             style="font-size:21.33333397px;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1"
+             y="530.27405"
+             x="400.02042"
+             height="148.84262"
+             width="318.87033"
+             id="rect947-4" /></flowRegion><flowPara
+           id="flowPara949-1">nazwa interfejsu sieciowego <flowSpan
+   id="flowSpan2034"
+   style="font-size:17.33333397px">(interfejs ten będzie odbierać pakiety, które nie są adresowane w warstwie IP do tego hosta, aby przekazać je na inny interfejs)</flowSpan></flowPara></flowRoot>    </g>
+  </g>
+</svg>

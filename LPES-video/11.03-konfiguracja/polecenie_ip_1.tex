@@ -1,0 +1,30 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[11pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\begin{itemize}
+	\item \Verb{ip addr ...} – adresy IP
+		\begin{itemize}
+			\item \Verb{ip addr} – wypisuje obecną konfigurację adresów i informacje o stanie interfejsu
+			                 (\Verb{UP}/\Verb{DOWN} – interfejs włączony/wyłączony,
+			                  \Verb{LOWER_UP}/\Verb{LOWER_DOWN} – link warstwy niższej na interfejsie / jego brak)
+			\item \Verb{ip addr add ADDRESS dev INTERFACE} – dodaje adres \Verb{ADDRESS} do interfejsu \Verb{INTERFACE}
+			\item \Verb{ip addr del ADDRESS dev INTERFACE} – usuwa adres \Verb{ADDRESS} z interfejsu \Verb{INTERFACE}
+		\end{itemize}
+	\vspace{7pt}
+	\item \Verb{ip route ...} – routing IP
+		\begin{itemize}
+			\item \Verb{ip [-6] route} – wyświetlanie informacji na temat tras routingowych dla IPv4 (gdy wywołany bez opcji \Verb{-6}) / IPv6 (gdy wywołany z opcją \Verb{-6})
+			\item \Verb{ip route add NETWORK via GATEWAY dev INTERFACE} – dodanie trasy routingowej do sieci \Verb{NETWORK} poprzez router o adresie \Verb{GATEWAY} na interfejsie \Verb{INTERFACE}
+			\item \Verb{ip route del NETWORK via GATEWAY dev INTERFACE} – usunięcie trasy routingowej do sieci \Verb{NETWORK} ...
+		\end{itemize}
+\end{itemize}
+
+\end{frame}
+\end{document}

@@ -1,0 +1,9 @@
+PDP8.jpg
+	https://www.flickr.com/photos/stiefkind/30294915015/in/photostream/
+	public domain
+RK05_diskpack.jpg
+	https://www.flickr.com/photos/stiefkind/30294916865/in/photostream/
+	public domain
+unixv5.png
+	https://commons.wikimedia.org/wiki/File:Version_5_Unix_SIMH_PDP11_Emulation.png
+	public domain

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1248"
+   height="702"
+   viewBox="0 0 330.19999 185.73751"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="image4.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="596.76639"
+     inkscape:cy="258.83408"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:snap-page="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-111.26247)">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect816"
+       width="330.20001"
+       height="185.73752"
+       x="-2.8536915e-08"
+       y="111.26247" />
+    <image
+       sodipodi:absref="images-src/Matplotlib_screenshot.png"
+       xlink:href="images-src/Matplotlib_screenshot.png"
+       style="stroke-width:4.45428133"
+       width="145.18581"
+       height="106.24867"
+       preserveAspectRatio="none"
+       id="image1007"
+       x="29.214685"
+       y="140.0947" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="58.828068"
+       y="251.73129"
+       id="text820"><tspan
+         sodipodi:role="line"
+         id="tspan818"
+         x="58.828068"
+         y="251.73129"
+         style="font-size:4.58611107px;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">image by  Geek3 / commons.wikimedia.org, CC-BY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.8777771px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="27.528761"
+       y="135.83643"
+       id="text824"><tspan
+         sodipodi:role="line"
+         id="tspan822"
+         x="27.528761"
+         y="135.83643"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">Wykresy z użyciem matplotlib</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.72477064;fill-rule:evenodd;stroke:none;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect816-3"
+       width="330.20001"
+       height="185.73753"
+       x="-9.2874892e-08"
+       y="111.26247" />
+    <image
+       sodipodi:absref="blender.png"
+       xlink:href="blender.png"
+       y="155.44334"
+       x="86.187645"
+       id="image853"
+       style="stroke-width:1.38332081;image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="126.87209"
+       width="205.22292" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.8777771px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="194.8199"
+       y="137.11604"
+       id="text873"><tspan
+         sodipodi:role="line"
+         id="tspan871"
+         x="194.8199"
+         y="137.11604"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">Integracja z programami tworzonymi w C i C++</tspan><tspan
+         sodipodi:role="line"
+         x="194.8199"
+         y="149.46327"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan875">(np. wbudowny język skryptowy w Blender)</tspan></text>
+    <image
+       sodipodi:absref="images-src/upython-with-micro.jpg"
+       xlink:href="images-src/upython-with-micro.jpg"
+       y="131.77922"
+       x="32.994446"
+       id="image970"
+       preserveAspectRatio="none"
+       height="121.92"
+       width="243.84" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.8777771px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="29.860117"
+       y="267.13986"
+       id="text975"><tspan
+         sodipodi:role="line"
+         id="tspan973"
+         x="29.860117"
+         y="267.13986"
+         style="fill:#fafafa;fill-opacity:1;stroke-width:0.26458332">Programowanie elektroniki – projekt „MikroPython”</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.72477064;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect816-3-6"
+       width="330.20001"
+       height="185.73752"
+       x="-1.7092782e-08"
+       y="111.26247" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot992"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,74.461309,131.29521)"><flowRegion
+         id="flowRegion994"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1"><rect
+           id="rect996"
+           width="987.14282"
+           height="145.71428"
+           x="114.28571"
+           y="202"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara998">I dużo więcej !</flowPara></flowRoot>  </g>
+</svg>

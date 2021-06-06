@@ -1,0 +1,31 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[11pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\begin{itemize}
+	\item konfiguracja BRIDGE (programowego switcha)
+		\begin{itemize}
+			\item \Verb{ip link add IFACE type bridge} – dodanie interfejsu bridge'owego o nazwie IFACE
+			\item \Verb{ip link set SLAVE master IFACE}  – włączenie interfejsu SLAVE w skład bridge'owego IFACE
+			\item \Verb{ip link set SLAVE nomaster} – wyłaczenie interfejsu SLAVE z bridge'a
+			\item \Verb{ip link show master IFACE} – wyświetlanie portów składowych bridge'a o nazwie IFACE
+			\item przydatne może być także polecenie \Verb{bridge}
+		\end{itemize}
+	\vspace{7pt}
+	\item konfiguracja BONDów (interfejsów agregujących inne w grupę celem zwiększenia prędkości lub niezawodności)
+		\begin{itemize}
+			\item \Verb{ip link add IFACE type bond} – dodanie interfejsu bondingowego o nazwie IFACE
+			\item \Verb{ip link set SLAVE master IFACE}  – włączenie interfejsu SLAVE w skład bondingu IFACE
+			\item \Verb{ip link set SLAVE nomaster} - wyłaczenie interfejsu SLAVE z bondingu
+			\item \Verb{ip link show master IFACE} – wyświetlanie portów składowych interfejsu bondingowego o nazwie IFACE
+		\end{itemize}
+\end{itemize}
+
+\end{frame}
+\end{document}

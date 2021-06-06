@@ -1,0 +1,10 @@
+Tux.svg                                            https://commons.wikimedia.org/wiki/File:Tux.svg  (licence: CC0)
+
+Black-and-white-chip.png                           https://pixy.org/378713/  (licence: CC0)
+
+web-network-programming-banner-drawing-rrp-tło.jpg composed from:
+ - web-network-programming-banner-drawing.jpg      https://pixy.org/5759310/  (licence: CC0)
+ - programming-swirl.jpg                           https://pixy.org/5760420/  (licence: CC0)
+ - web-network-programming-drawing.jpg             https://pixy.org/5761753/  (licence: CC0)
+
+snake-312561.svg                                   https://pixabay.com/vectors/snake-python-serpent-green-reptile-312561/  (licence: pixabay.com / Free for commercial use,  No attribution required)

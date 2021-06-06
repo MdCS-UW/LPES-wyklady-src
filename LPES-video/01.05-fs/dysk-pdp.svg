@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1248"
+   height="702"
+   viewBox="0 0 330.19999 185.73751"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="dysk-pdp.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="681.04579"
+     inkscape:cy="317.88589"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="1005"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:snap-page="true"
+     inkscape:snap-global="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-111.26247)">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.25810993;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1021"
+       width="330.20001"
+       height="185.7375"
+       x="-4.5776369e-06"
+       y="111.26247" />
+    <image
+       sodipodi:absref="images-src/PDP8.jpg"
+       xlink:href="images-src/PDP8.jpg"
+       transform="rotate(-90)"
+       width="185.73752"
+       height="123.82501"
+       preserveAspectRatio="none"
+       id="image4642"
+       x="-296.99997"
+       y="-3.8657415e-14" />
+    <image
+       sodipodi:absref="images-src/RK05_diskpack.jpg"
+       xlink:href="images-src/RK05_diskpack.jpg"
+       width="200.58659"
+       height="134.85834"
+       preserveAspectRatio="none"
+       id="image4653"
+       x="129.61342"
+       y="139.42371" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.2329289;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4661"
+       width="170.84523"
+       height="22.451782"
+       x="-4.5470274e-14"
+       y="111.26245" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1.8453721"
+       y="119.38779"
+       id="text818"><tspan
+         sodipodi:role="line"
+         x="1.8453721"
+         y="119.38779"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan4581">Komputer PDP-8 z dwoma </tspan><tspan
+         sodipodi:role="line"
+         x="1.8453721"
+         y="129.97112"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.26458332"
+         id="tspan4691">napędami dyskowymi RK05J (1965)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Bedstead;-inkscape-font-specification:Bedstead;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="130.77975"
+       y="273.18747"
+       id="text4665"><tspan
+         sodipodi:role="line"
+         id="tspan4663"
+         x="130.77975"
+         y="282.97705"
+         style="fill:#ffffff;stroke-width:0.26458332" /></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1623781;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4693"
+       width="200.58661"
+       height="12.512565"
+       x="129.61342"
+       y="139.42371" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10800838px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22212526"
+       x="323.89481"
+       y="148.34674"
+       id="text818-3"><tspan
+         sodipodi:role="line"
+         x="323.89481"
+         y="148.34674"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10800838px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.22212526"
+         id="tspan4581-6">Wymienny kartridż (diskpack) do napędu RK05</tspan><tspan
+         sodipodi:role="line"
+         x="323.89481"
+         y="157.23175"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.10800838px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.22212526"
+         id="tspan4687" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.77458477px;line-height:1.25;font-family:Bedstead;-inkscape-font-specification:Bedstead;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19436462"
+       x="126.7999"
+       y="286.91138"
+       id="text4697"><tspan
+         sodipodi:role="line"
+         id="tspan4695"
+         x="126.7999"
+         y="286.91138"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.19436462">Cena za 10MB, zamiennik: $11 500  (1984 r.) </tspan></text>
+  </g>
+</svg>

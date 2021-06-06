@@ -1,0 +1,70 @@
+% Copyright (c) 2020-2021 Matematyka dla Ciekawych Świata (http://ciekawi.icm.edu.pl/)
+% Copyright (c) 2020-2021 Robert Ryszard Paciorek <rrp@opcode.eu.org>
+% 
+% MIT License
+% 
+% Permission is hereby granted, free of charge, to any person obtaining a copy
+% of this software and associated documentation files (the "Software"), to deal
+% in the Software without restriction, including without limitation the rights
+% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+% copies of the Software, and to permit persons to whom the Software is
+% furnished to do so, subject to the following conditions:
+% 
+% The above copyright notice and this permission notice shall be included in all
+% copies or substantial portions of the Software.
+% 
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+% SOFTWARE.
+
+\documentclass{pdfBooklets}
+
+\title{Linux i Python w Elektronicznej Sieci \#02:\\ Wprowadzenie do programowania w Pythonie}
+\author{%
+	Projekt ,,Matematyka dla Ciekawych Świata'',\\
+	Robert Ryszard Paciorek\\\normalsize\ttfamily <rrp@opcode.eu.org>
+}
+\date  {2021-03-11}
+
+\input{LPES-pream.tex}
+
+\begin{document}
+
+\maketitle
+
+\section{Wprowadzenie}
+
+\input{booklets-sections/python/00-intro.tex}
+
+Pomimo, iż Pythona można używać na różnych systemach operacyjnych (a nawet on-line),
+to w ramach tego kursu, jako że poznajemy na nim środowiska „unixowate”,
+będziemy używać go w środowisku GNU/Linux\footnote{
+	dokładniej najpopularniejszy jego interpreter – napisany w języku C – \textit{CPython}
+}.
+
+\input{booklets-sections/python/10-konsola_interaktywna.tex}
+\input{booklets-sections/python/20-podstawy.tex}
+\input{booklets-sections/python/30-napisy.tex}
+
+\section{Zmienne i ich typy}
+	\input{booklets-sections/python/41-listy.tex}
+
+\section{Wykład wideo}
+\input{booklets-sections/python/wykład-video-1.tex}
+
+\Zadania[booklets-sections/python/zadania-00-intro.tex]{
+	booklets-sections/python/zadania-20-podstawy.tex,
+	booklets-sections/python/zadania-30-napisy.tex,
+}
+
+\copyrightFooter{
+	© Matematyka dla Ciekawych Świata, 2016-2021.\\
+	© Łukasz Mazurek, 2016-2017.\\
+	© Robert Ryszard Paciorek <rrp@opcode.eu.org>, 2018-2021.\\
+	Kopiowanie, modyfikowanie i redystrybucja dozwolone pod warunkiem zachowania informacji o autorach.\\
+}
+\end{document}

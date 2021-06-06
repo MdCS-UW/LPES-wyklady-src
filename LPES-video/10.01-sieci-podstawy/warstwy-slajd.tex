@@ -1,0 +1,27 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[11pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\frametitle{Warstwy modelu OSI}
+
+\begin{enumerate}
+	\item \textbf{fizyczna (L1)} – aspekty związane z fizycznym przesyłem sygnału takie jak częstotliwości radiowe, poziomy napięć, etc.;\\
+		określa sposób transmisji kolejnych bajtów
+	\item \textbf{łącza danych (L2)} – aspekty związane z formatem ramki, protokoły zasad dostępu do medium transmisyjnego, itd.;\\
+		określa sposób transmisji porcji danych pomiędzy hostami w jednej sieci
+	\item \textbf{sieciowa (L3)} – aspekty związane z formatem pakietu, adresacja i zasady routingu umożliwiające zapewnienie łączności pomiędzy różnymi sieciami;\\
+		określa sposoby transmisji porcji danych pomiędzy sieciami
+	\item \textbf{transportowa (L4)} – podział strumienia na porcje informacji, kontrola nad poprawnością transmisji, adresację usług w ramach hosta
+	\item \textbf{sesji}
+	\item \textbf{prezentacji}
+	\item \textbf{aplikacji}
+\end{enumerate}
+
+\end{frame}
+\end{document}

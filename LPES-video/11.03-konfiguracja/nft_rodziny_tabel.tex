@@ -1,0 +1,23 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[12pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\frametitle{Rodziny tabel nft}
+
+\begin{itemize}
+	\item \Verb#inet#   – osobne lub wspólne reguły dla IPv4 i IPv6
+	\item \Verb#ip#     – reguły tylko dla IPv4
+	\item \Verb#ip6#    – reguły tylko dla IPv6
+	\item \Verb#arp#    – reguły dla warstwy L2 przetwarzane przed uruchomieniem procesowania IP
+	\item \Verb#bridge# – reguły przetwarzane dla pakietów przechodzących przez softwerowy bridge
+	\item \Verb#netdev# – reguły przetwarzane w momencie wejścia ruchu na urządzenie sieciowe, urządzenie musi być określone dla łańcucha reguł, może być alternatywą dla \Verb#tc#
+\end{itemize}
+
+\end{frame}
+\end{document}

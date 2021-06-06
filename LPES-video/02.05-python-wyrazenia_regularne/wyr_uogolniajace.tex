@@ -1,0 +1,30 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[12pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\frametitle{Znaki uogólniające powłoki}
+
+\begin{Verbatim}
+*      - dowolny ciąg znaków (także pusty)
+\end{Verbatim}
+\vspace{4pt}
+\begin{Verbatim}
+?      - dowolny jeden znak
+[a-z]  - znak z zakresu
+[^a-z] - znak z poza zakresu
+[!a-z] - znak z poza zakresu
+\end{Verbatim}
+\vspace{4pt}
+\begin{Verbatim}
+{ab,cde}    - ab lub cde
+{ab,cde,xy} - ab lub cde lub xy
+\end{Verbatim}
+
+\end{frame}
+\end{document}

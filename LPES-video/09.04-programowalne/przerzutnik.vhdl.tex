@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra,  minted}
+\pagestyle{empty}
+\begin{document}
+
+\begin{minted}{vhdl}
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- deklaracja wejść - wyjść tworzonego przerzutnika
+entity przerzutnik is
+    port (
+        D,CLK,RST,ENABLE: in std_logic;
+        Q: buffer std_logic
+    );
+end;
+
+-- działania przerzutnika
+architecture logic of przerzutnik is
+    begin
+        -- reakcja na zmianę CLK oraz RST
+        process (CLK, RST)
+        begin
+            -- obsługa sygnału resetu (RST) aktywowanego stanem niskim
+            if (RST='0') then
+                Q<='0';
+            -- reagowanie na opadające (CLK='0') zbocze zegara (CLK'event)
+            -- powoduje utworzenie przerzutnika a nie zatrzasku
+            -- który uzyskalibyśmy pisząc: if (ENABLE='1') then Q<=D; end if;
+            elsif (CLK='0' and CLK'event) then
+                if (ENABLE='1') then
+                    Q<=D;
+                end if;
+            end if;
+        end process;
+end;
+\end{minted}
+
+\end{document}

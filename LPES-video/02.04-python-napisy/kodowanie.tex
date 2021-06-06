@@ -1,0 +1,69 @@
+\ifdefined\inputOnlyContent\else
+	\documentclass[tikz]{standalone}
+	\usepackage{fontspec}
+	\setmainfont{Symbola}[Ligatures=NoCommon]
+	\usepackage{tikzPackets}
+	\usetikzlibrary{positioning}
+	\usetikzlibrary{arrows.meta, decorations.markings}
+	\begin{document}
+\fi
+
+\begin{tikzpicture}[semithick, >={Stealth[length=6pt,width=5pt]}]
+	\tikzstyle{info}  = [minimum width=3.85cm, align=center]
+	\tikzstyle{base}  = [minimum height = 1cm]
+	\tikzstyle{baseA} = [base, minimum width=2.05cm]
+	\tikzstyle{baseB} = [base, minimum width=3.1cm]
+	\tikzstyle{baseC} = [base, minimum width=3.5cm]
+	
+	\tikzstyle{lineA} = [double,<->]
+	\tikzstyle{lineB} = [<->, bend right=15]
+	\tikzstyle{lineC} = [<->, bend left=35]
+	
+	\node[info]  (L1)                   {graficzna reprezentacja\\ znaku (element napisu)};
+	\node[baseA] (L1a) [right = of L1]  {\huge !};
+	\node[baseA] (L1b) [right = of L1a] {\huge ¿};
+	\node[baseB] (L1c) [right = of L1b] {\huge ∞};
+	\node[baseC] (L1d) [right = of L1c] {\huge 🗲};
+	
+	\node[info]  (L2)  [below = of L1]  {numer znaku\\Unicode};
+	\node[baseA] (L2a) [right = of L2]  {0x21};
+	\node[baseA] (L2b) [right = of L2a] {0xbf};
+	\node[baseB] (L2c) [right = of L2b] {0x221e};
+	\node[baseC] (L2d) [right = of L2c] {0x1f5f2};
+	
+	\node[info]  (L3)  [below = of L2]  {reprezentacja bajtowa\\w kodowaniu UTF-8};
+	\node[baseA] (L3a) [right = 0.2cm of L3]  {0x21};
+	\node[baseA] (L3b) [right = of L3a] {0xc2 0xbf};
+	\node[baseB] (L3c) [right = of L3b] {0xe2 0x88 0x9e};
+	\node[baseC] (L3d) [right = of L3c] {0xf0 0x9f 0x97 0xb2};
+	
+	\node[info]  (L4)  [below = of L3]  {reprezentacja bajtowa\\w kodowaniu UTF-16};
+	\node[baseA] (L4a) [right = 1.5cm of L4]  {0x00 0x21};
+	\node[baseA] (L4b) [right = of L4a] {0x00 0xbf};
+	\node[baseB] (L4c) [right = of L4b] {0x22 0x1e};
+	\node[baseC] (L4d) [right = of L4c] {0x3d 0xd8 0xf2 0xdd};
+	
+	\path (L1a)      edge [lineA] (L2a);
+	\path (L2a.260)  edge [lineB] (L3a);
+	\path (L2a.280)  edge [lineC] (L4a);
+	
+	\path (L1b)      edge [lineA] (L2b);
+	\path (L2b.260)  edge [lineB] (L3b);
+	\path (L2b.280)  edge [lineC] (L4b);
+	
+	\path (L1c)      edge [lineA] (L2c);
+	\path (L2c.260)  edge [lineB] (L3c);
+	\path (L2c.280)  edge [lineC] (L4c);
+	
+	\path (L1d)      edge [lineA] (L2d);
+	\path (L2d.260)  edge [lineB] (L3d);
+	\path (L2d.280)  edge [lineC] (L4d);
+	
+	\node[align=center] (comment) [below = 0.5cm of L4b]  {
+		\small UTF-8 i UTF-16 są jedynie metodami zapisu liczb z zakresu 0 – 0x10ffff\\
+		\small (będących numerami znaków w standardzie Unicode)\\
+		\small z użyciem zmiennej ilości bajtów (od 1 do 4 dla UTF-8 i 2 albo 4 dla UTF-16)
+	};
+\end{tikzpicture}
+
+\ifdefined\inputOnlyContent\else\end{document}\fi

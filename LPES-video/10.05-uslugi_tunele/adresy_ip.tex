@@ -1,0 +1,49 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[9pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+
+\makeatletter\renewcommand{\@makefntext}[1]{%
+  \setlength{\@tempdima}{\columnwidth}\addtolength{\@tempdima}{-9mm}%
+  \protect\footnotesize\hspace{3mm}\makebox[6mm][l]{\@thefnmark.}\parbox[t]{\@tempdima}{#1}%
+}\makeatother
+
+\begin{document}
+\begin{frame}[fragile]
+
+\begin{tabular}{l l l}
+% opis & adres IPv4 & adres IPv6 \\
+cały Internet                & 0.0.0.0/0      & ::/0\\
+host lokalny (loalhost)      & 127.0.0.1      & ::1/128\\
+link-local\footnotemark[1]   & 169.254.0.0/16 & fe80::/16\vspace{5pt}\\
+
+sieci prywatne               & 10.0.0.0/8     & fd00::/8\\
+                             & 172.16.0.0/12  & \\
+                             & 192.168.0.0/16 &\vspace{5pt}\\
+
+multicast                                    & 224.0.0.0/4  & ff$y$\footnotemark[2]$x$\footnotemark[3]::/16\\
+~* w oparciu o adres sieci\footnotemark[4]   & 234.0.0.0/8  & ff3$x$\footnotemark[3]::/104\\
+~* source-specific multicast\footnotemark[5] & 232.0.0.0/8  & ff3$x$\footnotemark[3]::/96\\
+~* oparte o numer AS\footnotemark[6]         & 233.0.0.0/8  & \\
+~* prywatne                                  & 239.0.0.0/8  & \\
+~*wszystkie węzły w sieci lokalej            &              & ff02::1\\
+~*wszystkie routery w sieci lokalej          &              & ff02::2\\
+
+\end{tabular}
+
+\footnotetext[1]{Adres ważny w ramach pojedynczej sieci lokalnej, w IPv4 żadko używany, w IPv6 standardowo generowany automatycznie w oparciu o adres L2.}
+\footnotetext[2]{$y$ – flaga dotycząca typu adresu (np. y=0: adres przydzielony na stałe przez IANA = dobrze znane usługi)}
+\footnotetext[3]{$x$ – zasięg który obejmuje transmisja multicastowa (np. x=2: w zakresie \emph{Link-Local})}
+\footnotetext[4]{
+	W IPv4 dla posiadacza a.b.c.0/24 dostępny jest adres multicastowy 234.a.b.c/32 (RFC 6034).
+	W IPv6 dla sieci \Verb$prefix::/MM$ będzie to adres \Verb$ff3x:00mm:prefix:gropid$, gdzie
+		\Verb$mm = hex(MM)$ i \Verb$MM$ $\leq$ 64, \Verb$gropid$ identyfikuje grupę multicastową (sieć dla danego prefixu obejmuje $2^32$ grup) (RFC3306)
+}
+\footnotetext[5]{Nie jest sprzeczne z powyższym bo odpowiada przypadkowi prefix == 0}
+\footnotetext[6]{Każdy posiadacz numeru AS może używać adresów 233.AS.AS.0/24 (RFC 3180)}
+
+\end{frame}
+\end{document}

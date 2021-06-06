@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1248"
+   height="702"
+   viewBox="0 0 330.19999 185.73751"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="napięcie.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path876"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path876-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="191.54976"
+     inkscape:cy="368.06233"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-111.26247)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="96.217026"
+       y="175.39233"
+       id="text843"><tspan
+         sodipodi:role="line"
+         id="tspan841"
+         x="96.217026"
+         y="179.44997"
+         style="stroke-width:0.26458332"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.99722242px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="164.80571"
+       y="219.34694"
+       id="text847"><tspan
+         sodipodi:role="line"
+         id="tspan845"
+         x="165.76035"
+         y="219.34694"
+         style="font-size:5.99722242px;text-align:center;text-anchor:middle;stroke-width:0.26458332">Napięcie (A→B) = Potencjał (B) - Potencjał (A) </tspan><tspan
+         sodipodi:role="line"
+         x="164.80571"
+         y="226.84346"
+         style="font-size:5.99722242px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan857" /><tspan
+         sodipodi:role="line"
+         x="164.80571"
+         y="234.34"
+         style="font-size:5.99722242px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan859">Napięcie (AB) = - Napięcie (BA)</tspan></text>
+    <g
+       id="g1487"
+       transform="translate(0.3548337,44.659937)">
+      <g
+         transform="translate(1.8135007,-3.0843728)"
+         id="g869">
+        <circle
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path814"
+           cx="104.42918"
+           cy="144.41917"
+           r="1.5227926" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.40833378px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="101.56242"
+           y="139.04369"
+           id="text818"><tspan
+             sodipodi:role="line"
+             id="tspan816"
+             x="101.56242"
+             y="139.04369"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.40833378px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332">A</tspan></text>
+        <circle
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path814-3"
+           cx="170.82655"
+           cy="144.41917"
+           r="1.5227926" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.40833378px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="167.95981"
+           y="139.04367"
+           id="text818-6"><tspan
+             sodipodi:role="line"
+             id="tspan816-7"
+             x="167.95981"
+             y="139.04367"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.40833378px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332">B</tspan></text>
+      </g>
+      <g
+         transform="translate(0,-1.9525297)"
+         id="g1441">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+           d="m 120.68118,137.01579 h 39.68749"
+           id="path871"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:7.4083333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="134.54422"
+           y="134.33957"
+           id="text1319"><tspan
+             sodipodi:role="line"
+             id="tspan1317"
+             x="134.54422"
+             y="134.33957"
+             style="font-size:5.99722242px;stroke-width:0.26458332">V<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan1335">A→B</tspan></tspan></text>
+      </g>
+      <g
+         transform="translate(-9.9693229,-2.0861645)"
+         id="g1429">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-5)"
+           d="M 170.03918,150.04664 H 130.35169"
+           id="path871-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:7.4083333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="143.70027"
+           y="147.37042"
+           id="text1319-6"><tspan
+             sodipodi:role="line"
+             id="tspan1317-2"
+             x="143.70027"
+             y="147.37042"
+             style="font-size:5.99722242px;stroke-width:0.26458332">V<tspan
+   style="font-size:3.89819455px;baseline-shift:sub;stroke-width:0.26458332"
+   id="tspan1335-9">B→A</tspan></tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:7.4083333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="193.86191"
+         y="140.2469"
+         id="text1319-1"><tspan
+           sodipodi:role="line"
+           id="tspan1317-27"
+           x="193.86191"
+           y="140.2469"
+           style="font-size:5.99722242px;stroke-width:0.26458332">V<tspan
+   id="tspan1464"
+   style="font-size:64.99999762%;baseline-shift:sub">A→B</tspan>=-V<tspan
+   style="font-size:3.89819455px;baseline-shift:sub;stroke-width:0.26458332"
+   id="tspan1335-0">B→A</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

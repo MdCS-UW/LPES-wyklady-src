@@ -1,0 +1,96 @@
+v 20130925 2
+C 55900 51900 1 90 0 resistor-2.sym
+{
+T 55550 52300 5 10 0 0 90 0 1
+device=RESISTOR
+T 55950 52400 5 10 1 1 180 6 1
+refdes=R2
+}
+N 55800 52800 55800 53000 4
+N 55800 51500 55800 51900 4
+N 54700 51900 54700 53000 4
+N 54700 50400 54700 51200 4
+C 55900 50600 1 90 0 resistor-2.sym
+{
+T 55550 51000 5 10 0 0 90 0 1
+device=RESISTOR
+T 55950 51100 5 10 1 1 180 6 1
+refdes=R1
+}
+N 55800 50400 55800 50600 4
+N 54700 53000 55800 53000 4
+N 54700 50400 55800 50400 4
+T 56800 53800 9 10 1 0 0 2 20
+Szukamy rezystancji zastępczej R.
+
+Z pierwszego prawa Kirchhoffa dla węzła A:
+	I(R1) = I(R2)
+Z pierwszego prawa Kirchhoffa dla węzła B:
+	I(R1) = I(U)
+Zatem:
+	I(R1) = I(R2) = I(U) = I
+
+Z drugiego prawa Kirchhoffa dla tego oczka:
+	U = U(R1) + U(R2)
+Z prawa Ohma:
+	U(R1) = I * R1
+	U(R2) = I * R2
+	R = U/I
+
+Podstawiając:
+	R = ( U(R1) + U(R2) ) / I
+	R = ( I * R1 + I * R2 ) / I
+	R = R1 + R2
+T 55700 51700 9 10 1 0 0 7 1
+A
+N 55800 51700 55775 51700 4
+N 55200 50400 55200 50425 4
+T 55200 50500 9 10 1 0 0 3 1
+B
+C 54900 51900 1 90 1 EMBEDDEDbattery-1.sym
+[
+P 54700 51900 54700 51700 1 0 0
+{
+T 54650 51750 5 8 1 1 90 0 1
+pinlabel=+
+T 54750 51700 5 8 0 1 90 2 1
+pinseq=1
+T 54700 51700 9 8 0 1 90 6 1
+pinnumber=1
+T 54700 51550 5 8 0 1 90 8 1
+pintype=pwr
+}
+P 54700 51200 54700 51400 1 0 0
+{
+T 54650 51350 5 8 1 1 90 6 1
+pinlabel=–
+T 54750 51350 5 8 0 1 90 8 1
+pinseq=2
+T 54700 51400 9 8 0 1 90 0 1
+pinnumber=2
+T 54700 51550 5 8 0 1 90 2 1
+pintype=pwr
+}
+L 54500 51600 54900 51600 3 0 0 0 -1 -1
+L 54600 51500 54800 51500 3 0 0 0 -1 -1
+L 54700 51400 54700 51500 3 0 0 0 -1 -1
+L 54700 51700 54700 51600 3 0 0 0 -1 -1
+T 54000 51600 5 10 0 0 90 6 1
+device=BATTERY
+T 54400 51600 8 10 0 1 90 6 1
+refdes=B?
+T 53800 51600 5 10 0 0 90 6 1
+description=Battery
+T 54200 51600 5 10 0 0 90 6 1
+numslots=0
+T 53600 51600 5 10 0 0 90 6 1
+symversion=0.1
+]
+{
+T 54000 51600 5 10 0 0 270 2 1
+device=BATTERY
+T 54500 51400 5 10 1 1 180 2 1
+refdes=U
+T 53600 51600 5 10 0 0 270 2 1
+symversion=0.1
+}

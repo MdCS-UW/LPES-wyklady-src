@@ -1,0 +1,21 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[12pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\begin{itemize}
+	\item \Verb{/dev}
+	      pliki reprezentujące urządzenia
+	\item \Verb{/sys}
+	      informacje i ustawienia dotyczące m.in. urządzeń (specyficzny dla Linuxa)
+	\item \Verb{/proc}
+	      informacje o działających procesach (w Linuxie także interfejs konfiguracyjny dla wielu parametrów jądra)
+\end{itemize}
+
+\end{frame}
+\end{document}

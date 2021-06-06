@@ -1,0 +1,26 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[11pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\begin{itemize}
+	\item włączanie i wyłaczanie interfejsów
+		\begin{itemize}
+			\item \Verb{ip link set IFACE up} / \Verb{ip link set IFACE down} – włączenie / wyłączenie interfejsu \Verb{IFACE}
+			\item \Verb{ip link set IFACE address ADDRESS} – ustawienie adresu sprzętowego urządzenia \Verb{IFACE} na \Verb{ADDRESS}
+		\end{itemize}
+	\vspace{7pt}
+	\item konfiguracja tagowanych VLANów
+		\begin{itemize}
+			\item \Verb{ip link add link IFACE name IFACE.VLANID type vlan id VLANID} – dodanie interfejsu związanego z tagowanym VLANem o numerze \Verb{VLANID} na interfejsie \Verb{IFACE}, moduł 8021q powinien zostać załadowany automatycznie
+			\item \Verb{ip link del IFACE.VLANID type vlan} – usunięcie interfejsu IFACE.VLANID (związanego z tagowanym VLANem VLANID na interfejsie IFACE)
+		\end{itemize}
+\end{itemize}
+
+\end{frame}
+\end{document}

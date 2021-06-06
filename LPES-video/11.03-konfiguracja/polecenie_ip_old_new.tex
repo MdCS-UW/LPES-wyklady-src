@@ -1,0 +1,43 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[11pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\begin{itemize}
+	\vspace{7pt}
+	\item \Verb{ifconfig}
+		włączanie i wyłączanie interfejsów sieciowych (up i down), ustawianie adresu IP i wyświetlanie informacji o interfejsach.
+		\begin{itemize}
+			\item \Verb{ip addr ...}
+			\item \Verb{ip link set IFACE up|down}
+		\end{itemize}
+	\item \Verb{route}
+		konfiguracja tras routingowych
+		\begin{itemize}
+			\item \Verb{ip route ...}
+		\end{itemize}
+	\item \Verb{vconfig}
+		dodawanie i usuwanie obsługi wskazanych VLANów z danego interfejsu
+		\begin{itemize}
+			\item \Verb{ip link ... type vlan ...}
+		\end{itemize}
+	\item \Verb{brctl}
+		konfiguracja programowego switcha ethernetowego pomiędzy interfejsami (bridge)
+		\begin{itemize}
+			\item \Verb{ip link ... }
+			\item \Verb{bridge ... }
+		\end{itemize}
+	\item \Verb{ifenslave}
+		konfiguracja bondów
+		\begin{itemize}
+			\item \Verb{ip link ... }
+		\end{itemize}
+\end{itemize}
+
+\end{frame}
+\end{document}

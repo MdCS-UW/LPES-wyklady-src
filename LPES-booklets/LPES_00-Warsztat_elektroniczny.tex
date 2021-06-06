@@ -1,0 +1,93 @@
+% Copyright (c) 2021 Matematyka dla Ciekawych Świata (http://ciekawi.icm.edu.pl/)
+% Copyright (c) 2021 Robert Ryszard Paciorek <rrp@opcode.eu.org>
+% 
+% MIT License
+% 
+% Permission is hereby granted, free of charge, to any person obtaining a copy
+% of this software and associated documentation files (the "Software"), to deal
+% in the Software without restriction, including without limitation the rights
+% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+% copies of the Software, and to permit persons to whom the Software is
+% furnished to do so, subject to the following conditions:
+% 
+% The above copyright notice and this permission notice shall be included in all
+% copies or substantial portions of the Software.
+% 
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+% SOFTWARE.
+
+\documentclass{pdfBooklets}
+
+\title{Linux i Python w Elektronicznej Sieci:\\ Domowe laboratorium elektroniczne – co kupić?}
+\author{%
+	Projekt ,,Matematyka dla Ciekawych Świata'',\\
+	Robert Ryszard Paciorek\\\normalsize\ttfamily <rrp@opcode.eu.org>
+}
+\date  {2021-03-24}
+
+\input{booklets-sections/warsztat/preambule.tex}
+\input{LPES-pream.tex}
+\usepackage{labels4easylist}
+
+\begin{document}
+
+\maketitle
+
+%\input{booklets-sections/warsztat/00-intro.tex}
+
+\input{booklets-sections/warsztat/10-zakupy.tex}
+\input{booklets-sections/warsztat/11-zakupy-multimetr.tex}
+%\input{booklets-sections/warsztat/12-zakupy-zasilacz.tex}
+\input{booklets-sections/warsztat/13-zakupy-warsztat.tex}
+\input{booklets-sections/warsztat/14-zakupy-mikrokontroler_i_programtor.tex}
+
+%\input{booklets-sections/warsztat/15-zakupy-podzespoły.tex}
+\subsection{Źródło zasilania}
+
+Konstruowane układy elektroniczne\footnote{z wyjątkiem mikrokontrolera i układów do niego podłączanych, zasilanych z portu USB} zasilać będziemy bezpośrednio z baterii 9V. Dlatego potrzebne będą:
+
+\begin{itemize}
+	\item bateria 9V (np. 6F22 lub 6LR61)
+	\item złącze (zatrzask) do baterii z kabelkami przyłączeniowymi
+	\item dwutorowa elektryczna kostka łącznikowa (na małe przewody – 2.5mm$^2$ lub 4mm$^2$) lub dwie szybkozłączki z możliwością wielokrotnego wpinanią i wypinania przewodów (również do przewodów nie większych niż 2.5mm$^2$ lub 4mm$^2$).
+\end{itemize}
+
+\begin{center}\includegraphics[height=3.3cm]{zasilanie}\end{center}
+
+Jeżeli po zakończeniu kursu będziesz chiał(a) kontynuować zabawę z elektroniką warto pomyśleć o zakupie jakiegoś źródła zasilania z regulacją napięcia i ograniczenia prądowego.
+Na przykład w postaci przetwornicy DC-DC z regulacją tych parameterów i wyświetlaczem pokazującym wartość napięcia oraz zasilacza wtyczkowego 12V DC.
+
+\subsection{Podzespoły elektroniczne}
+
+Będzie potrzebny też zestaw drobnych podzespołów elektronicznych:
+\begin{itemize}
+	\item rezystory 1kΩ i 22kΩ, po około 10 sztuk
+	\item potencjometr / rezystor nastwany 5kΩ, który da się włożyć w płytkę stykową, najlepiej wieloobrotowy, 1-2 sztuki
+	\item kondensator elektrolityczny 100uF, kilka sztuk
+	
+	\item dioda prostownicza, około 10 sztuk
+	\item dioda świecąca, około 10 sztuk
+	\item dioda Zenera 3.3V, około 5 sztuk
+	\item tranzystor NPN (np. BC337) i PNP (np. BC327), po kilka sztuk
+	
+	\item układ logiczny z serii 4000\footnotemark[2]: NAND (np. CD4011BE) lub NOR (np. CD4001BP)
+	\item rejestr przesuwny z serii 4000\footnotemark[2] (np. CD4094B)
+	\item rejestr z interfejsem I2C\footnotemark[3] (np. PCF8574A lub MCP23008)
+\end{itemize}
+
+\footnotetext[2]{Jeżeli kupujesz inne zbliżone układy zwróć uwagę aby w zakresie rekomendowanego napięcia zasilania znajdowało się zarówno 3.3V jak i 9V.}
+\footnotetext[3]{Tutaj nie musisz szukać układów akceptujących 9V napięcia zasilania, wystarczy praca dla 3.3V i 5V.}
+
+\input{booklets-sections/warsztat/16-zakupy-inne.tex}
+
+\copyrightFooter{
+	© Matematyka dla Ciekawych Świata, 2021.\\
+	© Robert Ryszard Paciorek <rrp@opcode.eu.org>, 2021.\\
+	Kopiowanie, modyfikowanie i redystrybucja dozwolone pod warunkiem zachowania informacji o autorach.
+}
+\end{document}

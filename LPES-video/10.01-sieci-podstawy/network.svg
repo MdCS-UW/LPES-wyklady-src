@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1248"
+   height="702"
+   viewBox="0 0 330.19999 185.73751"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="network.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="668.92769"
+     inkscape:cy="226.52139"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-111.26247)">
+    <rect
+       style="opacity:1;fill:#150000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4526"
+       width="289.52975"
+       height="182.5625"
+       x="28.348213"
+       y="112.54759" />
+    <image
+       sodipodi:absref="./rj45.jpg"
+       xlink:href="./rj45.jpg"
+       y="129.35806"
+       x="172.64906"
+       id="image14"
+       preserveAspectRatio="none"
+       height="66.158241"
+       width="101.66605"
+       style="stroke-width:6.74561405" />
+    <image
+       sodipodi:absref="./switch1.jpg"
+       xlink:href="./switch1.jpg"
+       y="223.00082"
+       x="49.913906"
+       id="image6"
+       preserveAspectRatio="none"
+       height="67.761864"
+       width="149.46211"
+       style="stroke-width:5.49722099" />
+    <image
+       sodipodi:absref="./panele_krosownicze.jpg"
+       xlink:href="./panele_krosownicze.jpg"
+       y="113.85642"
+       x="31.30238"
+       id="image1007"
+       preserveAspectRatio="none"
+       height="117.20199"
+       width="136.53583"
+       style="stroke-width:1.84159827" />
+    <image
+       sodipodi:absref="./switch4.jpg"
+       xlink:href="./switch4.jpg"
+       y="190.70546"
+       x="205.56839"
+       id="image12"
+       preserveAspectRatio="none"
+       height="98.988152"
+       width="90.128288"
+       style="stroke-width:5.85705471" />
+    <image
+       sodipodi:absref="./switch3.jpg"
+       xlink:href="./switch3.jpg"
+       y="142.72154"
+       x="278.79398"
+       id="image10"
+       preserveAspectRatio="none"
+       height="61.497627"
+       width="35.605297"
+       style="stroke-width:11.82265472" />
+  </g>
+</svg>

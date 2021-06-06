@@ -1,0 +1,56 @@
+\renewcommand{\zaawansowane}[1]{%
+	\ifnumcomp{#1}{<}{5}  {} {%
+	\ifnumcomp{#1}{<}{15} {} {%
+	\ifnumcomp{#1}{<}{25} {\Symbola 🤔} {\Symbola 🧐}%
+	}}%
+}
+
+\makeatletter\hypersetup{
+	pdftitle = {\@title}, pdfauthor = {\@author}
+}\makeatother
+
+\makeatletter\let\percentchar\@percentchar\makeatother
+\newcommand{\draftDate}{
+	\directlua{
+		if not os.getenv("LPES_FINAL") then
+			if os.getenv("LPES_DRAFT_DATE") then
+				tex.sprint( " [draft " .. os.getenv("LPES_DRAFT_DATE") .. "]" )
+			else
+				tex.sprint( " [draft " .. os.date("\percentchar F") .. "]" )
+			end
+		end
+	}
+}
+\makeatletter
+\let\oldDate\@date
+\date {\oldDate \color{red}{\textbf{\draftDate}}}
+\makeatother
+
+\newcommand{\baseURLtoLPES}{http://ciekawi.icm.edu.pl/lpes}
+
+
+\NewDocumentCommand{\Zadania}{o m o}{
+	\section{Zadania}
+	\IfValueT{#1}{\input{#1}}
+	\renewcommand*{\do}[1]{\input{##1}}
+	\docsvlist{#2}
+	
+	\IfValueT{#3}{
+		\vspace{1cm}
+		\section{Zadania praktyczne}
+		
+		Zadania te, dokładnie w takiej samej formie, będziemy realizować wspólnie w ramach laboratorium, więc nie musisz ich robić samemu.
+		Zamieszczamy je jednak z wyprzedzeniem, abyś wiedział(a) co cię czeka i upewnił(a) się że masz wszystkie potrzebne elementy pod ręką.
+		
+		\renewcommand*{\do}[1]{\dbEntryInsert{##1}{praktyczne}}
+		\docsvlist{#3}
+	}
+	\renewcommand{\insertZadanie}[3]{\subsubsection*{Rozwiązanie zadania \ref{##2}} \dbEntryInsert{##1}{##2-rozwiazanie}}
+	\newcommand{\noExtraInfoMode}{TRUE}
+	\input{booklets-sections/rozwiazania-intro.tex}
+	\begin{RozwiazanieBox}
+	\renewcommand*{\do}[1]{\input{##1}}
+	\docsvlist{#2}
+	\end{RozwiazanieBox}
+	\let\noExtraInfoMode\undefined
+}

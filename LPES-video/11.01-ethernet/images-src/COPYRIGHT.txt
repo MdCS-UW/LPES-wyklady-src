@@ -1,0 +1,14 @@
+Spectrum.svg
+	https://commons.wikimedia.org/wiki/File:Spectrum.svg
+	public domain
+
+SpectrumMesh.svg
+	own work (rrp@opcode.eu.org), used color values from Spectrum.svg
+
+FTP_cable3.jpg
+	https://commons.wikimedia.org/wiki/File:FTP_cable3.jpg
+	public domain
+
+UTP_cable.jpg
+	https://commons.wikimedia.org/wiki/File:UTP_cable.jpg
+	public domain
