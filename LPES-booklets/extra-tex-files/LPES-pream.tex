@@ -29,7 +29,7 @@
 \newcommand{\baseURLtoLPES}{http://ciekawi.icm.edu.pl/lpes}
 
 
-\NewDocumentCommand{\Zadania}{o m o}{
+\DeclareDocumentCommand{\Zadania}{o m o}{
 	\section{Zadania}
 	\IfValueT{#1}{\input{#1}}
 	\renewcommand*{\do}[1]{\input{##1}}
