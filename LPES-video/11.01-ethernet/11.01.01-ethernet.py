@@ -31,7 +31,7 @@ clipData += [
 	{
 		'image': [
 			[0.0, eduMovie.convertFile('ethernet1.svg', margins=0)],
-			["ramka", eduMovie.convertFile('ethernet.tex', margins=12, dpi=110)],
+			["ramka", eduMovie.convertFile('../../LPES-booklets/extra-tex-files/booklets-sections/network/ilustracje/40-ethernet.tex', margins=12, dpi=100)],
 			["arp", eduMovie.convertFile('arp.svg', negate=True)],
 		],
 		'text' : [
