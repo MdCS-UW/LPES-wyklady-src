@@ -469,7 +469,7 @@ def createTitleClip(data, length = None):
 	idStr = str.join("\\n", data)
 	fileName, _ = getCachedFilename(idStr, ext=".title.png")
 	
-	if not checkCachedFile(fileName, idStr[:30]):
+	if not checkCachedFile(fileName, idStr[:30]) or os.path.getmtime(titleBoardSVGPath) > os.path.getmtime(fileName):
 		titleBoard = open(titleBoardSVGPath).read()
 		titleBoard = titleBoard.replace('#XX.XX', data[0]).replace('TITLE LINE1 XXX', data[1]).replace('TITLE LINE2 XXX', data[2]).replace('TITLE LINE3 XXX', data[3])
 		subprocess.run("inkscape --without-gui --export-png='" + fileName + "' /dev/stdin", shell=True, input=titleBoard.encode())
@@ -479,7 +479,11 @@ def createTitleClip(data, length = None):
 def createSectionTitle(data, length = None):
 	if length == None:
 		length = 2.15
-	return mpy.TextClip(data, fontsize = 64, font = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", color = "cyan").set_duration(length).fx(mpy.vfx.fadein,0.75,(30,30,30)).fx(mpy.vfx.fadeout,0.75,(30,30,30))
+	try:
+		return mpy.TextClip(data, fontsize = 64, font = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", color = "cyan").set_duration(length).fx(mpy.vfx.fadein,0.75,(30,30,30)).fx(mpy.vfx.fadeout,0.75,(30,30,30))
+	except:
+		err = "\n\nIf you get 'operation not allowed by the security policy' error above, try remove '/etc/ImageMagick-6/policy.xml' file.\n"
+		raise IOError(err)
 
 
 #
@@ -679,7 +683,7 @@ if __name__ == "__main__":
 	# create end title
 	if endTitleSVG:
 		endTitleSVG = eduMovie.mainDir + "EndTitles/" + endTitleSVG
-		endTitlePNG, _ = eduMovie.getCachedFilename(endTitleSVG, ext=".svg.png")
+		endTitlePNG, _ = eduMovie.getCachedFilename(open(endTitleSVG).read(), ext=".svg.png")
 		endTitlePNG = eduMovie.globalCacheBaseDir + endTitlePNG
 		if not os.path.isfile(endTitlePNG) or os.path.getmtime(endTitleSVG) > os.path.getmtime(endTitlePNG):
 			eduMovie.convertFile(endTitleSVG, outFilePath=endTitlePNG.rsplit(".", 2)[0], margins=0)
