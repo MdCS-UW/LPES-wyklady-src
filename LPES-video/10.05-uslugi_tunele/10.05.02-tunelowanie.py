@@ -29,7 +29,7 @@ clipData += [
 	{
 		'image': [
 			[0.0, ""],
-			["tunele", eduMovie.convertFile('tunele.svg')]
+			["tunele", eduMovie.convertFile('../../OpCode.eu.org/OpCode-vip/vademecum/extra-web-files/tunele_ssh_full.svg')]
 		],
 		'text' : [
 			'Jak pamiętamy dane przesyłane wewnątrz pakietu IP, czy może raczej <m> TCP lub UDP (bo surowe IP jest rzadko używane) mogą być dowolne. <m>'
