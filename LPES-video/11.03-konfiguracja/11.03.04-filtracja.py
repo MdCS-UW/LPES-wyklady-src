@@ -100,7 +100,6 @@ clipData += [
 			["nft_route2", markedField("../../LPES-booklets/extra-tex-files/booklets-sections/network/ilustracje/51-nft.tex", "ROUTING2")],
 			["nft_out", markedField("../../LPES-booklets/extra-tex-files/booklets-sections/network/ilustracje/51-nft.tex", "output")],
 			["nft_postroute", markedField("../../LPES-booklets/extra-tex-files/booklets-sections/network/ilustracje/51-nft.tex", "postrouting")],
-			["rodzinytabel", eduMovie.convertFile('nft_rodziny_tabel.tex', negate=True)],
 		],
 		'text' : [
 			'Na ekranie pokazany został schemat obrazujący drogę pakietu przez filtry <nft>[N F T]. <m>'
@@ -117,29 +116,35 @@ clipData += [
 			'W przypadku akceptacji w specyficznej regule na tym poziomie <m> mogą zostać zwrócone do ponownego routingu. <mark name="nft_postroute" />'
 			'Kolejnym punktem zaczepienia jest postrouting do którego pakiety trafiają <m> tuż przed opuszczeniem systemu (przed wysłaniem ich w sieć) <m>'
 			'i przez punkt ten przechodzą zarówno pakiety przekazywane, <m> jak i utworzone lokalnie. <m>',
-			
+		]
+	},
+	{
+		'image': [
+			[0.0, eduMovie.convertFile('nft_tabele_lancuchy.svg', negate=True)],
+			["rodzinytabel", eduMovie.convertFile('nft_rodziny_tabel.tex', negate=True)],
+		],
+		'text' : [
 			'W ramach <nft>[N F T] mamy także tabele, łańcuchy i reguły. <m>'
 			'Reguły grupowane są w łańcuchy, w ramach których przetwarzane są kolejno, <m> aż do napotkania reguły kończącej przetwarzanie danego pakietu, <m> czyli na przykład go odrzucającej albo akceptującej. <m>'
 			
-			'Łańcuchy grupowane są w tabele. <mark name="rodzinytabel" />'
-			'Każda tabela przypisana jest do pewnej rodziny związanej <m> z poziomem stosu sieciowego na którym funkcjonuje <m> i z rodziną adresów na których operuje. <m>'
+			'Łańcuchy grupowane są w tabele. <m> Służy to wyłącznie ułatwieniu zarządzania konfiguracją <m> i przetwarzane są wszystkie pasujące łańcuchy z wszystkich tabel. <m>'
+			
+			'Ruch do łańcucha kierowany może być jawnie przez regułę w innym łańcuchu <m> lub automatycznie w oparciu o parametry łańcucha, <m> takie jak punkt zaczepienia i priorytet. <m>'
+			'Czyli jeżeli mamy na przykład dwa łańcuchy zaczepione w input <m> (bez względu na to czy znajdują się w jednej czy w różnych tabelach) <m> dla pakietu przechodzącego przez ten punkt przetworzone będą oba. <m>'
+			'Kolejność przetwarzania zależeć będzie od priorytetów tych łańcuchów. <m>',
+			
+			'Łańcuchy posiadają także typy związane z akcjami które mogą wykonywać, <m> standardowym typem jest filter pozwalający na filtrowanie pakietów. <m>'
+			'Istnieją także dwa specyficzne typy, które mogą być użyte tylko dla <m> rodzin związanych z protokołami IP i niektórych punktów zaczepienia <m>'
+			'– nat, który odpowiada za zamiana adresów sieciowych, <m> w oparciu o śledzenie połączeń <m>'
+			'oraz route, który umożliwia zawrócenie pakietów <m> z punktu zaczepienia output do ponownego przeroutowania. <mark name="rodzinytabel" />'
+			
+			'Każda, wspomniana wcześniej, tabela <m> przypisana jest do pewnej rodziny związanej <m> z poziomem stosu sieciowego na którym funkcjonuje <m> i z rodziną adresów na których operuje. <m>'
 			'Są to ip, <ip6>[ip 6] i inet (działające w warstwie trzeciej <m> odpowiednio dla IPv4, IPv6 i obu tych protokołów) <m>'
 			'oraz arp (działający w L2 przed procesowaniem L3), <m> bridge (działający dla pakietów przechodzących przez softwareowy switch) <m>'
 			'i netdev (działający na samym wejściu pakietu na urządzenie sieciowe). <m>'
 			
 			'Tabele dla różnych rodzin mogą mieć taką samą nazwę, <m> w związku z czym w poleceniach operujących na tabeli <m> oprócz jej nazwy podaje się także jej rodzinę <m> (gdyż sama nazwa nie jest jednoznaczna). <m>'
-			
-			'Tabel dla danej rodziny może być wiele, <m> podobnie jak łańcuchów w ramach tabeli. <m>'
-			'Stosowane będą łańcuchy z wszystkich tabel, <m> tak jakby znajdowały się w jednej tabeli. <m>'
-			
-			'Ruch do łańcucha kierowany może być jawnie przez regułę w innym łańcuchu <m> lub automatycznie w oparciu o parametry łańcucha, <m> takie jak punkt zaczepienia i priorytet. <m>'
-			'Czyli jeżeli mamy na przykład dwa łańcuchy zaczepione w input <m> (bez względu na to czy znajdują się w jednej czy w różnych tabelach) <m> dla pakietu przechodzącego przez ten punkt przetworzone będą oba. <m>'
-			'Kolejność przetwarzania zależeć będzie od priorytetów tych łańcuchów. <m>'
-			
-			'Łańcuchy posiadają także typy związane z akcjami które mogą wykonywać, <m> standardowym typem jest filter pozwalający na filtrowanie pakietów. <m>'
-			'Istnieją także dwa specyficzne typy, które mogą być użyte tylko dla <m> rodzin związanych z protokołami IP i niektórych punktów zaczepienia <m>'
-			'– nat, który odpowiada za zamiana adresów sieciowych, <m> w oparciu o śledzenie połączeń <m>'
-			'oraz route, który umożliwia zawrócenie pakietów <m> z punktu zaczepienia output do ponownego przeroutowania. <m>'
+			'Tabel dla danej rodziny może być wiele. <m>'
 		]
 	},
 ]

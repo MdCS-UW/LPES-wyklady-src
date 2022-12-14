@@ -126,7 +126,7 @@ else:
 
 dig_info  = eduMovie.prompt() + "# root dns (" + code_dig["rip"] + ") kazał pytać " + code_dig["ip1"] + "\n\r"
 dig_info += eduMovie.prompt() + "# dns " + code_dig["ip1"] + " kazał pytać " + code_dig["ip2"] + "\n\r"
-dig_info += eduMovie.prompt() + "# dns " + code_dig["ip2"] + " odpowiedział że host ten to" + code_dig["ip3"] + "\n\r"
+dig_info += eduMovie.prompt() + "# dns " + code_dig["ip2"] + " odpowiedział że host ten to " + code_dig["ip3"] + "\n\r"
 
 clipData += [
 	{

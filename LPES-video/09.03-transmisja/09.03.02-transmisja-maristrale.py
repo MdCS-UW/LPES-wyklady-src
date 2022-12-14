@@ -29,8 +29,6 @@ clipData += [
 	{
 		'image': [
 			[0.0, eduMovie.convertFile("../../LPES-booklets//images-src/elektronika/topologie.sch", dpi=210, negate=True)],
-			["rownolegla", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/magistrala_rownolegla.sch", dpi=195, negate=True)],
-			["szeregowa - 5", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/magistrala_szeregowa.sch", dpi=210, negate=True)],
 		],
 		'text' : [
 			'W zależności od układu fizycznych połączeń komunikujących się urządzeń <m> wyróżnia się różne topologie połączeń. <m>'
@@ -49,9 +47,19 @@ clipData += [
 			'Simplex oznacza że mamy transmisję tylko w jedną stronę, <m> na przykład zapis do jakiś rejestrów. <m>'
 			'Półdupleks oznacza że mamy komunikację dwukierunkową, <m> ale nie możemy równocześnie nadawać i odbierać, <m> czyli na przykład nadawanie i odbiór współdzieli ten sam przewód. <m>'
 			'Full-duplex oznacza że mamy możliwość równoczesnego nadawania i odbioru, <m> nadajnik i odbiornik pracują na niezależnych przewodach. <m>',
-			
+		]
+	},
+	{
+		'image': [
+			[0.0, eduMovie.convertFile('szeregowa_rowolegla_sygnaly.svg', negate=True)],
+			["rownolegla", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/magistrala_rownolegla.sch", dpi=105, negate=True)], # TODO podświetlanie omawianego elementu
+			["szeregowa - 5", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/magistrala_szeregowa.sch", dpi=110, negate=True)], # TODO podświetlanie omawianego elementu
+		],
+		'text' : [
 			'Przy okazji poznawania różnych rodzajów rejestrów, spotkaliśmy się <m> z pojęciem transmisji jakiś danych równolegle bądź szeregowo. <m>'
-			'Warto przyjrzeć się im trochę bliżej. <mark name="rownolegla" />'
+			'Generalnie transmisja szeregowa oznacza <m> przesył kolejnych bitów składających się na bajt (słowo) <m> jeden po drugim. W ramach kolejnych taktów zegara. <m>'
+			'Natomiast w transmisji równoległej, jednocześnie (różnymi przewodami) <m> przesyłane sa wszystkie bity składające się na słowo. <m>'
+			'A w kolejnym takcie zegara przesyłane jest kolejne słowo. <mark name="rownolegla" />'
 			
 			'Na ekranie widzimy przykład magistrali równoległej, <m> w trochę bardziej złożonej formie, umożliwiającej zapis do wybranego <m> urządzenia (rejestru) spośród podłączonych do tej magistrali. <m>'
 			

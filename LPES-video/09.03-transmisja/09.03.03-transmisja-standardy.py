@@ -49,7 +49,7 @@ clipData += [
 	},
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/twi.sch", dpi=195, negate=True)],
+			[0.0, eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/twi.sch", dpi=95, negate=True)],
 			["onewire", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/onewire.sch", dpi=190, negate=True)],
 		],
 		'text' : [

@@ -31,7 +31,7 @@ clipData += [
 	{
 		'image': [
 			[0.0, ""],
-			["symbole", eduMovie.convertFile("bipolarne_symbole.sch", negate=True)],
+			["symbole", eduMovie.convertFile("bipolarne_symbole.sch", dpi=150, negate=True)],
 			["wzory", eduMovie.convertFile("wzór.tex", margins=12, viaCairo=True, negate=True)],
 		],
 		'text' : [

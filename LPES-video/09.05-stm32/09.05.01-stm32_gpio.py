@@ -24,9 +24,9 @@
 try: clipData
 except NameError: clipData = []
 
-# FIXME brać te kody z repo ... brać wszystkie kody z repo ?
+# TODO brać kody dla STM32 z repo
 
-# FIXME: video + skrypt:  dodać schemat obrazkowy budowy gpio - kierunki, podciąganie, bit w słowie, ... + jego omówienie
+# TODO: video + skrypt:  dodać schemat obrazkowy budowy gpio - kierunki, podciąganie, bit w słowie, ... + jego omówienie
 
 code_blink = r"""
 #include <libopencm3/stm32/rcc.h>

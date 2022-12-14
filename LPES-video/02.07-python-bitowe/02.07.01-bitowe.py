@@ -60,22 +60,46 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'section': 'operacje bitowe' },
+	{ 'title': [ "#02.7", "Python:", "operacje bitowe", "" ] },
+	
+	{ 'comment': 'operacje bitowe' },
 	{ #  
 		'consoleTop': [
 			[0.0, eduMovie.clear + eduMovie.code2console(code_bin_A, "py")],
-			["binB", eduMovie.clear + eduMovie.code2console(code_bin_B, "py")],
-			["binC", eduMovie.clear + eduMovie.code2console(code_bin_C, "py")],
 		],
 		'consoleDown': [
 			[0.0, eduMovie.runCode(code_bin_A, [], cmd="python3")],
-			["binB", eduMovie.runCode(code_bin_B, [], cmd="python3")],
-			["binC", eduMovie.runCode(code_bin_C, [], cmd="python3")],
 		],
 		'text' : [
 			'Jak wiemy liczby możemy zapisywać w różnych systemach liczbowych. <m> Jednym z nich jest system dwójkowy, nazywany też binarnym. <m>'
-			'Taka reprezentacja liczb jest podstawą działania <m> elektroniki cyfrowej, w tym współczesnych komputerów. <mark name="binB" />'
+			'Taka reprezentacja liczb jest podstawą działania <m> elektroniki cyfrowej, w tym współczesnych komputerów. <m>'
+		]
+	},
+	{
+		'image': [
+			[0.0, eduMovie.convertFile('nkb.tex', margins=12, viaCairo=True, negate=True)],
+			["ujemne", eduMovie.convertFile('u2.tex', margins=12, viaCairo=True, negate=True)],
+		],
+		'text' : [
+			'Liczby dodatnie w systemie binarnym zapisuje się praktycznie zawsze w postaci NKB. <m>'
+			'Zapis taki jest analogiczny do zapisu dziesiętnego stosowanego na codzień, <m> z tym że kolejne cyfry liczby mają wagę dwa to <n>[en-tej] a nie dziesięć do <n>[en-tej] <m>'
+			'Gdzie wartość potęgi jest numerem cyfry. <m> Skrajna cyfra od prawej ma numer zero. <mark name="ujemne" />'
 			
+			'Liczby ujemne mogą być zapisywane na różne sposoby. <m>'
+			'Stosowany może być na przykład kod moduł-znak, <m> polegający na zapisie modułu liczby w postaci NKB <m> oraz umieszczenia flagi znaku w najstarszym bicie. <m>'
+			'Najczęściej jednak stosowany jest kod uzupełnień do dwóch. <m> Przypomina on NKB, tyle że najstarszy n-ty bit wchodzi z wagą ujemną. <m>'
+		]
+	},
+	{ #  
+		'consoleTop': [
+			[0.0, eduMovie.clear + eduMovie.code2console(code_bin_B, "py")],
+			["binC", eduMovie.clear + eduMovie.code2console(code_bin_C, "py")],
+		],
+		'consoleDown': [
+			[0.0, eduMovie.runCode(code_bin_B, [], cmd="python3")],
+			["binC", eduMovie.runCode(code_bin_C, [], cmd="python3")],
+		],
+		'text' : [
 			'Przy okazji omawiania operatorów logicznych not, and i or <m> wspomnieliśmy o operatorach bitowych, <m> ale nie wchodziliśmy głębiej w ten temat. <m>'
 			'Są to operatory wykonujące operacje algebry boolowskiej takie jak <m> na przykład AND, ale nie na poziomie liczb jako całości <m> a na poziomie poszczególnych bitów tych liczb. <m>'
 			'Jak widzimy na ekranie mogą dawać one inny efekt od operacji logicznej. <m>'

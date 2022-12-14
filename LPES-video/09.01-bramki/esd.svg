@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1248"
+   height="702"
+   viewBox="0 0 330.19999 185.73751"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="esd.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="529.87257"
+     inkscape:cy="133.15021"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-111.26247)">
+    <image
+       sodipodi:absref="images-src/ESD_(Susceptible).svg"
+       xlink:href="images-src/ESD_(Susceptible).svg"
+       style="stroke-width:0.953897"
+       y="116.35109"
+       x="44.616337"
+       id="image965"
+       height="83.211281"
+       width="90.145554"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       sodipodi:absref="images-src/ESD_Verpackung.jpg"
+       xlink:href="images-src/ESD_Verpackung.jpg"
+       style="stroke-width:4.39801"
+       y="135.14021"
+       x="155.85492"
+       id="image1083"
+       preserveAspectRatio="none"
+       height="120.16632"
+       width="168.37994" />
+    <image
+       sodipodi:absref="images-src/Antistatic_wrist_strap_2.jpg"
+       xlink:href="images-src/Antistatic_wrist_strap_2.jpg"
+       style="stroke-width:7.98974"
+       y="204.74498"
+       x="18.43182"
+       id="image1145"
+       preserveAspectRatio="none"
+       height="89.459167"
+       width="134.18875" />
+  </g>
+</svg>

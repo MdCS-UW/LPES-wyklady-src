@@ -78,9 +78,7 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'title': [ "#03.2", "Python:", "operacje bitowe", "i wyjątki" ] },
-	
-	{ 'comment': 'wyjątki' },
+	{ 'section': 'wyjątki' },
 	{
 		'consoleTop': [
 			[0.0, eduMovie.clear + eduMovie.code2console(code_zerodiv, "py")],

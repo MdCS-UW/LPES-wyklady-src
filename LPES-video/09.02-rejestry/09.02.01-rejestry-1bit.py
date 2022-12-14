@@ -49,7 +49,7 @@ clipData += [
 			'Umożliwia on zapamiętanie jednego bitu informacji, <m> czyli może zapamiętać że jest w stanie zero albo w stanie jeden. <m>'
 			'Posiada on dwa wejścia – set i reset. <m>'
 			'Wystąpienie, nawet krótkiego sygnału na wejściu set ustawia go w stan wysoki, <m> a na wejściu reset w stan niski. <m>'
-			'Przy braku sygnałów na tych wejściach stan jest pamiętany. <m>'
+			'Przy braku sygnałów na tych wejściach stan jest pamiętany. <m>',
 			
 			'W niektórych realizacjach, na przykład w widocznej na symulacji, <m> wejścia mogą być zanegowane – czyli sygnałem do ustawienia wyjścia w któryś <m> ze stanów jest impuls stanu niskiego na wejściu, a nie stanu wysokiego. <m>'
 			'Posiada on także dwa wyjścia – zwykłe i zanegowane, <m> bo tak wychodzi konstrukcyjnie i często wyprowadzane są oba. <m>'
@@ -60,15 +60,15 @@ clipData += [
 			'Podanie impulsu niskiego na wejście reset powoduje ustawienie stanu niskiego <m> na wyjściu i tu również kolejne impulsy nic nie zmieniają. <m>'
 			
 			'Równoczesne wystąpienie sygnału set i reset określane jest jako <m> stan zabroniony i stan wyjść jest wtedy nieustalony. <m>'
-			'W układzie zrealizowanym tak jak <m> na tej symulacji oba wyjścia byłyby w stanie wysokim. <m>'
+			'W układzie zrealizowanym tak jak <m> na tej symulacji oba wyjścia byłyby w stanie wysokim. <m>',
 			
 			'Przy pomocy innych bramek moglibyśmy na przykład uzyskać sterowanie <m> sygnałami nie zanegowanymi, czyli impulsami stanu wysokiego.  <m>'
 			'Warto tu zwrócić uwagę na takie charakterystyczne zapętlenie, <m> czyli sygnał z wyjścia jednej bramki podawany jest na wejście drugiej, <m> a z wyjścia tej drugiej na wejście pierwszej. <m>'
-			'Tego typu sprzężenie zwrotne jest podstawą działania układów pamięciowych, <m> bo tak naprawdę to ono umożliwia zapamiętanie w czymś takim jakiegoś stanu. <m>'
+			'Tego typu sprzężenie zwrotne jest podstawą działania układów pamięciowych, <m> bo tak naprawdę to ono umożliwia zapamiętanie w czymś takim jakiegoś stanu. <m>',
 			
-			'Przerzutnik RS wymaga dwóch sygnałów sterujących - osobnego <m> ustawiającego go w stan wysoki, osobnego ustawiającego go w stan niski. <m>'
+			'Przerzutnik RS wymaga dwóch sygnałów sterujących <m> jednego dla ustawienia stanu wysokiego <m> oraz drugiego dla ustawienia stanu niskiego. <m>'
 			'Niekiedy jest to wygodne, ale zdecydowanie częściej wolelibyśmy <m> mieć sygnał który ma zostać zapamiętany (jakieś dane) <m>'
-				'i sygnał niosący informację kiedy tamten sygnał ma być zapamiętany <m> (jakiś sygnał <zezwalający>[zezwala-jący] lub zegar). <m>'
+				' i informację kiedy tamte dane mają być zapamiętane <m> (sygnał <zezwalający>[zezwala-jący] lub zegar). <m>'
 		]
 	},
 	{

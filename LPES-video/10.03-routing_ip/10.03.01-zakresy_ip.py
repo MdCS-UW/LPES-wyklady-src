@@ -66,7 +66,7 @@ clipData += [
 			["Podzial3 + 0.993681", "o", "-[ipv6 : 2001:0db8:abcd:30::/60] - 0\r\n\r\n[IPV6 INFO]\r\nExpanded Address\t- 2001:0db8:abcd:0030:0000:0000:0000:0000\r\nCompressed address\t- 2001:db8:abcd:30::\r\nSubnet prefix (masked)\t- 2001:db8:abcd:30:0:0:0:0/60\r\nAddress ID (masked)\t- 0:0:0:0:0:0:0:0/60\r\nPrefix address\t\t- ffff:ffff:ffff:fff0:0:0:0:0\r\nPrefix length\t\t- 60\r\nAddress type\t\t- Aggregatable Global Unicast Addresses\r\nNetwork range\t\t- 2001:0db8:abcd:0030:0000:0000:0000:0000 -\r\n\t\t\t  2001:0db8:abcd:003f:ffff:ffff:ffff:ffff\r\n\r\n-\r\n"],
 			["Podzial3 + 0.994513", "o", eduMovie.prompt()],
 			
-			["adresIpv4", "o", "# czy 172.137.217.181  w 172.137.208.0/21 ?\r\n"],
+			["adresIpv4", "o", "# czy 172.137.217.181  w 172.137.208.0/21 ?\r\n" + eduMovie.prompt()],
 			["Ipv4", "o", "sipcalc 172.137.208.0/21"],
 			["Ipv4 + 0.865341", "o", "\r\n"],
 			["Ipv4 + 0.868309", "o", "-[ipv4 : 172.137.208.0/21] - 0\r\n\r\n[CIDR]\r\nHost address\t\t- 172.137.208.0\r\nHost address (decimal)\t- 2894712832\r\nHost address (hex)\t- AC89D000\r\nNetwork address\t\t- 172.137.208.0\r\nNetwork mask\t\t- 255.255.248.0\r\nNetwork mask (bits)\t- 21\r\nNetwork mask (hex)\t- FFFFF800\r\nBroadcast address\t- 172.137.215.255\r\nCisco wildcard\t\t- 0.0.7.255\r\nAddresses in network\t- 2048\r\nNetwork range\t\t- 172.137.208.0 - 172.137.215.255\r\nUsable range\t\t- 172.137.208.1 - 172.137.215.254\r\n\r\n-\r\n"],

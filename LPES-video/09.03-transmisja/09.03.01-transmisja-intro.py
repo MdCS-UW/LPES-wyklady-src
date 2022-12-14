@@ -35,7 +35,7 @@ clipData += [
 			["matrix", eduMovie.circuitjs("matrix", 1, 36, [
 				("longClick", 430, 100, 1.5), ("wait", 1), ("longClick", 560, 100, 1.5), ("wait", 1), ("longClick", 690, 100, 1.5), ("wait", 1), # pierwszy rząd
 				("longClick", 430, 235, 1.5), ("wait", 1), ("longClick", 560, 235, 1.5), ("wait", 1), # trzeci rząd
-				("click", 160, 330), ("wait", 1), ("click", 190, 330), ("wait", 1), ("click", 160, 330), ("wait", 1), # akywacja różnych rzędów ... kończymy na trzecim
+				("click", 160, 330), ("wait", 1), ("click", 190, 330), ("wait", 1), ("click", 160, 330), ("wait", 1), # aktywacja różnych rzędów ... kończymy na trzecim
 				("longClick", 430, 235, 1.5), ("wait", 1), ("longClick", 560, 235, 1.5), ("wait", 1), ("longClick", 690, 235, 1.5)
 			])],
 		],

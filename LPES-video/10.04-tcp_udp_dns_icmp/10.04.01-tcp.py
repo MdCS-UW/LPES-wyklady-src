@@ -41,7 +41,7 @@ clipData += [
 			'Numer portu docelowego pozwala systemowi operacyjnemu zidentyfikować <m> proces do którego ma zostać dostarczony ten pakiet. <m>'
 			'Numer portu źródłowego służy do przesłania ewentualnej odpowiedzi <m> i pozwala na taką identyfikację procesu <m> systemowi operacyjnemu "po drugiej stronie łącza". <m>'
 			'Opiera się to na tym, iż program chcąc przyjmować połączenia sieciowe <m> prosi o przydzielenie na ogół jakiegoś konkretnego numeru portu, <m>'
-				'a chcąc nawiązać takie połączenie też otrzymuje numer portu <m> na który zostanie przesłana odpowiedź i w oparciu o to <m> system operacyjny wie do kogo ma dostarczać odbierane dane. <m>'
+				'a chcąc nawiązać takie połączenie też otrzymuje numer portu <m> na który zostanie przesłana odpowiedź i w oparciu o to <m> system operacyjny wie do kogo ma dostarczać odbierane dane. <m>',
 			
 			'Oba nagłówki posiadają też sumę kontrolną obejmującą zarówno dane, <m> nagłówek tego protokołu, jak też wybrane pola z nagłówka pakietu IP. <m>'
 			'Dla przypomnienia nagłówek IPv4 zawierał sumę kontrolną obejmującą <m> tylko ten nagłówek bez danych, a IPv6 nie zawierał jej wcale. <m>'
@@ -52,6 +52,9 @@ clipData += [
 			'Jednak nie będziemy ich tutaj omawiać. <m>'
 			'Należy natomiast wspomnieć, że celem zapewnienia kontroli przesyłu danych <m> protokół TCP nawiązuje połączenie, <m>'
 				'czyli występują w nim fazy nawiązywania połączenia, jego trwania, <m> podczas którego oczekiwane jest potwierdzanie odbioru kolejnych <m> porcji danych (inaczej będą wysyłane ponownie) oraz zamykania połączenia. <m>'
+			'Z połączeniem występującym w protokole TCP związane jest także pojęcie wielkości okna, <m> czyli tego co ile bajtów odbiorca musi potwierdzać odbiór pakietów. <m>'
+			'Wielkość ta jest dynamicznie dostosowywana do parametrów łącza, <m> pozwalając na sterowanie przepływem <m>'
+			'– jeżeli wysycana jest dostępna przepustowość łącza, <m> dochodzi do strat pakietów i wielkość okna jest zmniejszana. <m>'
 			
 			'Innym protokołem warstwy czwartej jest SCTP dedykowany dla strumieni <m> medialnych czasu rzeczywistego, jednak jest on dość rzadko spotykany. <m>'
 		]

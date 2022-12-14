@@ -59,6 +59,8 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
+	{ 'title': [ "#03.3", "Python:", "klasy, wyjątki", "i generatory" ] },
+	
 	{ 'section': 'klasy' },
 	{
 		'consoleTop': [

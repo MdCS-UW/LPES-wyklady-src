@@ -84,6 +84,8 @@ clipData += [
 		'text' : [
 			'W związku z tym polecenia oddzielane <m> ampersandami będą wykonywane równolegle. <m> Dokładniej mogą być wykonywane równolegle, <m> bo zależy to jeszcze od dostępności CPU. <m>'
 			'Bash może wypisać także pewne dodatkowe informacje związane z <m> uruchomieniem komendy w tle, na razie nie będziemy się nimi zajmować. <m>',
+			'Zauważ, że z poziomu linii poleceń basha <m> możemy uruchamiać nie tylko standardowe polecenia trybu tekstowego, <m> ale dowolne programy, także te działające w środowisku graficznym. <m>'
+			'Te ostatnie często pozwalają na przekazanie w ten sposób argumentów, <m> np. pliku do otwarcia, lub dodatkowych opcji, <m> np. pozwalających na automatyzację ich działania. <m>',
 			'Stosowanie spacji przed i po operatorach łączących polecenia jest opcjonalne. <m>'
 			'Powszechnie stosowany jest zwyczaj zapisywania spacji po obu <m> stronach operatorów łączących polecenia w oparciu o kod powrotu <m> oraz przekierowujących strumień pomiędzy nimi, <m>'
 			'a jedynie po prawej stronie pojedynczego średnika i ampersanda. <m>'

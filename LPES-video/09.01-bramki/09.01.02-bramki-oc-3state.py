@@ -28,7 +28,7 @@ clipData += [
 	{ 'comment': 'bramki - 3 stanowe, open drain' },
 	{
 		'image': [
-			[0.0, ""],
+			[0.0, eduMovie.convertFile('trojstanowosc.tex', negate=True)],
 			["trzystanowe - 1", eduMovie.circuitjs("ster", 2, 20, [
 				("switch", 160, 185), ("wait", 1.7), ("switch", 160, 185), ("wait", 1.7),
 				("switch", 160, 320), ("wait", 1.7), ("switch", 160, 320), ("wait", 1.7),

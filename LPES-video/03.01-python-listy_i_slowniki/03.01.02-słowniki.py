@@ -106,8 +106,6 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'title': [ "#03.3", "Python:", "słowniki i klasy", "" ] },
-	
 	{ 'comment': 'słowniki' },
 	{ #  
 		'consoleTop': [
@@ -123,7 +121,7 @@ clipData += [
 			["slowD", eduMovie.runCode(code_slown_D, [], cmd="python3")],
 		],
 		'text' : [
-			'Słownik jest to kontener, trochę podobny do list, <m> przechowujący pary – klucz i wartość. <m>'
+			'Słownik jest to kontener, trochę podobny do list, <m> przechowujący pary złożone z klucza i przypisanej do niego wartości. <m>'
 			'Odwołanie do elementów w tym kontenerze odbywa się poprzez klucz, <m> który jest unikalny (nie może być dwóch par <m> z tym samym kluczem i inną wartością). <m>'
 			
 			'Definiujemy go poprzez klamerki w których możemy podać <m> kolejne pary postaci klucz dwukropek wartość <m> rozdzielane przecinkami. <m>'

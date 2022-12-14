@@ -75,7 +75,7 @@ clipData += [
 				("switch", 610, 260), ("wait", 2.7), ("switch", 610, 240)
 			])],
 			["scalone", eduMovie.convertFile('chip.svg', margins=0)],
-			["esd", ""], # TODO coś o ESD
+			["esd", eduMovie.convertFile('esd.svg', margins=0)], # TODO może następny obrazek o podłączanie nieużywanych, antenie i energia związana z niepotrzebnym przełączaniem ...
 		],
 		'text' : [
 			'W kolejnym rzędzie mamy bramkę or, <m> która stan wysoki ma wtedy gdy którekolwiek z wejść lub oba są w stanie wysokim <m> i po prawej jej zanegowany wariant nor. <mark name="_xor" />'

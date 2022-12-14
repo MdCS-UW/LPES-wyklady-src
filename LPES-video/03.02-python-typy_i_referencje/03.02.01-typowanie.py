@@ -82,7 +82,7 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'title': [ "#03.1", "Python:", "typy", "i referencje" ] },
+	{ 'title': [ "#03.2", "Python:", "typy", "i referencje" ] },
 	
 	{ 'comment': 'typowanie' },
 	{ #  

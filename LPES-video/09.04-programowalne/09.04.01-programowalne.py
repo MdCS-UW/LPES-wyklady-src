@@ -58,7 +58,7 @@ clipData += [
 	},
 	{
 		'image': [
-			[0.0, eduMovie.convertFile('cpu.svg', negate=True)],
+			[0.0, eduMovie.convertFile('cpu.svg', negate=True)], # TODO podświetlanie omawianego elementu
 		],
 		'text' : [
 			'Zajmiemy się trochę bliżej popularniejszy mimo wszystko systemami procesorowymi. <m>'

@@ -86,12 +86,12 @@ clipData += [
 			'jednak nie musimy się zajmować obsługą błędów, diagnostyką <m> na kolejnych etapach bo robi to za nas Python generując odpowiedni wyjątek. <m>'
 			'W tym celu będziemy korzystać z modułu socket, obudowującego <m> stosowne wywołania biblioteki standardowej C. <mark name="getaddrinfo_A" />'
 			
-			"Pierwszą rzeczą którą warto nauczyć się robić jest korzystanie <m> z zamiany nazw <domenowych>[domen'owych] na adresy IP, <m> opartej o poznane wcześniej mechanizmy (DNS, resolwer, plik hosts, itd.). <m>"
+			"Pierwszą rzeczą którą warto nauczyć się robić jest korzystanie <m> z zamiany nazw <domenowych>[domen'owych] na adresy IP, <m> opartej o poznane wcześniej mechanizmy (DNS, <resolver>[resolwer], plik hosts, itd.). <m>"
 			'Pozwala na to funkcja <getaddrinfo>[get addr info], która także potrafi zamieniać <m> nazwy usług na związane z nimi numery portów. <m>'
 			'Przykład użycia widoczny jest na ekranie. <m>'
 			
-			'Pierwszym argumentem funkcji <getaddrinfo>[get addr info] jest nazwa <domenowa>[domenowa], <m> drugim argumentem jest nazwa usługi, której chcemy użyć. <m>'
-			'Funkcja jest dość uniwersalna i pozwala również na podanie zamiast nazw <m> numerycznych wartości portu, czy też adresu IP w którejś ze standardowych notacji. <m>'
+			"Pierwszym argumentem funkcji <getaddrinfo>[get addr info] jest nazwa <domenowa>[domen'owa], <m> drugim argumentem jest nazwa usługi, której chcemy użyć. <m>"
+			'Funkcja jest dość uniwersalna i pozwala na podanie zamiast nazw również <m> wartości numerycznych portu, czy też adresu IP w którejś ze standardowych notacji. <m>'
 			
 			'Funkcja ta zwraca nam listę krotek, czyli listę stałych list. <m>'
 			'Każda z tych składowych list reprezentuje możliwy wariant połączenia <m> z wskazanym adresem. <m>'

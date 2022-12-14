@@ -65,7 +65,13 @@ clipData += [
 			'Każdy z protokołów w takim stosie pełni dedykowane mu funkcje <m> i na ogół nie ingeruje ani w protokoły warstwy niższej, <m> ani w przenoszoną przez niego zawartość, czyli protokoły warstwy wyższej z danymi. <m>'
 			
 			'Struktura warstwowa jest standardowo opisywana w ramach <m> tak zwanego modelu <OSI>[O S I] który wyróżnia 7 warstw. <m>'
-			
+		]
+	},
+	{
+		'image': [
+			[0.0, eduMovie.convertFile('warstwy-slajd.tex', margins=12)],
+		],
+		'text' : [
 			'Najniższą warstwą jest warstwa fizyczna <m> – zajmuje się ona definiowaniem takich aspektów jak na przykład: <m>'
 				'poziom sygnału elektrycznego w kablu tworzącym sieć, <m> częstotliwości radiowe w sieciach bezprzewodowych, <m> długości fali światła w sieciach optycznych i tak dalej. <m>'
 			
@@ -74,13 +80,7 @@ clipData += [
 				'Niekiedy jest to kodowanie bardziej skomplikowane. <m>'
 			'Warstwa ta określa też sposób kodowania kolejnych bajtów, <m> tak aby dało się identyfikować koniec i początek bajtu. <m>'
 			'Przykładem protokołu tej warstwy o którym już mówiliśmy jest <UART>[uart] <m> i możliwe jest jego użycie w sieciach komputerowych. <m>',
-		]
-	},
-	{
-		'image': [
-			[0.0, eduMovie.convertFile('warstwy-slajd.tex', margins=12)],
-		],
-		'text' : [
+			
 			'Kolejną warstwą o numerze dwa w modelu <OSI>[O S I], <m> stąd często określaną jako L2, jest warstwa łącza danych. <m>'
 			'Definiuje ona aspekty takie jak adresacja urządzeń fizycznych, <m> format ramki (w tym identyfikację jej początku i końca) <m> oraz protokoły dostępu do medium transmisyjnego określonego w L1, <m>'
 				'czyli co zrobić jeżeli po tym samym kablu równocześnie <m> zaczną nadawać dwa urządzenia, jak takich sytuacji unikać, itd. <m>'

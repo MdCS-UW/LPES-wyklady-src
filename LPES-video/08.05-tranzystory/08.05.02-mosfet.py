@@ -28,7 +28,7 @@ clipData += [
 	{ 'comment': 'mosfet' },
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("mosfet_symbole.sch", negate=True)],
+			[0.0, eduMovie.convertFile("mosfet_symbole.sch", dpi=150, negate=True)],
 		],
 		'text' : [
 			''

@@ -191,15 +191,16 @@ clipData += [
 			
 			'Warto jednak mieć świadomość istnienia komend ifconfig oraz route, <m> ponieważ na wielu innych systemach uniksowych w ten sposób konfiguruje się sieć, <m> jednak składnia tych komend jest różna na różnych systemach. <m>'
 			'Natomiast w Linuxach całość funkcjonalności tych poleceń przejęta została <m> przez komendę ip i również coraz częściej polecenia te nie są <m> standardowo instalowane na nowych systemach. <m>'
-			
+		]
+	},
+	{
+		'image': [
+			[0.0, eduMovie.convertFile('polecenie_tc_i_wifi.tex', negate=True)],
+		],
+		'text' : [
 			'Innym poleceniem związanym z konfiguracją sieci, <m> którego szczegółowo nie będziemy omawiać, <m> jest tc od Traffic Control. <m>'
 			'Umożliwia ono konfigurację ustawień kontroli przepływu <m> - na przykład kolejkowania, związanych z tym prędkości ruchu i tak dalej <m> na poszczególnych interfejsach sieciowych. <m>'
-			'Przydatny jest jeżeli nasz Linux ma pełnić funkcje routingowe <m> i mamy potrzebę na przykład regulacji bądź ograniczenia <m> przepustowości na konkretnych interfejsach. <m>'
-			
-			'Konfiguracja interfejsów dokonywana poleceniami ip, <m> jego klasycznymi odpowiednikami, poleceniem tc i innymi tego typu komendami <m> jest konfiguracją typu <run-time>[rantajm], czyli jest tracona po wyłączeniu systemu. <m>'
-			'W związku z tym polecenia te często zapisywane są w postaci plików, <m> będących skryptami powłoki uruchamianymi w trakcie startu systemu operacyjnego. <m>'
-			'A jeszcze częściej wykorzystywane są pliki konfiguracyjne <m> (specyficzne dla danej rodziny dystrybucji Linuxa), <m>'
-				"które są <parsowane>[pars'owane] przez skrypty uruchomieniowe celem wykonania <m> w oparciu o ich treść odpowiedniej konfiguracji interfejsów. <m>",
+			'Przydatny jest jeżeli nasz Linux ma pełnić funkcje routingowe <m> i mamy potrzebę na przykład regulacji bądź ograniczenia <m> przepustowości na konkretnych interfejsach. <m>',
 			
 			"Należy wspomnieć także o narzędziach używanych do konfiguracji sieci bezprzewodowych takich jak <m>"
 				"<iwconfig>[I W config] obsługujący podstawowe operacje na interfejsie bezprzewodowym, <m>"
@@ -207,6 +208,11 @@ clipData += [
 				"oraz <wpa_supplicant>[W P A supplicant] służący do łączenia się z sieciami zabezpieczonymi WPA. <m>"
 			"Możliwe jest też uczynienie z komputera z linuxem i kartą wi-fi <m> access <pointa>[pojta] przy pomocy programu <hostapd>[host A P D]. <m>"
 			"Jeżeli chcemy oferować DHCP i DNS przyda się także <dnsmasq>[DNS mask]. <m>"
+			
+			'Konfiguracja interfejsów dokonywana poleceniami ip, <m> jego klasycznymi odpowiednikami, poleceniem tc i innymi tego typu komendami <m> jest konfiguracją typu <run-time>[rantajm], czyli jest tracona po wyłączeniu systemu. <m>'
+			'W związku z tym polecenia te często zapisywane są w postaci plików, <m> będących skryptami powłoki uruchamianymi w trakcie startu systemu operacyjnego. <m>'
+			'A jeszcze częściej wykorzystywane są pliki konfiguracyjne <m> (specyficzne dla danej rodziny dystrybucji Linuxa), <m>'
+				"które są <parsowane>[pars'owane] przez skrypty uruchomieniowe celem wykonania <m> w oparciu o ich treść odpowiedniej konfiguracji interfejsów. <m>",
 		]
 	},
 ]

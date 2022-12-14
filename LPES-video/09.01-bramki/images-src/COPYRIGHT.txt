@@ -7,3 +7,18 @@
 	https://commons.wikimedia.org/wiki/File:8kbit_EPROM_Mitsubishi_M5L2708S_(1).jpg
 	CC-BY
 	Author: yellowcloud from Germany
+
+Antistatic_wrist_strap_2.jpg
+	https://commons.wikimedia.org/wiki/File:Antistatic_wrist_strap_2.JPG
+	public domain
+	Author: MKFI
+
+ESD_Verpackung.jpg
+	https://commons.wikimedia.org/wiki/File:ESD_Verpackung.jpg
+	public domain
+	Author: Harke
+
+ESD_(Susceptible).svg
+	https://commons.wikimedia.org/wiki/File:ESD_(Susceptible).svg
+	public domain
+	Author: Inductiveload

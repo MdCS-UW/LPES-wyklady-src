@@ -29,6 +29,8 @@ try:
 	from GoogleCloudTextToSpeach import token
 except:
 	token = '' # <<< put your Google Cloud TTS (https://cloud.google.com/text-to-speech) token here
+	
+	# 2022-12-18:  in some cases "cloud Text to Speach" return wrong timepoints for markers, this can be observed as non monotonically values of m_[0-9]* in .text.info files (eg. "m_3" before "m_2").
 
 def text2audioFile(txt, fileName):
 	if not token:

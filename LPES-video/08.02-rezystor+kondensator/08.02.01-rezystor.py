@@ -99,7 +99,11 @@ clipData += [
 				'gdyż taki element wraz z przepływem dużego prądu nagrzewa się, <m> co powoduje wzrost oporu i ograniczenie tego prądu <m> lub całkowite wyłączenie gdy temperatura wzrośnie powyżej granicznej. <m>'
 			'Po ostygnięciu zaczyna przewodzić ponownie.  <m>'
 			'Stosuje się także elementy których opór zmienia się <m> (i to dość gwałtownie) z napięciem do nich przyłożonym. <m>'
-			'Są to warystory, używane niekiedy jako zabezpieczenia przepięciowe. <m>'
+			'Są to warystory, używane niekiedy jako zabezpieczenia przepięciowe. <m>',
+			
+			'Produkowane i stosowane są także rezystory o nastawnej rezystancji, <m> nazywane potencjometrami lub rezystorami nastawnymi. <m>'
+			'Są one wykorzystywane do ustawiania jakiś wartości <m> w procesie kalibracji urządzenia lub do wprowadzania analogowej <m> wartości przez użytkownika w trakcie działania urządzenia. <m>'
+			'Na przykład w ten sposób odbywa się odczyt wychylenia joystików, <m> czy też kierownic używanych w grach komputerowych. <m>'
 		]
 	},
 	{

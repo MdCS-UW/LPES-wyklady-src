@@ -1,0 +1,30 @@
+\PassOptionsToPackage{unicode=true}{hyperref}
+\documentclass[11pt,aspectratio=169]{beamer}
+\usepackage{fontspec,  xcolor, graphicx,  fancyvrb, fvextra}
+\usetheme{boxes}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{frametitle}[default][center]
+\setsansfont{Latin Modern Sans}[Ligatures=NoCommon]
+\begin{document}
+\begin{frame}[fragile]
+
+\begin{itemize}
+	\item \Verb{tc}
+		konfiguracja ustawień kontroli przepływu (kolejkowanie, itp)
+	\item \Verb{ethtool}
+		konfiguracja kart ethernetowych pod względem takich parametrów jak prędkość transmisji, duplex, wake on lan, etc
+\end{itemize}
+\vspace{7pt}
+\begin{itemize}
+	\item \Verb{iwconfig}
+		konfiguracja (większości - do części trzeba użyć wlanctl-ng) bezprzewodowych interfejsów sieciowych
+	\item \Verb{wpa_supplicant}
+		konfiguracja większości bezprzewodowych interfejsów sieciowych z wsparciem dla WPA
+	\item \Verb{wpa_cli}
+		konfiguracja większości bezprzewodowych interfejsów sieciowych z wsparciem dla WPA
+	\item \Verb{iwlist}
+		dodatkowe informacje z bezprzewodowych interfejsów sieciowych (przydatna zwłaszcza opcja scan pokazująca dostępne sieci
+\end{itemize}
+
+\end{frame}
+\end{document}
