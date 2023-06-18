@@ -116,7 +116,7 @@ clipData += [
 			[0.0, eduMovie.runCode(code_while, [], cmd="bash")],
 		],
 		'text' : [
-			'Jako że petla while bardzo często używana jest w powiązaniu <m> z przekierowaniami strumieni trzeba w tym miejscu zwrócić uwagę, <m>'
+			'Jako że pętla while bardzo często używana jest w powiązaniu <m> z przekierowaniami strumieni trzeba w tym miejscu zwrócić uwagę, <m>'
 				'że przekierowanie standardowego wyjścia na standardowe wejście <m> odbywa się między dwoma różnymi procesami. <m>'
 			'Zatem w konstrukcjach typu while read, pętla while może być <m> uruchamiana w procesie potomnym obecnej powłoki, <m>'
 				'efektem czego będzie to że w tych przypadkach wykonywane modyfikacje <m> zmiennych wewnątrz takiej pętli nie będą widoczne poza nią. <m>'

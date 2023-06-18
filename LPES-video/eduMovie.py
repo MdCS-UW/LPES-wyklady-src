@@ -408,7 +408,7 @@ def sequenceToClip(cdata, timepoints, length, mode, screen = None, overlay=False
 	lasttime = 0
 	for i in range(len(cdata)):
 		if isinstance(cdata[i][0], str):
-			cdata[i][0] = eval(cdata[i][0], {'__builtins__': None}, timepoints)
+			cdata[i][0] = eval(cdata[i][0], {'__builtins__': None}, timepoints) # if "TypeError: 'NoneType' object is not subscriptable" here, probably cdata[i][0] marker is missing in timepoints
 		if lasttime > cdata[i][0]:
 			logInfo("  Warning: not monotonic time values in clip data (" + str(lasttime) + " " + str(cdata[i][0]) + ")", red)
 		lasttime = cdata[i][0]
@@ -598,6 +598,12 @@ def parseClipData(data, filename = None, endTitle = None, endTitleTime = 5, writ
 			video.write_audiofile(filename + ".mp3")
 		else:
 			video.write_videofile(filename + ".mp4", fps=24)
+			if 'title' in data[0]:
+				title = "LPES " + data[0]['title'][0] + ": " + " ".join(data[0]['title'][1:]).strip()
+				title_cmd = '-metadata title="' + title + '"'
+			else:
+				title_cmd = ''
+			os.system("ffmpeg -i " + filename + ".mp4 -i " + filename + ".vtt -c copy " + title_cmd + " " + filename + ".mkv")
 	
 	return video, subtitles
 

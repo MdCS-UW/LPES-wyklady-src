@@ -28,7 +28,7 @@ prompt_txt = eduMovie.prompt(clear=False)
 prompt_len_str = str( len( eduMovie.prompt(color=False) ) + 1 )
 
 clipData += [
-	{ 'comment': 'head tail diff patch' },
+	{ 'section': 'head tail diff patch' },
 	{
 		'console': [
 			[0.0, eduMovie.runCommandString(r"head -n3 /etc/passwd")],

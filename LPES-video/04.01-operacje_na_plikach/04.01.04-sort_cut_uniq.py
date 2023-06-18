@@ -25,7 +25,7 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'comment': 'sort cut paste join comm uniq' },
+	{ 'section': 'sortowanie i kolumny\n(sort, cut, ...)' },
 	{
 		'console': [
 			[0.0, eduMovie.runCommandString(r"head /etc/passwd > /tmp/passwd;  head /etc/group > /tmp/group")],

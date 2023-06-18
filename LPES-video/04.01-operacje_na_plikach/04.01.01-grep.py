@@ -27,7 +27,7 @@ except NameError: clipData = []
 clipData += [
 	{ 'title': [ "#04.1", "Operacje", "na plikach", "(tekstowych)" ] },
 	
-	{ 'comment': 'grep' },
+	{ 'section': 'wyszukiwanie tekstu - grep' },
 	{
 		'console': [
 			[0.0, ""],
@@ -71,7 +71,9 @@ clipData += [
 			'Warto zauważyć iż małe l wraz z v nie równoważy dużego L, <m> gdyż opcja <-v>[minus V] działa per linia, a opcje <-l, -L>[minus L] per plik. <m>'
 			
 			'W pokazanym przykładzie zignorowane <m> (poprzez przekierowanie do </dev/null>[dev null]) <m> zostały błędy związane z brakiem dostępu do pewnych plików w <etc>[e te ce]. <m>'
-			'Zwykły użytkownik nie może czytać niektórych <m> podkatalogów <etc>[e te ce] i jest to normalne. <m>'
+			'Zwykły użytkownik nie może czytać niektórych <m> podkatalogów <etc>[e te ce] i jest to normalne. <m>',
+			
+			'Grep potrafi wyszukiwać równocześnie wiele wyrażeń <m> - w tym celu można podawać je w opcjach <-e>[minus E] <m> lub pliku określonym przez <-f>[minus F]. <m>'
 		]
 	},
 	{

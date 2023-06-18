@@ -33,23 +33,30 @@ clipData += [
 			["duvsls", eduMovie.runCommandString(r"ls -lh bb.txt", cwd='demo')],
 			["duvsls2", eduMovie.runCommandString(r"du -h abc", cwd='demo')],
 			["duvsls2+1.3", eduMovie.runCommandString(r"ls -lh abc", cwd='demo')],
+			["duvsls3", eduMovie.runCommandString(r"du -h sparse-file", cwd='demo')],
+			["duvsls3+1.3", eduMovie.runCommandString(r"ls -l sparse-file", cwd='demo')],
+			["df", eduMovie.runCommandString(r"df -h .", cwd='demo')],
 		],
 		'text' : [
-			'Kolejnym programem związanym poniekąd w listowaniem plików <m> jest polecenie <du>[D U], które pozwala na uzyskanie informacji na temat rozmiaru danego pliku. <m>'
+			'Kolejnym programem związanym poniekąd z listowaniem plików <m> jest polecenie <du>[D U], które pozwala na uzyskanie informacji na temat rozmiaru danego pliku. <m>'
 			'Jeżeli dodamy opcje <-h>[minus h] będziemy mieli podawane to "po ludzku", <m> czyli w kilobajtach, megabajtach, itd. <m>'
-			'Jeżeli nie podamy tej opcji, wynik będzie podawany w blokach <m> o wielkości 1 kilobajta albo (na niektórych systemach) pół kilobajtowych. <mark name="duvsls" />'
+			'Jeżeli nie podamy tej opcji, wynik będzie podawany w blokach <m> o wielkości 1 kilobajta albo (na niektórych systemach) pół kilobajtowych. <mark name="duvsls" />',
 			
 			'Warto zwrócić uwagę na różnicę rozmiaru podawanego <m> przez polecenie <ls>[LS] oraz podawanego przez <du>[D U]. <m>'
 			'<ls>[LS] mówi nam że ten plik zajmuje 25 bajtów, <m> a <du>[D U] mówi nam że ten plik zajmuje 4 kilobajty. <m>'
 			'Żadna z tych komend tak naprawdę nie kłamię, po mimo że mówią co innego. <m>'
 			'<ls>[LS] informuje o tym ile mamy informacji w tym pliku, <m> czyli jaki jest rozmiar zawartości tego pliku <m> i zawartość tego pliku obejmuje 25 bajtów. <m>'
 			'Natomiast <du>[D U] mówi ile ten plik zajmuje na dysku twardym <m> w tym przypadku 4 kilo bajty. <m>'
-			'Dzieje się tak dlatego <m> że miejsce na dysku twardym alokowane jest w pewnych jednostkach <m> zwanych blokami i dla tego file-systemu rozmiar bloku <m> wynosi 4 kilobajty, czyli to jest najmniejsza jednostka którą plik może zająć. <m>'
-			'Nawet jeżeli plik ma mieć jeden bajt, to na dysku twardym <m> musimy na niego przeznaczyć cztery kilobajty. <mark name="duvsls2" />'
+			'Dzieje się tak dlatego, <m> że miejsce na dysku twardym alokowane jest w pewnych jednostkach, <m> zwanych blokami i w tym wypadku rozmiar bloku wynosi 4 kilobajty, <m>'
+			'czyli jest to najmniejsza część dysku, którą plik może zająć. <m>'
+			'Nawet jeżeli plik ma mieć jeden bajt danych, to na dysku twardym <m> musimy na niego przeznaczyć cztery kilobajty. <mark name="duvsls2" />',
 			
-			'Możemy też sprawdzić ile miejsca na dysku zajmuje plik pusty .<m> Jak widać <m> pusty plik zajmuje na dysku zero miejsca, ponieważ nie ma potrzeby alokowania na niego <m> przestrzeni dyskowej, gdyż w tym pliku nie ma żadnych informacji. <m>'
+			'Możemy też sprawdzić ile miejsca na dysku zajmuje plik pusty. <m>'
+			'Jak widać, pusty plik zajmuje na dysku zero miejsca, <m> ponieważ nie ma potrzeby alokowania na niego przestrzeni dyskowej, <m> gdyż w tym pliku nie ma żadnych informacji. <mark name="duvsls3" />'
+			'Można się spotkać także z sytuacją, że deklarowany rozmiar pliku <m> jest większy niż jego rzeczywista zawartość oraz zajmowane miejsce na dysku. <m>'
+			'Pliki tego typu nazywane są plikami rzadkimi (sparse files). <m>',
 			
-			'Z kolei przy pomocy polecenia <df>[DF] możemy sprawdzać <m> dostępność miejsca na dysku twardym. <m>'
+			'Z kolei przy pomocy polecenia <df>[DF] możemy sprawdzać <m> dostępność miejsca na dysku twardym. <mark name="df" />'
 			'Również polecam opcje <-h>[minus h], <m> dzięki której zostanie to wypisane w ludzkich jednostkach. <m>'
 			'Jeżeli jej nie użyjemy to mamy informację dużo bardziej precyzyjną <m> (bo w pojedynczych blokach) <m>, ale też mniej czytelną dla człowieka. <m>'
 			

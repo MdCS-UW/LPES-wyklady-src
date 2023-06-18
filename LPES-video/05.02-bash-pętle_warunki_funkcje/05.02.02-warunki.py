@@ -97,7 +97,7 @@ clipData += [
 			'Instrukcji if możemy użyć także do warunkowego wykonywania jakiś <m> instrukcji w zależności od wyniku działania innego polecenia. <m>'
 			'W pokazanym przykładzie używamy polecenia grep aby sprawdzić czy <m> pierwszy argument przekazany do skryptu występuje w pliku <passwd>[pass wu de]. <m>'
 			'Standardowe wyjście i wyjście błędu grep przekierowane jest do </dev/null>[dev null] <m> aby grep jedynie zwracał kod powrotu nie wypisując nic na ekran. <m>'
-			'Jeżeli grep zakończył się sukcesem, czyli znalazł szukany ciąg znaków <m> w pliku <passwd>[pass wu de] to to wypisujemy odpowiedni komunikat. <mark name="ifgrep2" />'
+			'Jeżeli grep zakończył się sukcesem, czyli znalazł szukany ciąg znaków <m> w pliku <passwd>[pass wu de] to wypisujemy odpowiedni komunikat. <mark name="ifgrep2" />'
 			
 			'Rolę instrukcji if może pełnić też poznany już podwójny ampersand <m> służący do łączenia poleceń w taki sposób że kolejne wykonywane <m> jest tylko gdy poprzednie zakończyło się sukcesem. <mark name="ifnotgrep" />'
 			

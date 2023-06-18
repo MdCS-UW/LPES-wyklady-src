@@ -97,7 +97,9 @@ clipData += [
 			"Ważna jest możliwość uzyskania informacji <m> na temat dostępnych opcji danego programu. <m>"
 			"Możemy w tym celu skorzystać z dokumentacji systemowej <m> w ramach polecenia man, gdzie opisane są nie tylko poszczególne programy, <m>"
 			"ale także pliki konfiguracyjne czy też funkcje systemowe <m> oraz funkcje biblioteki standardowej języka C. <m>"
-			'Alternatywnym systemem dokumentacji jest info, <m> który możemy przeglądać przy pomocy poleceń info lub wygodniejszego <pinfo>[p info]. <m>'
+			"Poszczególne typy zagadnień znajdują się w osobnych, numerowanych rozdziałach. <m>"
+			"I jeżeli strona o danym temacie występuje w kilku rozdziałach, <m> to należy podać numer rozdziału, z którego chcemy wyświetlić informacje. <m>"
+			"Alternatywnym systemem dokumentacji jest info, <m> który możemy przeglądać przy pomocy poleceń info lub wygodniejszego <pinfo>[p info]. <m>"
 		]
 	},
 	{

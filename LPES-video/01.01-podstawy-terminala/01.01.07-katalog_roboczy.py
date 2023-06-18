@@ -41,12 +41,7 @@ clipData += [
 			'czyli taką która właśnie rozpoczyna się od tego korzenia. <m>'
 			
 			'Możliwe jest podawanie wszystkich ścieżek jako bezwzględnych, <m> czyli rozpoczynających się od korzenia, <m> jednak w codziennym użytkowaniu systemu niekoniecznie byłoby to wygodne. <m>'
-			'W wielu wypadkach chcemy móc wyrazić ścieżkę względem <m> jakiegoś katalogu i w tym celu stosuje się ścieżki względne. <m>'
-			
-			'Katalogiem względem którego wyrażana jest ścieżka względna <m> może być katalog, w którym znajduje się obiekt ją zawierający <m>'
-			'lub znacznie częściej jest to tak zwany <m> bieżący katalog roboczy programu korzystającego z tej ścieżki. <m>'
-			'Powłoka przechowuje informacje na temat ścieżki, <m> w której się aktualnie znajduje, <m> czyli względem której mają być interpretowane ścieżki względne <m> i udostępnia ją uruchamianym programom. <m>'
-			'Informację tą możemy wypisać przy pomocy polecenia <pwd>[Pe Wu De], <m> często jest podawana także przed znakiem zachęty, <m> a modyfikowana może ona być przy pomocy polecenia <cd>[Ce De]. <m>'
+			'W wielu wypadkach chcemy móc wyrazić ścieżkę względem <m> jakiegoś innego katalogu i w tym celu stosuje się ścieżki względne. <m>'
 		]
 	},
 	{
@@ -126,11 +121,23 @@ clipData += [
 			[29.922815, "o", eduMovie.prompt("/usr/bin")],
 		],
 		'text' : [
-			# Ekran: kilka cd pwd
+			'Katalogiem względem którego, wyrażana jest ścieżka względna <m> może być katalog, w którym znajduje się obiekt ją zawierający <m> lub, znacznie częściej, jest to tak zwany <m> bieżący katalog roboczy. <m>'
+			
+			'Jest on określany niezależnie dla każdego z działających programów. <m>'
+			'Typowo pierwotna jego wartość jest ustawiana na <m> bieżący katalog roboczy powłoki która uruchomiła dany program. <m>'
+			'Może być on zmieniony przez działający program przy użyciu odpowiedniej funkcji systemowej. <m>'
+			
+			'W przypadku powłoki zgodnej z sh <m> informację o jej bieżącym katalogu roboczym <m> możemy wypisać przy pomocy polecenia <pwd>[Pe Wu De]. <m>'
+			'Często jest ona także podawana przed znakiem zachęty. <m>'
+			'Natomiast zmiany tego katalogu możemy dokonać przy pomocy polecenia <cd>[Ce De]. <m>'
+			
+			'W ten sposób zmienimy katalog względem którego <m> będą interpretowane ścieżki względne w danej powłoce <m> i w programach przez nią uruchamianych po wykonaniu polecenia <cd>[Ce De]. <m>'
+			'Zmiana ta nie wpłynie na uruchomione wcześniej i nadal działające w tle programy.',
+			
 			'Ważnym elementem składowym ścieżek względnych są dwie kropki <m> oznaczające katalog nadrzędny. <m>'
 			'Pozwalają one nam z dowolnego katalogu wrócić ścieżką względną <m> nawet aż do korzenia, a zatem dojść także do dowolnego innego pliku w naszym drzewie. <m>'
 			'Pojedyncza kropka oznacza aktualny katalog w ścieżce, <m> czyli jeżeli jest na początku ścieżki to oznacza katalog względem <m> którego jest interpretowana ścieżka względna (na przykład bieżący katalog roboczy). <m>'
-
+			
 			'Sama nazwa pliku lub katalogu również stanowi ścieżkę względną <m> (względem katalogu w którym się on znajduje), <m>'
 			'niekiedy jednak stosowany jest zapis kropka ukośnik nazwa pliku, <m> który pozwala na bardziej jednoznaczne zasugerowanie iż mamy na myśli ścieżkę a nie jakąś nazwę. <m>'
 			'Dotyczy to zwłaszcza uruchamiania programów <m> znajdujących się w bieżącym katalogu, gdyż w tym wypadku nazwa polecenia <m> nie zawierająca ukośnika nie jest traktowana jako ścieżka. <m>'

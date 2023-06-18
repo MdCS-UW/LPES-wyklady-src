@@ -25,7 +25,7 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'comment': 'napisy' },
+	{ 'section': 'napisy' },
 	{
 		'console': [
 			[0.0, eduMovie.runCommandString(r"echo 'Ala ma kota' | sed -e 's#kota#psa#g'")],
@@ -43,7 +43,7 @@ clipData += [
 			'Mamy zatem podstawowe narzędzia do modyfikacji <m> i wykonywania innych operacji na napisach. <mark name="wc" />'
 			
 			'W przypadku zarówno plików jak i napisów przydatna może być także <m> komenda <wc>[Wu Ce], która umożliwia nam liczenie liter (za pomocą opcji <-m>[minus M]), bajtów (opcja <-c>[minus C])'
-			', słów (opcja <-w>[minus W]) oraz linii (<-l>[minus L]). <m>'
+			', słów (opcja <-w>[minus wu]) oraz linii (<-l>[minus L]). <m>'
 			'Warto zauważyć różnicę pomiędzy liczeniem bajtów a znaków, <m> która objawia się dla znaków z poza podstawowego zakresu ASCII. <m>'
 			'W tym wypadku bajtów mamy o 2 więcej, <m> bo użyliśmy dwóch polskich znaków które w utf-8 są kodowane dwubajtowo. <m>'
 		]

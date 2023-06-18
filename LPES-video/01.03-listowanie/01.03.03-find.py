@@ -128,7 +128,7 @@ clipData += [
 			'Używając warunków exec i <execdir>[exec dir] należy pamiętać że wyłączają one <m> domyślne zachowanie find polegające na wypisywaniu znalezionych plików. <m>'
 			'Możemy je wypisać używając na przykład warunku <-print>[minus print] <mark name="print"/>'
 			
-			'Należy też zauważyć że find sprawdza warunki po koleji <m> – od lewej do prawej do napotkania pierwszego który nie został spełniony. <m>'
+			'Należy też zauważyć że find sprawdza warunki po kolei <m> – od lewej do prawej do napotkania pierwszego który nie został spełniony. <m>'
 			'Dlatego w pokazanym na ekranie przykładzie warunek print <m> wykonany został dla wszystkich plików, natomiast exec echo dla żadnego <m> bo poprzedni exec zawsze zwracał false i przerywał dalsze sprawdzanie warunków. <m>'
 		]
 	},

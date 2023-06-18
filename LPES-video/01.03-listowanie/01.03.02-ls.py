@@ -53,9 +53,10 @@ clipData += [
 		'text' : [
 			'Listowanie plików jest operacją na tyle istotną i użyteczną <m> że oczywiście nie używamy do niego na ogół komendy echo <m>'
 			'tylko dedykowanej komendy <ls>[LS] <m> która pozwala <m> na znacznie więcej niż echo i znaki uogólniające. <mark name="ls2" />'
-			'Dzięki niej możemy na przykład listować szczegóły na temat <m> danych plików, takich jak informacje na temat '
+			'Dzięki niej możemy na przykład listować, <m> z użyciem opcji <-l>[minus l], szczegóły na temat danych plików. <m>'
+			'W tym wypadku podawane są informacje na temat '
 			'<mark name="ls2a" /> typu pliku (myślnik oznacza zwykły plik, <d>[de] oznacza katalog i tak dalej), <mark name="ls2b" /> uprawnień właściciela, <mark name="ls2c" /> grupy właścicielskiej,<mark name="ls2d" /> pozostałych użytkowników, '
-			'<mark name="ls2e" /> nazwę właściciela, <mark name="ls2f" /> grupy właścicielskiej, <mark name="ls2g" /> rozmiaru tego pliku oraz <mark name="ls2h" /> daty jego modyfikacji. <mark name="ls2i" /> <m>'
+			'<mark name="ls2e" /> nazwę właściciela, <mark name="ls2f" /> grupy właścicielskiej, <mark name="ls2g" /> rozmiaru tego pliku oraz <mark name="ls2h" /> daty jego modyfikacji. <mark name="ls2i" />'
 			
 			'Uprawnienia dla każdego z 3 poziomów (właściciela, grupy i pozostałych) <m> składają się z 3 liter – obecność danej litery <m> oznacza posiadanie danego prawa,<m> a myślnik jego brak. <m>'
 			'Są to <r>[er] – <m>odczyt, <w>[wu] – <m>zapis i x – <m>wykonywanie. <m> Prawa odczytu i zapisu są dość oczywiste. <m>'

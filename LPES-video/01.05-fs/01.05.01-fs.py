@@ -43,7 +43,8 @@ clipData += [
 			'Mamy katalog lib, lub nawet kilka podobnych katalogów, <m> które zawierają biblioteki. <m>'
 			
 			'Trochę analogiczne drzewo mamy w katalogu <usr>[U S R], <m> gdzie również mamy bin, <sbin>[S bin], lib i kilka innych katalogów. <m>'
-			'Klasyczny podział jest taki że tych katalogach bezpośrednio <m> w katalogu głównym znajdują się programy i biblioteki <m> niezbędne do uruchomienia systemu. <m>'
+			'W katalogach umieszczonych bezpośrednio w katalogu głównym <m> umieszczane były programy i biblioteki <m> niezbędne do uruchomienia systemu, a w <usr>[U S R] pozostałe. <m>'
+			'Obecnie podział ten bardzo często nie jest już stosowany, <m> a w celu zachowania kompatybilności wstecznej, <m> w katalogu głównym znajdują linki symboliczne do podkatalogów w <usr>[U S R]. <m>'
 			'Natomiast w <usr>[U S R] są programy i narzędzia oraz biblioteki <m> niebędące niezbędnymi do uruchomienia systemu, <m>'
 			'dzięki czemu katalog <usr>[U S R] może być montowany po uruchomieniu systemu <m> i wtedy one stają się dostępne. <m>'
 		]

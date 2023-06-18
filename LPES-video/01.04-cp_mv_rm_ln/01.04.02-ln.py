@@ -53,11 +53,12 @@ clipData += [
 			'Należy powiedzieć kilka słów o tym jak działają linki, <m> oraz czym się różnią linki twarde od linków symbolicznych. <m>'
 			
 			'Link twardy <m> jest innym dowiązaniem na te same dane na dysku twardym. <m>'
-			'Mamy tutaj kilka poziomów dostępu do danych znajdujących się na dysku twardym <m> – fizyczną lokalizację tych danych gdzieś na dysku, <m> coś co można by w uproszczeniu nazwać uchwytem do takich danych <m>(nazywany <m> <i-node>[aj nołd]), <m>'
+			'Mamy tutaj kilka poziomów dostępu do danych znajdujących się na dysku twardym <m> – fizyczną lokalizację tych danych gdzieś na dysku, <m>'
+			'coś co można by w uproszczeniu nazwać uchwytem do takich danych <m>(nazywany <i-node>[aj nołd]), <m>'
 			"oraz wpis w katalogu, który określa nazwę pliku <m> i odnośnik go odpowiedniego uchwytu (<i-node'a>[aj nołda]). <m>"
 			
 			'Link twardy, który widzimy na ilustracji zaznaczony kolorem czerwonym, <m> utworzony komendą <ln plik2.txt link1.txt>[L N plik dwa TXT link jeden TXT], <m>'
-			'stanowi po postu kolejne dowiązanie <m> do tych samych danych do których dowiązaniem był <plik2.txt>[plik dwa TXT]. <m>'
+			'stanowi po prostu kolejne dowiązanie <m> do tych samych danych do których dowiązaniem był <plik2.txt>[plik dwa TXT]. <m>'
 			
 			'Ze względu na taką naturę linków twardych ograniczają się one <m> do pojedynczego systemu plików (urządzenia) na którym znajdują się dane. <m>'
 			'Typowo nie jest również dopuszczalne tworzenie linków twardych do katalogów.'
@@ -133,11 +134,11 @@ clipData += [
 			'Podawany rozmiar linku symbolicznego wynika z długości przechowywanej ścieżki <m> – tyle danych zawiera sam link symboliczny, natomiast rozmiar pokazywany przez <du>[D U] <m> dla linku symbolicznego będzie wynosił zero, <m>'
 			'gdyż sam link nie zajmuje osobnego miejsca na dysku, <m> a jedynie zwiększa rozmiar zajmowany przez strukturę opisującą katalog. <m>'
 			
-			'Należy mieć świadomość iż w przypadku linków symbolicznych nie mamy <m> takiego podobieństwa linku do obiektu na który był wskazuje link, <m> jak w przypadku linków twardych. <mark name="linksymrm" />'
+			'Należy mieć świadomość, iż w przypadku linków symbolicznych nie mamy <m> takiego podobieństwa linku do obiektu na który wskazuje ten link, <m> jak w przypadku linków twardych. <mark name="linksymrm" />'
 			'W przypadku linków symbolicznych, usunięcie pliku na który wskazywał link, <m> czy też nawet zmiana lokalizacji bądź nazwy takiego pliku, <m>'
 			'prowadzi do tego że link symboliczny staje się linkiem zerwanym <m> i tracimy dostęp do danych z wykorzystaniem tego linku. <m>'
 			'Jeżeli plik na który wskazywał link zostanie skutecznie usunięty, <m> czyli nie będzie ani tego pliku ani linków twardych do niego to dane też zostaną usunięte, <m>'
-			'bez względu na to już wskazywały na nie jakieś linki symboliczne, czy nie. <m>'
+			'bez względu na to czy już wskazywały na nie jakieś linki symboliczne, czy nie. <m>'
 		]
 	},
 	{

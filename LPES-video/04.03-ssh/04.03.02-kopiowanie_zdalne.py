@@ -65,7 +65,8 @@ clipData += [
 		'text' : [
 			# Ekran: tab tab na z  bz  xz ...
 			"Kompresji możemy też używać niezależnie <m> przy pomocy programów takich jak gzip, <bzip2>[B ZIP dwa], <xz>[X Zet]. <m>"
-			"W systemie często są dostępne polecenia pozwalające operować bezpośrednio <m> na skmpresowanych plikach takie jak na przykład <zless>[Zet LESS] <m> uruchamiający less'a na zawartości pliku skompresowanego <gzip'em>[G Zipem], <m>"
+			"W systemie często są dostępne polecenia pozwalające operować bezpośrednio <m> na skompresowanych plikach,"
+			"takie jak <zless>[Zet LESS] <m> uruchamiający less'a na zawartości pliku skompresowanego <gzip'em>[G Zipem], <m>"
 			'<bzgrep>[B Zet grep] uruchamiający grepa na pliku <m> skompresowanym <bzip2>[B ZIP dwa], i tak dalej. <m>'
 		]
 	},

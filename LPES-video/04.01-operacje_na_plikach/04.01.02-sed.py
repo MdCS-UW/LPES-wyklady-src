@@ -25,7 +25,7 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'comment': 'sed' },
+	{ 'section': 'zautomatyzowana\nedycja plików\n(sed)' },
 	{
 		'console': [
 			[0.0, eduMovie.runCommandString(r"sed -e '' /etc/networks")],
