@@ -135,7 +135,7 @@ clipData += [
 			
 			'Łańcuchy posiadają także typy związane z akcjami które mogą wykonywać, <m> standardowym typem jest filter pozwalający na filtrowanie pakietów. <m>'
 			'Istnieją także dwa specyficzne typy, które mogą być użyte tylko dla <m> rodzin związanych z protokołami IP i niektórych punktów zaczepienia <m>'
-			'– nat, który odpowiada za zamiana adresów sieciowych, <m> w oparciu o śledzenie połączeń <m>'
+			'– nat, który odpowiada za zamianę adresów sieciowych, <m> w oparciu o śledzenie połączeń <m>'
 			'oraz route, który umożliwia zawrócenie pakietów <m> z punktu zaczepienia output do ponownego przeroutowania. <mark name="rodzinytabel" />'
 			
 			'Każda, wspomniana wcześniej, tabela <m> przypisana jest do pewnej rodziny związanej <m> z poziomem stosu sieciowego na którym funkcjonuje <m> i z rodziną adresów na których operuje. <m>'

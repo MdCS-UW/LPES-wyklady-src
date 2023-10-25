@@ -131,9 +131,9 @@ clipData += [
 		'image': [
 			[0.0, eduMovie.convertFile('LED.svg', margins=0)],
 			["fotodioda", eduMovie.convertFile('LED_foto.svg', margins=0)],
-			["prost1", eduMovie.circuitjs("prost1", 0, 10)],
-			["prost2", eduMovie.circuitjs("prost2", 0, 10)],
-			["prost3", eduMovie.circuitjs("prost3", 0, 10)],
+			["prost1", eduMovie.circuitjs("prost1", 0, 13)],
+			["prost2", eduMovie.circuitjs("prost2", 0, 13)],
+			["prost3", eduMovie.circuitjs("prost3", 0, 27)],
 		],
 		'text' : [
 			'Z ważniejszych typów diod należy jeszcze wspomnieć o diodach świecących <m> oraz o fotodiodach (które są detektorami światła). <m>'

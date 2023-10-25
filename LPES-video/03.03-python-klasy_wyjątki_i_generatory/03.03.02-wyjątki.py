@@ -107,7 +107,7 @@ clipData += [
 			'Pierwszy blok kodu (związany ze słowem kluczowym try) <m> wykonywany jest normalnie. <m>'
 			'Jeżeli wystąpi w nim wyjątek (który nie był obsłużony wewnątrz <m> funkcji w nim użytych) to wykonywanie tego kodu jest w tym momencie przerwane <m> i program przechodzi do odpowiedniego bloku <except>[eksept]. <m>'
 			'Bloków <except>[eksept] może być wiele, wybierany jest ten po którym <m> podana jest klasa zgodna z klasą użytą do "rzucenia wyjątku". <m>'
-			'Jeżeli żadna z podanych klas nie pasuje <m> to wykonany będzie <m> domyślny wariant (czyli ten bez podanej klasy), <m>'
+			'Jeżeli żadna z podanych klas nie pasuje <m> to wykonany będzie domyślny wariant (czyli ten bez podanej klasy), <m>'
 			'a jeżeli go nie ma to wyjątek pozostanie nie obsłużony <m> i będzie propagowany w górę stosu wywołań funkcji. <mark name="_raise" />'
 			
 			'Możemy rzucać własne wyjątki z użyciem słowa kluczowego raise <m> po którym wywołujemy konstruktor klasy pochodnej od <BaseException>[Base Eksepszyn] <m> lub podajemy obiekt takiej klasy. <m>'

@@ -21,6 +21,86 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+import xml.etree.ElementTree as xml
+
+def updateSVG(inFile, outFile, ids1=[], ids2=[], ids3=[]):
+	tree = xml.parse(inFile)
+	
+	treeIds = {}
+	for e in tree.findall(".//"):
+		i = e.attrib.get("id")
+		if i is not None:
+			treeIds[i] = e
+	
+	for i in ids1:
+		style = treeIds[i].attrib.get("style")+";"
+		style = re.sub("^(fill|stroke):[^;]*;", "", style)
+		style = re.sub(";(fill|stroke):[^;]*;", ";", style)
+		style += "fill:#ff33ff;stroke:#ff33ff"
+		treeIds[i].set("style", style)
+		
+	for i in ids2:
+		style = treeIds[i].attrib.get("style")+";"
+		style = re.sub("^fill:[^;]*;", "", style)
+		style = re.sub(";fill:[^;]*;", ";", style)
+		style += "fill:#ffffff"
+		treeIds[i].set("style", style)
+	
+	for i in ids3:
+		style = treeIds[i].attrib.get("style")+";"
+		style = re.sub("^stroke:[^;]*;", "", style)
+		style = re.sub(";stroke:[^;]*;", ";", style)
+		style += "stroke:#ff33ff"
+		treeIds[i].set("style", style)
+	
+	with open(outFile, 'wb') as f:
+		tree.write(f, encoding='utf-8')
+
+def convertSVG(inFile, outFile, name):
+	if name == "cpu_adres_instrukcji":
+		updateSVG(inFile, outFile,
+			["licznik_programu", "from_licznik_programu", "from_adres_mux", "zatrzask_adresu", "to_szyna_adresowa"],
+			["licznik_programu_txt", "zatrzask_adresu_txt"]
+		)
+	elif name == "cpu_odczyt":
+		updateSVG(inFile, outFile,
+			["zatrzask_adresu", "to_szyna_adresowa", "konfigurator", "sygnaly_kontrolne", "data_bus", "data_bus_up", "internal_bus", "to_rejestr_instruckcji"],
+			["zatrzask_adresu_txt", "konfigurator_txt"],
+			["sygnaly_kontrolne2"]
+		)
+	elif name == "cpu_rejestr_instrukcji":
+		updateSVG(inFile, outFile,
+			["rejestr_instruckcji"],
+			["rejestr_instruckcji_txt"]
+		)
+	elif name == "cpu_dekodowanie_instrukcji":
+		updateSVG(inFile, outFile,
+			["rejestr_instruckcji", "to_dekoder_instruckcji", "dekoder_instruckcji", "to_konfiguracja"],
+			["rejestr_instruckcji_txt", "dekoder_instruckcji_txt"]
+		)
+	elif name == "cpu_konfiguracja":
+		updateSVG(inFile, outFile,
+			["dekoder_instruckcji", "to_konfiguracja", "konfigurator", "sygnaly_kontrolne9"],
+			["dekoder_instruckcji_txt", "konfigurator_txt"],
+			["sygnaly_kontrolne3", "sygnaly_kontrolne4", "sygnaly_kontrolne5", "sygnaly_kontrolne6", "sygnaly_kontrolne7", "sygnaly_kontrolne8", "sygnaly_kontrolne10", "sygnaly_kontrolne11", "sygnaly_kontrolne12"]
+		)
+	elif name == "cpu_alu":
+		updateSVG(inFile, outFile,
+			["alu"],
+			["alu_txt"]
+		)
+	elif name == "cpu_memory":
+		updateSVG(inFile, outFile,
+			["to_from_registers", "data_bus", "data_bus_up", "data_bus_down", "internal_bus"],
+			[]
+		)
+	else:
+		raise BaseException("Unknown command " + name + " for convertSVG")
+	return outFile
+
+def markedElement(src, name):
+	return eduMovie.convertFile(src, convertSVG, name, negate=True)
+
 try: clipData
 except NameError: clipData = []
 
@@ -58,7 +138,15 @@ clipData += [
 	},
 	{
 		'image': [
-			[0.0, eduMovie.convertFile('cpu.svg', negate=True)], # TODO podświetlanie omawianego elementu
+			[0.0, eduMovie.convertFile('cpu.svg', negate=True)],
+			["cpu_adres_instrukcji", markedElement('cpu.svg', "cpu_adres_instrukcji")],
+			["cpu_odczyt", markedElement('cpu.svg', "cpu_odczyt")],
+			["cpu_rejestr_instrukcji", markedElement('cpu.svg', "cpu_rejestr_instrukcji")],
+			["cpu_dekodowanie_instrukcji", markedElement('cpu.svg', "cpu_dekodowanie_instrukcji")],
+			["cpu_konfiguracja", markedElement('cpu.svg', "cpu_konfiguracja")],
+			["cpu_alu", markedElement('cpu.svg', "cpu_alu")],
+			["cpu_memory", markedElement('cpu.svg', "cpu_memory")],
+			["cpu_clear", eduMovie.convertFile('cpu.svg', negate=True)],
 		],
 		'text' : [
 			'Zajmiemy się trochę bliżej popularniejszy mimo wszystko systemami procesorowymi. <m>'
@@ -72,19 +160,19 @@ clipData += [
 				'są nimi duże systemy obliczeniowe, a także różnego rodzaju mikrokontrolery <m> znajdujące się w sterownikach przemysłowych, centralkach alarmowych, <m> telewizorach, sprzęcie AGD i tak dalej. <m>'
 			'Procesor pracuję w cyklach rozkazowych, czyli w ramach <m> jednego bądź kilku cykli zegara wykonuje ciąg kroków służący <m> pobraniu z pamięci kolejnej instrukcji i jej przetworzeniu. <m>',
 			
-			'Trochę uproszczony model tego może wyglądać w sposób następujący: <m>'
+			'Trochę uproszczony model tego może wyglądać w sposób następujący: <mark name="cpu_adres_instrukcji" />'
 			'Procesor wystawia na szynę adresową magistrali umożliwiającej dostęp do pamięci <m> adres będący zawartością tak zwanego licznika programu. <m>'
-			'Jest to adres instrukcji, która ma zostać pobrana i wykonana. <m>'
-			'Po wystawieniu tego adresu generowany jest cykl odczytu na tej szynie. <m>'
-			'A odczytany kod instrukcji zapamiętywany jest w rejestrze instrukcji, <m> następuje też zwiększenie licznika programu o 1 <m> po to żeby móc w następnym cyklu pobrać kolejną instrukcję. <m>',
+			'Jest to adres instrukcji, która ma zostać pobrana i wykonana. <mark name="cpu_odczyt" />'
+			'Po wystawieniu tego adresu generowany jest cykl odczytu na tej szynie. <mark name="cpu_rejestr_instrukcji" />'
+			'A odczytany kod instrukcji zapamiętywany jest w rejestrze instrukcji, <m> następuje też zwiększenie licznika programu o 1 <m> po to żeby móc w następnym cyklu pobrać kolejną instrukcję. <mark name="cpu_dekodowanie_instrukcji" />',
 			
-			'Następnym krokiem jest dekodowanie instrukcji <m> – znajdujący się w procesorze układ dekodera dokonuje zdekodowania <m> instrukcji znajdującej się we wspomnianym rejestrze <m>'
+			'Następnym krokiem jest dekodowanie instrukcji <m> – znajdujący się w procesorze układ dekodera dokonuje zdekodowania <m> instrukcji znajdującej się we wspomnianym rejestrze <mark name="cpu_konfiguracja" />'
 				'i konfiguracji procesora w zależności od jej kodu i opcjonalnie argumentów. <m>'
-			'Konfiguracja ta może polegać na ustawienie odpowiednich multiplekserów, <m> czyli właśnie takich przełączników elektronicznych pomiędzy rejestrami <m> a jednostką wykonującą obliczenia <m>'
-				'(tak zwanym ALU – jednostką arytmetyczno-logiczną), <m> wystawieniu odpowiedniego kodu operacji dla ALU <m> (celem wykonanie operacji na przykład na zawartości określonych rejestrów). <m>'
+			'Konfiguracja ta może polegać na ustawienie odpowiednich multiplekserów, <m> czyli właśnie takich przełączników elektronicznych pomiędzy rejestrami <m> a jednostką wykonującą obliczenia <mark name="cpu_alu" />'
+				'(tak zwanym ALU – jednostką arytmetyczno-logiczną), <m> wystawieniu odpowiedniego kodu operacji dla ALU <m> (celem wykonanie operacji na przykład na zawartości określonych rejestrów). <mark name="cpu_memory" />'
 			'Może to być także podpięcie wskazanego rejestru do szyny danych <m> (celem skomunikowania go z pamięcią - wykonania odczytu lub zapisu do pamięci, <m>'
 				'bądź celem załadowania jego wartości <m> do licznika programu aby wykonać skok) i tym podobne operacje. <m>'
-			'Ostatnim krokiem takiego cyklu jest wykonanie tych operacji, <m> czyli wykonanie wcześniej zdekodowanej instrukcji, <m> zgodnie z ustawioną konfiguracją procesora. <m>',
+			'Ostatnim krokiem takiego cyklu jest wykonanie tych operacji, <m> czyli wykonanie wcześniej zdekodowanej instrukcji, <m> zgodnie z ustawioną konfiguracją procesora. <mark name="cpu_clear" />',
 			
 			'Oczywiście przedstawiony model jest przykładowy <m> – w rzeczywistości działanie realnego procesora może wyglądać trochę inaczej. <m>'
 			'Na przykład długość instrukcji może być większa od długości słowa, <m> więc będzie ładowana w kilku fazach, <m> gdyż cała instrukcja nie mieści się jednorazowo na szynie danych. <m>'
@@ -144,7 +232,7 @@ clipData += [
 			["c_asm_clear", eduMovie.clear + code_C_ASM],
 		],
 		'text' : [
-			'Instrukcje skoku które w programowaniu są związane z <m> takimi konstrukcjami jak pętle i warunki polegają, jak wspomniałem, <m> na załadowaniu nowej wartości do licznika programu. <m>'
+			'Jak pamiętamy, instrukcje skoku, które w programowaniu są związane z <m> takimi konstrukcjami jak pętle i warunki, <m> polegają na załadowaniu nowej wartości do licznika programu. <m>'
 			'W przypadku skoków warunkowych (takich jakich używają instrukcje warunkowe) <m> może to być np. zależne od rejestru flag jednostki ALU, <m> ustawianych w wyniku wykonania poprzedniej operacji arytmetycznej. <mark name="c_asm" />'
 			
 			'Na ekranie widzimy fragment kodu asemblerowego x86 wygenerowanego <m> przez kompilator gcc dla widocznej konstrukcji if - else. <mark name="c_asm_if" />'

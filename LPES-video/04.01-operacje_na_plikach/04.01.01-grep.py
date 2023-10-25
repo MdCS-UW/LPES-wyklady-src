@@ -61,7 +61,7 @@ clipData += [
 				'<-v>[minus V], które powoduje wypisywanie linii niepasujących do podanego wyrażenia regularnego (zamiast linii pasujących) oraz <mark name="minusi" />'
 				'<-i>[minus I], które spowoduje ignorowanie wielkości liter. <m>'
 			
-			"Możemy również wymusić przeszukiwanie przez grep'a <m> plików binarnych, tak jakby były plikami tekstowymi, "
+			"Możemy również wymusić przeszukiwanie przez grep'a <m> plików binarnych, tak jakby były plikami tekstowymi, <m>"
 				"czyli jeżeli grep'owi wydaje się że plik jest plikiem binarnym <m> to możemy nakazać mu potraktować ten plik jak plik tekstowy. <m>"
 			'Służy do tego opcja <-a>[minus A]. <mark name="greprekursywny" />'
 			

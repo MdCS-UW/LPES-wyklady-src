@@ -108,7 +108,7 @@ clipData += [
 		'console': [
 			[0.0, "x", eduMovie.prompt() + "tar -cf - pliki* | ssh user@host 'cat > plik.tar'\r\n"],
 			["spakujrozpakuj", "x", eduMovie.prompt() + "tar -cf - pliki* | ssh user@host 'tar -xf - -C /tmp'\r\n"],
-			["kompresja", "x", eduMovie.prompt() + "tar -czf - pliki* | ssh user@host 'ssh -xzf - -C /tmp'\r\n"],
+			["kompresja", "x", eduMovie.prompt() + "tar -czf - pliki* | ssh user@host 'tar -xzf - -C /tmp'\r\n"],
 		],
 		'text' : [
 			"W przypadku kopiowania (zwłaszcza przez sieć) wielu małych plików <m> przydatne może być użycie do tego tar'a <m> czyli poznanego już archiwizera umieszczającego wiele plików w jednym strumieniu. <m>"

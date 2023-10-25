@@ -78,7 +78,7 @@ clipData += [
 			
 			'Możemy również łączyć pliki pod względem pasującego pola <m> przy pomocy komendy join, która działa trochę tak jak join w bazach SQL. <m>'
 			'Opcja <-t>[minus t] określa separator pól, opcja <-1>[minus jeden] określa <m> pole z pierwszego pliku, <-2>[minus dwa] pole z drugiego pliku. <m>'
-			'Polecenie wypisze złączone linii z obu plików <m> dla których podane pola są równe. <m>'
+			'Polecenie wypisze złączone linie z obu plików <m> dla których podane pola są równe. <m>'
 			
 			'W przykładzie widocznym na ekranie uzyskaliśmy połączenie <m> (skróconych na potrzeby tego przykładu) <m> plików <passwd>[pass wu de] i group w oparciu o numer grupy. <m>'
 			'Widzimy też że join wypisał komunikat o nie posortowaniu <m> pliku wejściowego – dla poprawnego działania pliki wejściowe <m> powinny być posortowane wg pola używanego do operacji join. <m>'

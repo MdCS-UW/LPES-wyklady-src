@@ -38,28 +38,28 @@ clipData += [
 			["ls2 + 4.206473", "o", " "],
 			["ls2 + 4.398544", "o", "a"],
 			["ls2 + 4.750546", "o", "\r\n"],
-			["ls2 + 4.755546", "o", "-rw-r--r-- 1 rrp users 4  2021-01-02 18:15:22  a\r\n"],
+			["ls2 + 4.755546", "o", "-rw-r--r-- 1 rrp users 4 Jan  2 18:15  a\r\n"],
 			["ls2 + 4.756477", "o", eduMovie.prompt()],
-			["ls2a", "o", eduMovie.editBegin(1) + "" + eduMovie.markBegin + "-" + eduMovie.markEnd + "rw-r--r-- 1 rrp users 4  2021-01-02 18:15:22  a" + eduMovie.editEnd(1)],
-			["ls2b", "o", eduMovie.editBegin(1) + "-" + eduMovie.markBegin + "rw-" + eduMovie.markEnd + "r--r-- 1 rrp users 4  2021-01-02 18:15:22  a" + eduMovie.editEnd(1)],
-			["ls2c", "o", eduMovie.editBegin(1) + "-rw-" + eduMovie.markBegin + "r--" + eduMovie.markEnd + "r-- 1 rrp users 4  2021-01-02 18:15:22  a" + eduMovie.editEnd(1)],
-			["ls2d", "o", eduMovie.editBegin(1) + "-rw-r--" + eduMovie.markBegin + "r--" + eduMovie.markEnd + " 1 rrp users 4  2021-01-02 18:15:22  a" + eduMovie.editEnd(1)],
-			["ls2e", "o", eduMovie.editBegin(1) + "-rw-r--r-- 1 " + eduMovie.markBegin + "rrp" + eduMovie.markEnd + " users 4  2021-01-02 18:15:22  a" + eduMovie.editEnd(1)],
-			["ls2f", "o", eduMovie.editBegin(1) + "-rw-r--r-- 1 rrp " + eduMovie.markBegin + "users" + eduMovie.markEnd + " 4  2021-01-02 18:15:22  a" + eduMovie.editEnd(1)],
-			["ls2g", "o", eduMovie.editBegin(1) + "-rw-r--r-- 1 rrp users " + eduMovie.markBegin + "4" + eduMovie.markEnd + "  2021-01-02 18:15:22  a" + eduMovie.editEnd(1)],
+			["ls2a", "o", eduMovie.editBegin(1) + "" + eduMovie.markBegin + "-" + eduMovie.markEnd + "rw-r--r-- 1 rrp users 4 Jan  2 18:15  a" + eduMovie.editEnd(1)],
+			["ls2b", "o", eduMovie.editBegin(1) + "-" + eduMovie.markBegin + "rw-" + eduMovie.markEnd + "r--r-- 1 rrp users 4 Jan  2 18:15  a" + eduMovie.editEnd(1)],
+			["ls2c", "o", eduMovie.editBegin(1) + "-rw-" + eduMovie.markBegin + "r--" + eduMovie.markEnd + "r-- 1 rrp users 4 Jan  2 18:15  a" + eduMovie.editEnd(1)],
+			["ls2d", "o", eduMovie.editBegin(1) + "-rw-r--" + eduMovie.markBegin + "r--" + eduMovie.markEnd + " 1 rrp users 4 Jan  2 18:15  a" + eduMovie.editEnd(1)],
+			["ls2e", "o", eduMovie.editBegin(1) + "-rw-r--r-- 1 " + eduMovie.markBegin + "rrp" + eduMovie.markEnd + " users 4 Jan  2 18:15  a" + eduMovie.editEnd(1)],
+			["ls2f", "o", eduMovie.editBegin(1) + "-rw-r--r-- 1 rrp " + eduMovie.markBegin + "users" + eduMovie.markEnd + " 4 Jan  2 18:15  a" + eduMovie.editEnd(1)],
+			["ls2g", "o", eduMovie.editBegin(1) + "-rw-r--r-- 1 rrp users " + eduMovie.markBegin + "4" + eduMovie.markEnd + " Jan  2 18:15  a" + eduMovie.editEnd(1)],
 			["ls2h", "o", eduMovie.editBegin(1) + "-rw-r--r-- 1 rrp users 4 " + eduMovie.markBegin + "2021-01-02 18:15:22" + eduMovie.markEnd + "   a" + eduMovie.editEnd(1)],
-			["ls2i", "o", eduMovie.editBegin(1) + "-rw-r--r-- 1 rrp users 4  2021-01-02 18:15:22  a" + eduMovie.editEnd(1)],
+			["ls2i", "o", eduMovie.editBegin(1) + "-rw-r--r-- 1 rrp users 4 Jan  2 18:15  a" + eduMovie.editEnd(1)],
 		],
 		'text' : [
 			'Listowanie plików jest operacją na tyle istotną i użyteczną <m> że oczywiście nie używamy do niego na ogół komendy echo <m>'
-			'tylko dedykowanej komendy <ls>[LS] <m> która pozwala <m> na znacznie więcej niż echo i znaki uogólniające. <mark name="ls2" />'
+			'tylko dedykowanej komendy <ls>[LS] <m> która pozwala na znacznie więcej niż echo i znaki uogólniające. <mark name="ls2" />'
 			'Dzięki niej możemy na przykład listować, <m> z użyciem opcji <-l>[minus l], szczegóły na temat danych plików. <m>'
 			'W tym wypadku podawane są informacje na temat '
 			'<mark name="ls2a" /> typu pliku (myślnik oznacza zwykły plik, <d>[de] oznacza katalog i tak dalej), <mark name="ls2b" /> uprawnień właściciela, <mark name="ls2c" /> grupy właścicielskiej,<mark name="ls2d" /> pozostałych użytkowników, '
 			'<mark name="ls2e" /> nazwę właściciela, <mark name="ls2f" /> grupy właścicielskiej, <mark name="ls2g" /> rozmiaru tego pliku oraz <mark name="ls2h" /> daty jego modyfikacji. <mark name="ls2i" />'
 			
 			'Uprawnienia dla każdego z 3 poziomów (właściciela, grupy i pozostałych) <m> składają się z 3 liter – obecność danej litery <m> oznacza posiadanie danego prawa,<m> a myślnik jego brak. <m>'
-			'Są to <r>[er] – <m>odczyt, <w>[wu] – <m>zapis i x – <m>wykonywanie. <m> Prawa odczytu i zapisu są dość oczywiste. <m>'
+			'Są to <r>[er] – odczyt, <w>[wu] – zapis i x – wykonywanie. <m> Prawa odczytu i zapisu są dość oczywiste. <m>'
 			'Warto wspomnieć że brak prawa zapisu do pliku nie oznacza <m> braku możliwości jego skasowania i utworzenia nowego pliku o <m> takiej samej nazwie, jeżeli mamy prawo zapisu w katalogu. <m>'
 			
 			'Wykonywanie dla plików oznacza prawo uruchomienia kodu z tego pliku. <m>'

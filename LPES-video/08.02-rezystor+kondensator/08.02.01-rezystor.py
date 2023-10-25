@@ -126,7 +126,7 @@ clipData += [
 			'Jeżeli wartość górnego zmienimy na przykład na 1500, <m> to będziemy mieli podział napięcia zasilania w proporcjach <1/4>[jedna czwarta] do <3/4>[trzech czwartych]. <m>'
 			'Czyli napięcie wyjściowe wyniesie 3 wolty. <m>'
 			'Dzieje się tak dlatego że prąd płynący przez oba rezystory jest taki sam <m>'
-				'(i równy prądowi jaki płynąłby przez opornik o rezystancji równej sumie ich rezystancji), a przy stałym prądzie większe napięcie odkłada się na większej rezystancji. <m>'
+				'(i równy prądowi jaki płynąłby przez opornik o rezystancji równej sumie ich rezystancji), <m> a przy stałym prądzie większe napięcie odkłada się na większej rezystancji. <m>'
 			'Czyli na górnym, większym rezystorze mamy spadek dziewięciu woltów. <m>'
 			
 			'W dzielniku suma rezystancji określa prąd płynący w takiej gałęzi, <m> a poszczególne rezystancje określają nam spadki napięcia na sobie. <m>'

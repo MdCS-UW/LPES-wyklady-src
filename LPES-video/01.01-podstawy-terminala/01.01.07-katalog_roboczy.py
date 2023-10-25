@@ -127,7 +127,7 @@ clipData += [
 			'Typowo pierwotna jego wartość jest ustawiana na <m> bieżący katalog roboczy powłoki która uruchomiła dany program. <m>'
 			'Może być on zmieniony przez działający program przy użyciu odpowiedniej funkcji systemowej. <m>'
 			
-			'W przypadku powłoki zgodnej z sh <m> informację o jej bieżącym katalogu roboczym <m> możemy wypisać przy pomocy polecenia <pwd>[Pe Wu De]. <m>'
+			'W przypadku powłoki zgodnej z <sh>[Es Ha] <m> informację o jej bieżącym katalogu roboczym <m> możemy wypisać przy pomocy polecenia <pwd>[Pe Wu De]. <m>'
 			'Często jest ona także podawana przed znakiem zachęty. <m>'
 			'Natomiast zmiany tego katalogu możemy dokonać przy pomocy polecenia <cd>[Ce De]. <m>'
 			
@@ -151,7 +151,7 @@ clipData += [
 		],
 		'text' : [
 			'Dwie kropki jak i pojedyncza kropka mogą wystąpić także wewnątrz <m> ścieżki i odnoszą się one wtedy do katalogu określonego <m> ścieżką opisaną po ich lewej stronie. <m>'
-			'W prezentowanym na ekranie przykładzie kropka w ścieżce oznacza <m> katalog local, a dwie kropki oznaczą katalog nadrzędny <m> w stosunku co do bin. <m>'
+			'W prezentowanym na ekranie przykładzie kropka w ścieżce oznacza <m> katalog local, a dwie kropki oznaczają katalog nadrzędny <m> w stosunku co do bin. <m>'
 		]
 	},
 	{

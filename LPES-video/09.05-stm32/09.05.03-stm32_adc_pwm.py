@@ -48,8 +48,8 @@ clipData += [
 			'Skala jest liniowa, więc znając wartość tego maksymalnego napięcia <m> łatwo możemy przeliczyć wynik na wartość napięcia w woltach. <m>'
 			'Jednak nie zawsze tego potrzebujemy – np. pliki dźwiękowe zapisywane są <m> w postaci takich liczb (odpowiadających procentowi maksymalnego poziomu sygnału) <m> a nie wartości napięcia w woltach. <m>'
 			
-			'Możliwość pomiaru napięcia pozwala na zastosowanie wejść ADC do obsługi <m> różnego rodzaju czujników (zasadniczo wszystkie pomiary elektryczne <m> sprowadzają się do pomiaru napięcia), <mark name="xEOL" />'
-				'a także zastosowaniu ich jako wielostanowych wejść pozwalających np. <m> na monitoring stanu jakiegoś styku wraz z poprawnością linii do niego prowadzącej. <m>'
+			'Możliwość pomiaru napięcia pozwala na zastosowanie wejść ADC do obsługi <m> różnego rodzaju czujników – zasadniczo wszystkie pomiary elektryczne <m> sprowadzają się do pomiaru napięcia. <mark name="xEOL" />'
+				'Wejścia ADC mogą być też użyte jako wejścia wielostanowe, pozwalające np. <m> na monitoring stanu jakiegoś styku wraz z poprawnością linii do niego prowadzącej. <m>'
 			'Dzięki czemu możemy wykryć nie tylko stan zwarty i rozwarty styku <m> ale też uszkodzenie w postaci przerwania lub zwarcia kabla. <m>'
 			'Tego typu wejścia, określane jako <xEOL>[iks EOL], są bardzo często stosowane <m> w systemach alarmowych. <mark name="pwm" />'
 			

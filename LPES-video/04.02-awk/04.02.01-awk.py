@@ -178,7 +178,7 @@ clipData += [
 			'Nieważne z jakim systemem uniksowym będziemy mieli do czynienia, <m> standard gwarantuje tam obecność w nim podstawowej wersji <AWK>[awuka]. <m>'
 			
 			'<AWK>[awuka] którego używamy na tych zajęciach to tak naprawdę <GAWK>[gawk], <m> czyli GNU <AWK>[awuka], w którym są pewne rozszerzenia wykraczające poza standard, <m>'
-				'więc jeżeli chcemy napisać komendę przenośną na inne Unixy <m>, to warto się zapoznać z dokumentacją man, <m> gdzie są szczegółowo opisane również te niekompatybilności. <m>'
+				'więc jeżeli chcemy napisać komendę przenośną na inne Unixy, <m> to warto się zapoznać z dokumentacją man, <m> gdzie są szczegółowo opisane również te niekompatybilności. <m>'
 		]
 	},
 ]

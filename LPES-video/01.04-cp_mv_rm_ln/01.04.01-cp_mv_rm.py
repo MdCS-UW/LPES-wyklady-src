@@ -53,7 +53,7 @@ clipData += [
 			
 			'Standardowo <cp>[CP] nadpisze bez pytania pliki docelowe <m> (jeżeli takowe istnieją), z wyjątkiem plików tylko do odczytu <m> – w ich wypadku zapyta się o nadpisanie. <m>'
 			
-			'Zachowanie to można zmienić opcjami <-i>[minus I], <m> która spowoduje <m> że <cp>[CP] zawsze będzie pytał o nadpisywanie plików oraz <-f>[minus f], <m> która spowoduje że <cp>[CP] nigdy nie będzie pytał o nadpisywanie plików. <m>'
+			'Zachowanie to można zmienić opcjami <-i>[minus I], <m> która spowoduje, że <cp>[CP] zawsze będzie pytał o nadpisywanie plików <m> oraz <-f>[minus f], która spowoduje że <cp>[CP] nigdy nie będzie pytał o nadpisywanie plików. <m>'
 			'Stosowana jest opcja która wystąpiła jako ostatnia w linii poleceń. <m>'
 		]
 	},
@@ -70,7 +70,7 @@ clipData += [
 			'Podobnie do <cp>[CP] działa komenda <mv>[MV], z tym że zamiast tworzyć kopię, <m> przenosi ona plik do innego katalogu, pod tą samą lub inną nazwą.<m>'
 			'jeżeli przenoszenie jest w obrębie jednego katalogu <m> to <mv>[MV] jedynie zmienia nazwę . <m>'
 			
-			'Tutaj tak samo w pierwszym argumencie podajemy źródło, <m> a w drugim cel <m> którym może być nowa nazwa pliku, <m> nowa ścieżka pliku lub ścieżka do katalogu w którym plik ma zostać umieszczony. <m>'
+			'Tutaj tak samo w pierwszym argumencie podajemy źródło, <m> a w drugim cel, którym może być nowa nazwa pliku, nowa ścieżka pliku <m> lub ścieżka do katalogu w którym plik ma zostać umieszczony. <m>'
 			'Podobnie jak w <cp>[CP] gdy ostatnim argumentem jest katalog <m> to możemy podać wiele plików źródłowych, <m> które zostaną przeniesione do tego katalogu. <m>'
 			
 			'Przenoszenie katalogów nie wymaga stosowania żadnych dodatkowych opcji. <m>'

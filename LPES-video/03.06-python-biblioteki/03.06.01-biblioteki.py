@@ -41,6 +41,9 @@ for subNode in rootNode:
 	print(" ", subNode.tag, ":", zawartosc.strip())
 '''
 
+code_xml_A_fmt = eduMovie.code2console(code_xml_A, "py")
+code_xml_A_markEnd = eduMovie.markEnd + '\u001b[39m\u001b[38;5;214m'
+
 code_json_A = r'''
 txt = """{
 	"info": "bbb",
@@ -96,7 +99,11 @@ clipData += [
 	},
 	{ #  
 		'consoleTop': [
-			[0.0, eduMovie.clear + eduMovie.code2console(code_xml_A, "py")],
+			[0.0, eduMovie.clear + code_xml_A_fmt],
+			["znaczniki", eduMovie.clear + code_xml_A_fmt.replace('<', eduMovie.markBegin+'<').replace('>', '>'+code_xml_A_markEnd)]
+			["znaczniki_parami", eduMovie.clear + code_xml_A_fmt.replace('<b>', eduMovie.markBegin+'<b>'+code_xml_A_markEnd).replace('</b>', eduMovie.markBegin+'</b>'+code_xml_A_markEnd)]
+			["znaczniki_zawartosc", eduMovie.clear + code_xml_A_fmt.replace('<b>', '<b>'+eduMovie.markBegin).replace('</b>', code_xml_A_markEnd+'</b>')]
+			["znaczniki_atrybuty", eduMovie.clear + re.sub(' ([a-z]*=[^"]*"[^"]*")', ' '+eduMovie.markBegin+'\\1'+code_xml_A_markEnd, code_xml_A_fmt)]
 			["etree", eduMovie.clear + eduMovie.code2console(code_xml_B, "py")],
 		],
 		'consoleDown': [
@@ -105,16 +112,16 @@ clipData += [
 		],
 		'text' : [
 			'Pierwszym będzie XML, czyli język znaczników. <m>'
-			'Tekst zawarty w plikach tego typu strukturyzowany jest z użyciem <m> znaczników zapisywanych przy pomocy nawiasów trójkątnych, <m> tak jak jest to widoczne na ekranie. <m>'
+			'Tekst zawarty w plikach tego typu strukturyzowany jest z użyciem <mark name="znaczniki" /> znaczników zapisywanych przy pomocy nawiasów trójkątnych, <m> tak jak jest to widoczne na ekranie. <mark name="znaczniki_parami" />'
 			
 			'Znaczniki występują parami – otwierający i zamykający, <m> oba znaczniki z pary używają takiej samej nazwy, <m>'
 			'którą jest tekst występujący zaraz po lewym nawiasie trójkątnym <m> (znaku mniejszości) do pierwszej spacji <m> lub prawego nawiasu trójkątnego kończącego znacznik otwierający. <m>'
 			'Znacznik zamykający składa się z lewego nawiasu, <m> ukośnika, nazwy i prawego nawiasu trójkątnego. <m>'
 			
-			'Znaczniki mogą posiadać zawartość, <m> czyli to co jest pomiędzy znacznikiem otwierającym i zamykającym. <m>'
-			'Jeżeli jej nie posiadają znacznik otwierający i zamykający <m> mogą być zapisane razem poprzez dodanie ukośnika <m> przed prawym nawiasem trójkątnym. <m>'
+			'Znaczniki mogą posiadać zawartość, <mark name="znaczniki_zawartosc" /> czyli to co jest pomiędzy znacznikiem otwierającym i zamykającym. <m>'
+			'Jeżeli jej nie posiadają znacznik otwierający i zamykający <m> mogą być zapisane razem poprzez dodanie ukośnika <m> przed prawym nawiasem trójkątnym. <mark name="znaczniki_atrybuty" />'
 			'Znaczniki mogą posiadać także atrybuty postaci <m> nazwa równa się wartość w cudzysłowach, <m> rozdzielane spacjami i zapisywane wewnątrz znacznika otwierającego. <mark name="etree" />'
-			'Oczywiście można napisać własnoręcznie <parser>[par ser] tego typu danych <m>, jednak Python dostarcza standardowych narzędzi do manipulowania <XMLem>[iksem elem]. <m>'
+			'Oczywiście można napisać własnoręcznie <parser>[par ser] tego typu danych, <m> jednak Python dostarcza standardowych narzędzi do manipulowania <XMLem>[iksem elem]. <m>'
 			'Jednym z nich jest moduł ElementTree. <m>'
 			'W tym celu importujemy odpowiedni fragment biblioteki <m> standardowej Pythona, jako że nazwa jest długa to żeby nie wpisywać <m> jej za każdym razem nazywamy go w tym przykładzie po prostu <xml>[XML]. <m>'
 			
@@ -260,7 +267,7 @@ clipData += [
 			
 			
 			'Z użyciem bibliotek możemy na przykład także łatwo <m> tworzyć graficzny interfejs użytkownika. <m>'
-			'Nie będziemy tego jednak omawiać bardziej szczegółowo <m> w ramach tego kursu, a osoby zainteresowane tym zagadnieniem odsyłam do skryptu <m>, gdzie podany jest link do odpowiednich przykładów kodu. <m>'
+			'Nie będziemy tego jednak omawiać bardziej szczegółowo <m> w ramach tego kursu, a osoby zainteresowane tym zagadnieniem odsyłam do skryptu, <m> gdzie podany jest link do odpowiednich przykładów kodu. <m>'
 			
 			'Było to dość pobieżne pokazanie kilku <m> wybranych bibliotek dostępnych dla Pythona. <m>'
 			'W prezentowanych przykładach nie chodzi o to żeby nauczyć się <m> korzystania z tych konkretnych bibliotek, <m> ponieważ uczenie się korzystania z bibliotek na zapas nie za bardzo ma sens. <m>'

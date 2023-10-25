@@ -43,7 +43,7 @@ clipData += [
 				"czy nawet dziedziczenie w programowaniu obiektowym <m> i mechanizmy pozwalające na wywoływanie <m> innych programów i komunikację z nimi. <m>"
 			
 			"Unikanie powtórzeń takiego samego lub (co często nawet gorsze) <m> tylko nieznacznie zmienionego kodu <m> jest też szczególnie istotne ze względu na łatwość utrzymania kodu. <m>"
-			"Na przykład jakąś poprawkę wprowadza się tylko w odpowiednio <m> sparametryzowanej funkcji, a nie kilkunastu podobnych <m> (ale nie identycznych, ze względu na brak parametryzacji) <m> fragmentach kodu. <m>"
+			"Na przykład jakąś poprawkę wprowadza się tylko w odpowiednio <m> sparametryzowanej funkcji, a nie kilkunastu podobnych <m> (ale nie identycznych, ze względu na brak parametryzacji) fragmentach kodu. <m>"
 			
 			"W zastosowaniach nie programistycznych reguła ta przejawia się często <m> jako wydzielanie modułów i dążenie do ich powtarzalności oraz <m> redukcji liczby ich typów (np. dzięki parametryzacji, czy konfigurowalności). <m>",
 

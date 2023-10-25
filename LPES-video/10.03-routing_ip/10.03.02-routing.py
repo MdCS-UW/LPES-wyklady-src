@@ -125,7 +125,7 @@ clipData += [
 			'Router określony w tym wpisie nazywany jest bramką domyślną. <m>'
 
 			'Po odnalezieniu pasującego wpisu w tablicy routingu <m>'
-				'(przypominam że gdy pasuje kilka wygrywa ten z najdłuższym prefiksem, <m> a gdy nawet takich jest kilka używane są inne kryteria, <m> takie jak metryka celem ustalenia pojedynczego wpisu) <m>'
+				'(przypominam że gdy pasuje kilka wygrywa ten z najdłuższym prefiksem, <m> a gdy nawet takich jest kilka używane są inne kryteria, <m> takie jak metryka, celem ustalenia pojedynczego wpisu) <m>'
 				'pakiet może zostać wysłany na związane z nim urządzenie. <m>'
 			
 			'Jeżeli wpis w tablicy routingu nie wskazuje następnego routera <m> (nie ma w nim via) to pakiet kierowany jest bezpośrednio do hosta docelowego <m> – jest on osiągalny w sieci w której znajduje się wskazane urządzenie. <m>'

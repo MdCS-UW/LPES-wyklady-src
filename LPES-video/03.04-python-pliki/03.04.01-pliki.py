@@ -89,8 +89,8 @@ clipData += [
 			["fwriteB + 2.0", eduMovie.runCommandString("cat dane.txt", cwd="/tmp")],
 		],
 		'text' : [
-			'Python pozwala także na korzystanie z plików <m> – możemy je czytać i zapisywać. <m>'
-			'Celem wykonania takich operacji należy plik otworzyć funkcją open, <m> w której podajemy nazwę pliku, tryb otwarcia <m> (<r>[R] - odczyt, <w>[W] - zapis, <r+>[R plus] - modyfikacja, <t>[T] - tekstowy, <b>[B] - binarny). <m>'
+			'Python pozwala także na korzystanie z plików – możemy je czytać i zapisywać. <m>'
+			'Celem wykonania takich operacji należy plik otworzyć funkcją open, <m> w której podajemy nazwę pliku, tryb otwarcia <m> (<r>[R] - odczyt, <w>[Wu] - zapis, <r+>[R plus] - modyfikacja oraz <t>[T] - tekstowy lub <b>[B] - binarny). <m>'
 			
 			'Jeżeli wybraliśmy tryb tekstowy to możemy też określić <m> kodowanie tego pliku (domyślnie będzie to UTF8). <m>'
 			'Otwarcie pliku w trybie tekstowym z określonym kodowaniem <m> pozwala na zapisywanie do niego bezpośrednio typu napisowego, <m> który automatycznie zostanie poddany określonemu kodowaniu. <mark name="fwriteB" />'

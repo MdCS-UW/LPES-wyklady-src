@@ -95,7 +95,7 @@ clipData += [
 			'Nawet jeżeli mamy odpowiednią ilość nieużywanych rdzeni procesora. <m>'
 			'Efektem tego jest to iż wątki pythonowe nadają się do czekania <m> (na przykład na poznanej już funkcji select), <m> ale nie do aktywnego wykonywania równoległych obliczeń. <m>'
 			'Dlatego w przypadku programowania równoległego w Pythonie <m> korzysta się z osobnych procesów a nie z wątków. <m>'
-			'W praktyce oznacza to, że aby wymieniać dane trzeba korzystać z tych samych mechanizmów jak przy oddzielnych procesach, mimo tego że te procesy tworzą logicznie jeden program.'
+			'W praktyce oznacza to, że aby wymieniać dane trzeba <m> korzystać z tych samych mechanizmów jak przy oddzielnych procesach, <m> mimo tego że te procesy tworzą logicznie jeden program.'
 		]
 	},
 ]

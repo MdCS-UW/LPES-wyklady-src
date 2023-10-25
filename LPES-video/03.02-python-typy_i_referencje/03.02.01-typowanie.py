@@ -114,7 +114,7 @@ clipData += [
 		],
 		'text' : [
 			'Kiedy python nie wie jaką wartość przypisać do zmiennej, <m> bo np. przypisujemy do niej wynik funkcji <m> która nic nie zwraca to używa typu <None>[nan]. <m>'
-			'W pewnym stopniu jest on takim Pythonowym odpowiednikiem <NULL>[nul] <m> znanego z C <m> i informuje o tym że zmienna nie ma wartości ani typu. <mark name="nonetype" />'
+			'W pewnym stopniu jest on Pythonowym odpowiednikiem <NULL>[nul] znanego z C <m> i informuje o tym że zmienna nie ma wartości ani typu. <mark name="nonetype" />'
 			
 			'Możemy też celowo inicjalizować zmienne (np. argumenty funkcji) <m> taką wartością aby wykryć fakt ich ustawienia lub nie. <m>'
 			'W przypadku użycia w warunkach, <None>[nan] konwertowany jest na False <m> (więc <None>[nan] może być użyty jako wartość False – tak jak <m> miało to miejsce w funkcji search z modułu re). <m>'

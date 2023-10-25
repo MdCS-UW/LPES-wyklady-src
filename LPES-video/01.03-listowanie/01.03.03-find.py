@@ -121,7 +121,7 @@ clipData += [
 		],
 		'text' : [
 			'Warto zauważyć że zarówno exec jak i <execdir>[exec dir] są warunkami, <m> czyli możemy je wykorzystać do testowania właściwości plików <m> nie obsługiwanych bezpośrednio przez komendę find <m>'
-				'(na przykład długości pliku audio lub video, rozmiaru obrazka w pikselach). <m>'
+				'(na przykład długości pliku audio lub video, bądź rozmiaru obrazka w pikselach). <m>'
 			'Działają one w oparciu o kod powrotu uruchamianego polecenia <m> – jeżeli uruchomione polecenie zwróciło kod zero, warunek jest spełniony. <m>'
 			'Na ekranie widzimy wywołania find gdzie w ramach exec zostały użyte <m> polecenia false i true, zwracające odpowiednio zawsze fałsz i prawdę. <m>'
 			

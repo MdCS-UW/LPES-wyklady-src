@@ -165,7 +165,7 @@ clipData += [
 			[0.0, eduMovie.clear + eduMovie.code2console(code_wypiszListe_E, "cpp")],
 		],
 		'consoleDown': [
-			[0.0, eduMovie.runCode(code_wypiszListe_D, args=["&& ./a.out"], cmd="g++")],
+			[0.0, eduMovie.runCode(code_wypiszListe_E, args=["&& ./a.out"], cmd="g++")],
 		],
 		'text' : [
 			'Kolejnym ważnym elementem języka C++, <m> o którym trzeba przynajmniej wspomnieć są szablony. <m>'

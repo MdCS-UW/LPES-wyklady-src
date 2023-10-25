@@ -174,7 +174,7 @@ clipData += [
 			'Apostrofy w C konwertują podany w nich znak na jego wartość numeryczną. <m>'
 			'Jest to proste dopóki każdy znak odpowiada jednemu bajtowi. <mark name="napC" />'
 			
-			'Jednak jako że żyjemy w pierwszej połowie dwudziestego pierwszego wieku <m> to powszechne (zwłaszcza w świecie unixa) są kodowania wielobajtowe takie jak na przykład UTF8, <m>'
+			'Jednak jako że żyjemy w pierwszej połowie dwudziestego pierwszego wieku <m> to powszechne (zwłaszcza w świecie unixa) są kodowania wielobajtowe <m> takie jak na przykład UTF8, <m>'
 			'gdzie jeden znak zajmuje od jednego do sześciu bajtów. <m>'
 			'W takiej sytuacji należy patrzeć raczej na znaki jako podnapisy <m> (czyli też tablice) niż na pojedyncze bajty. <m>'
 			

@@ -75,7 +75,7 @@ clipData += [
 		],
 		'text' : [
 			'Innym plikiem związanym z zamianą nazw na numery IP <m> oraz numerów IP na nazwy jest plik </etc/hosts>[E Te Ce hosts]. <m>'
-			'Jest on prostą mapą adres IP i związana z nim nazwa, <m> bądź związane z nim nazwy i stanowi używanego do dziś poprzednika systemu DNS. <m>'
+			'Zapewnia on proste powiązanie adresów IP i związanych z nim nazw. <m>'
 			
 			'Wpisy zawarte w tym pliku mają wyższy priorytet od wpisów w DNS, <m> czyli biblioteka najpierw próbuje ustalić adres IP (lub nazwę) <m> w oparciu o zawartość tego pliku, <m>'
 			'a dopiero później dokonuje odpytywania DNS <m> w oparciu o konfigurację w resolv conf. <m>'

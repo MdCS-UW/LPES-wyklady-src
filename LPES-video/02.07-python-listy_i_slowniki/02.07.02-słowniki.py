@@ -169,7 +169,7 @@ clipData += [
 			'Argumentem tym musi być funkcja przyjmująca element kolekcji <m> (czyli w tym wypadku naszej listy – parę dwóch wartości) <m> i zwracająca element według którego sortujemy. <mark name="sortC" />'
 			
 			'Warto zauważyć że do funkcji właśnie przekazaliśmy inną funkcję. <m>'
-			'W rzeczywostiści funkcja jest obiektem jak każdy inny, <m> również znajduje się gdzieś w pamięci <m> i jej nazwa jest referencją do tego miejsca. <m>'
+			'W rzeczywistości funkcja jest obiektem jak każdy inny, <m> również znajduje się gdzieś w pamięci <m> i jej nazwa jest referencją do tego miejsca. <m>'
 			'Nawiasy używane do jej uruchomienia i ewentualnego <m> przekazania argumentów stanowią operator wywołania – <m>'
 			'warto zauważyć że ich użycie w stosunku co do obiektu <m> nie dającego się wykonać zwróci jedynie wyjątek TypeError <m> o tym mówiący a nie jest błędem składniowym. <m>'
 		]

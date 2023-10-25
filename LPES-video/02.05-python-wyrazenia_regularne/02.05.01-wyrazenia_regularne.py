@@ -83,21 +83,21 @@ clipData += [
 			'W wyrażeniach regularnych jeden dowolny znak to jest kropka, <m> dowolny ciąg znaków to jest kropka gwiazdka, <m> bo gwiazdka oznacza dowolną (także zerową) <m> ilość powtórzeń tego co występuje przed nią. <m>'
 			'Na przykład <ab*>[a b gwiazdka] będzie oznaczało: <m> a, <ab>[A B], <abb>[A B B], <abbb>[A B B B] i tak dalej. <m>'
 			
-			'Zakresy znaków działają tak samo <m> jak w przypadku basha – jeżeli podamy w nawiasach <m> kwadratowych <a-z>[a myślnik zet] – to będą wszystkie <m> małe litery alfabetu łacińskiego od a do <z>[zet]. <m>'
+			'Zakresy znaków działają tak samo jak w przypadku basha – <m> jeżeli podamy w nawiasach kwadratowych <a-z>[a myślnik zet] <m> – to będą wszystkie małe litery alfabetu łacińskiego od a do <z>[zet]. <m>'
 			'W nawiasach kwadratowych możemy też jawnie wymienić cały <m> zbiór znaków, który ma być dopasowywany. <m>'
 			'Jeżeli chcemy zanegować zbiór możemy to zrobić <m> tylko przy pomocy daszka w górę umieszczanego <m> zaraz po otwierającym nawiasie kwadratowym. <m>'
 			
 			'Pytajnik oznacza tutaj zero lub jedno powtórzenie <m> tego co przed nim, plus natomiast oznacza jedno lub więcej, <m> czyli mają one funkcje podobne do gwiazdki. <m>'
 			'Dokładną ilość powtórzeń możemy określić przy pomocy <m> nawiasów klamrowych, tak jak widać to na ekranie. <m>'
 			
-			'Operatory dzióbka w górę i dolara dopasowują <m> odpowiednio początek i koniec napisu.'
+			'Operatory dzióbka w górę i dolara dopasowują <m> odpowiednio początek i koniec napisu. <m>'
 			
 			'Fragmenty wyrażeń możemy grupować w nawiasach okrągłych celem <m> zastosowania do nich jako całości operatorów określających powtórzenia <m>'
-			'lub możliwości odwołania się do takiego podwyrażenia w przyszłości <m> podając jego numer poprzedzony odwrotnym ukośnikiem. <m>'
+			'lub możliwości odwołania się do takiego pod-wyrażenia w przyszłości <m> podając jego numer poprzedzony odwrotnym ukośnikiem. <m>'
 			
 			'Możemy także zapisać alternatywę, <m> czyli dopasowanie do jednego z dwóch wyrażeń. <m> W tym celu rozdzielamy je pionową kreską. <m>'
 			
-			'Były to jedynie najważniejsze elementy składni wyrażeń regularnych, więcej można znaleźć w odpowiedniej dokumentacji. <m>'
+			'Były to jedynie najważniejsze elementy składni wyrażeń regularnych, <m> więcej można znaleźć w odpowiedniej dokumentacji. <m>'
 		]
 	},
 	{ #  
@@ -127,7 +127,7 @@ clipData += [
 			
 			'Nawiasy okrągłe przydatne są też w połączeniu <m> z alternatywą wprowadzaną pionową krechą. <m>'
 			'Standardowo alternatywa ta działa w taki sposób że wszystko co po lewej <m> (od początku wyrażenia), albo wszystko co po prawej (do końca wyrażenia). <m>'
-			'Umieszczenie jej wewnątrz pod-wyrażenia ogranicza jej działanie <m> do tego podwyrażenia, tak jak pokazano na przykładzie. <m>'
+			'Umieszczenie jej wewnątrz pod-wyrażenia ogranicza jej działanie <m> do tego pod-wyrażenia, tak jak pokazano na przykładzie. <m>'
 			
 			'Przykładami praktycznych zastosowań dla takich dopasowań <m> może być sprawdzanie czy napis jest poprawnym numerem telefonu, <m>'
 			'poprawnym numerem IP, czy jest słowem i tego typu rzeczy <m> związane z walidacją wprowadzanych danych. <m>'

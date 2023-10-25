@@ -44,10 +44,10 @@ clipData += [
 			
 			'Warto zwrócić uwagę na różnicę rozmiaru podawanego <m> przez polecenie <ls>[LS] oraz podawanego przez <du>[D U]. <m>'
 			'<ls>[LS] mówi nam że ten plik zajmuje 25 bajtów, <m> a <du>[D U] mówi nam że ten plik zajmuje 4 kilobajty. <m>'
-			'Żadna z tych komend tak naprawdę nie kłamię, po mimo że mówią co innego. <m>'
+			'Żadna z tych komend tak naprawdę nie kłamie, po mimo że mówią co innego. <m>'
 			'<ls>[LS] informuje o tym ile mamy informacji w tym pliku, <m> czyli jaki jest rozmiar zawartości tego pliku <m> i zawartość tego pliku obejmuje 25 bajtów. <m>'
 			'Natomiast <du>[D U] mówi ile ten plik zajmuje na dysku twardym <m> w tym przypadku 4 kilo bajty. <m>'
-			'Dzieje się tak dlatego, <m> że miejsce na dysku twardym alokowane jest w pewnych jednostkach, <m> zwanych blokami i w tym wypadku rozmiar bloku wynosi 4 kilobajty, <m>'
+			'Dzieje się tak dlatego, <m> że miejsce na dysku twardym <alokowane>[a-lokowoane] jest w pewnych jednostkach, <m> zwanych blokami i w tym wypadku rozmiar bloku wynosi 4 kilobajty, <m>'
 			'czyli jest to najmniejsza część dysku, którą plik może zająć. <m>'
 			'Nawet jeżeli plik ma mieć jeden bajt danych, to na dysku twardym <m> musimy na niego przeznaczyć cztery kilobajty. <mark name="duvsls2" />',
 			
@@ -58,7 +58,7 @@ clipData += [
 			
 			'Z kolei przy pomocy polecenia <df>[DF] możemy sprawdzać <m> dostępność miejsca na dysku twardym. <mark name="df" />'
 			'Również polecam opcje <-h>[minus h], <m> dzięki której zostanie to wypisane w ludzkich jednostkach. <m>'
-			'Jeżeli jej nie użyjemy to mamy informację dużo bardziej precyzyjną <m> (bo w pojedynczych blokach) <m>, ale też mniej czytelną dla człowieka. <m>'
+			'Jeżeli jej nie użyjemy to mamy informację dużo bardziej precyzyjną <m> (bo w pojedynczych blokach), <m> ale też mniej czytelną dla człowieka. <m>'
 			
 			'Gdy chcemy sprawdzić ile mamy miejsca dostępnego w bieżącym katalogu, <m> oczywiście pomijając zagadnienia limitu miejsca dla danego użytkownika typu quota <m> i tym podobne, '
 				'możemy napisać <df -h .>[DF minus h kropka] <m> i wtedy polecenie to <m> wypiszę informację wyłącznie dla systemu plików <m> na którym znajduje się podany katalog <m> w tym wypadku katalog bieżący oznaczony kropką. <m>'

@@ -99,7 +99,7 @@ clipData += [
 			'Dodatkowo takie działanie <switchy>[słiczy] powoduje pełną regenerację sygnału <m> przy wysyłaniu ramki na dany port<.>[ .] <m>'
 			'W przypadku <huba>[haba] przesyłany był oryginalny sygnał elektryczny, <m> który ulegał jedynie wzmacnianiu, jednak jego zbocza traciły stromość <itd.>[i tak dalej], <m> przez co stawał się on mniej czytelny. <m>'
 			'W przypadku switcha każda ramka jest dekodowana do postaci cyfrowej <m> (ciągu zer i jedynek) i ponownie generowana na odpowiednim porcie, <m> dzięki czemu nie tracimy na jej jakości przesyłając ją przez kolejne switche. <m>'
-			'Dodatkowo możemy łączyć różne warstwy fizyczne w ramach jednej sieci (na przykład skrętkę oraz światłowody), <m> wystarczy tylko, że switche będą miały odpowiednie gniazda. <m>'
+			'Dodatkowo możemy łączyć różne warstwy fizyczne <m> w ramach jednej sieci (na przykład skrętkę oraz światłowody), <m> wystarczy tylko, że switche będą miały odpowiednie gniazda. <m>'
 		]
 	},
 ]

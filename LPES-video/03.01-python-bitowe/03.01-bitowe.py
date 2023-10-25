@@ -60,7 +60,7 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'title': [ "#02.7", "Python:", "operacje bitowe", "" ] },
+	{ 'title': [ "#03.1", "Python:", "operacje bitowe", "" ] },
 	
 	{ 'comment': 'operacje bitowe' },
 	{ #  
@@ -108,7 +108,7 @@ clipData += [
 			'Natomiast jeżeli operację taką będziemy wykonywać niezależnie <m> na kolejnych cyfrach reprezentacji binarnej <m> tych liczb to wynik może być różny. <mark name="binC" />'
 			
 			'W przykładzie widocznym na ekranie użyliśmy liczb jeden i dwa. <m> Liczba dwa to w systemie binarnym <1 0>[jeden zero], a liczba jeden to <0 1>[zero jeden]. <m>'
-			'Zatem jeżeli wykonujemy operację and na poszczególnych bitach to mamy po kolei: <m> 0 i 1, czyli zero <m> oraz 1 i 0 czyli też zero, <m> zatem wynikiem jest liczba o bitach <0>[zero] i <0>[zero], czyli zero. <m>'
+			'Zatem jeżeli wykonujemy operację and na poszczególnych bitach to mamy po kolei: <m> 0 i 1, czyli zero <break time="100ms"/> oraz 1 i 0, czyli też zero, <m> zatem wynikiem jest liczba o bitach <0>[zero] i <0>[zero], czyli zero. <m>'
 		]
 	},
 	{ #  

@@ -35,18 +35,18 @@ clipData += [
 		'text' : [
 			'Warto powiedzieć kilka słów na temat katalogów. <m>'
 			'Jak już mówiliśmy systemy uniksowe posiadają drzewiastą <m> strukturę katalogów, zaczynającą się od ukośnika. <m>'
-			'Nie mamy tutaj pojęcia osobnych dysków na których są pliki, <m> natomiast poszczególne zasoby dyskowe, systemy plików <m> są montowane, <m> czyli podłączane do drzewa, <m> w katalogach tej struktury. <m>'
+			'Nie mamy tutaj pojęcia osobnych dysków na których są pliki, <m> natomiast poszczególne zasoby dyskowe, systemy plików <m> są montowane, czyli podłączane do drzewa, w katalogach tej struktury. <m>'
 			'Oczywiście główny katalog, oznaczany ukośnikiem, <m> też jest zamontowany z jakiegoś systemu plików na jakimś urządzeniu. <m>'
 
 			'Struktura ta jest też trochę ustandaryzowana i na przykład w głównym katalogu, <m> mamy katalogi bin i <sbin>[S bin], które zawierają programy wykonywalne. <m>'
 			'W bin są to programy ogólnego użytkowania <m> a w <sbin>[S bin] są to programy przeznaczone raczej dla administratora systemu. <m>'
-			'Mamy katalog lib, lub nawet kilka podobnych katalogów, <m> które zawierają biblioteki. <m>'
+			'Mamy katalog lib, lub nawet kilka podobnych katalogów, <m> które zawierają biblioteki. <m>',
 			
 			'Trochę analogiczne drzewo mamy w katalogu <usr>[U S R], <m> gdzie również mamy bin, <sbin>[S bin], lib i kilka innych katalogów. <m>'
-			'W katalogach umieszczonych bezpośrednio w katalogu głównym <m> umieszczane były programy i biblioteki <m> niezbędne do uruchomienia systemu, a w <usr>[U S R] pozostałe. <m>'
+			'W katalogach umieszczonych bezpośrednio w katalogu głównym <m> umieszczane były programy i biblioteki <m> niezbędne do uruchomienia systemu. <m>'
+			'Natomiast w <usr>[U S R] znajdowały się programy i narzędzia oraz biblioteki <m> niebędące niezbędnymi do uruchomienia systemu, <m>'
+			'dzięki czemu katalog <usr>[U S R] mógł być montowany po uruchomieniu systemu <m> i wtedy stawały się one dostępne. <m>'
 			'Obecnie podział ten bardzo często nie jest już stosowany, <m> a w celu zachowania kompatybilności wstecznej, <m> w katalogu głównym znajdują linki symboliczne do podkatalogów w <usr>[U S R]. <m>'
-			'Natomiast w <usr>[U S R] są programy i narzędzia oraz biblioteki <m> niebędące niezbędnymi do uruchomienia systemu, <m>'
-			'dzięki czemu katalog <usr>[U S R] może być montowany po uruchomieniu systemu <m> i wtedy one stają się dostępne. <m>'
 		]
 	},
 	{

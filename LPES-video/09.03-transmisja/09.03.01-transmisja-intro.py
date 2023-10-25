@@ -114,7 +114,7 @@ clipData += [
 			
 			'Regeneracja sygnału może być potrzebna w związku z występowaniem <m> zjawisk pasożytniczych nawet na zwykłym kawałku przewodnika <m>'
 				'– na przykład kablu (czyli głównie rezystancją i pojemnością tego kabla), <m> które prowadzą do degradacji sygnału zarówno pod względem swojej wielkości, <m> jak i ostrości narastania zboczy. <m>'
-			'Warto tutaj zwrócić uwagę iż nawet zwykła bramka NOT będzie regenerować sygnał, gdyż sygnał z wejścia nie przepływa bezpośrednio na wyjście, <m> tylko jest odtwarzany z poziomu zasilania i masy, czyli regenerowany. <m>'
+			'Warto tutaj zwrócić uwagę iż nawet zwykła bramka NOT będzie regenerować sygnał, <m> gdyż sygnał z wejścia nie przepływa bezpośrednio na wyjście, <m> tylko jest odtwarzany z poziomu zasilania i masy, czyli regenerowany. <m>'
 			'Ponadto taka bramka zapewnia też brak możliwości przeniesienia sygnału <m> z wyjścia na wejście ze względu na izolowaną bramkę. <m>'
 			'I najprostsze bufory nie odwracające to właśnie <m> dwie połączone szeregowo bramki NOT. <m>'
 			

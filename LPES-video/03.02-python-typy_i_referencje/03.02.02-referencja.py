@@ -159,8 +159,8 @@ clipData += [
 		'text' : [
 			'Przeanalizujmy przykład z przekazywaniem argumentów do funkcji. <m>'
 			'W momencie wywoływania funkcji następuje przypisanie <m> postaci "x równa się a", w efekcie czego x oraz a wskazują na ten sam obiekt <m> związany z wartością <1>[jeden]. <m>'
-			'Następnie funkcja tworzy nowy obiekt związany <m> z zwiększeniem wartości x o jeden <m> i przypisuje referencję do niego do zmiennej x. <m>'
-			'Ale funkcja nie ma dostępu do zewnętrznej zmiennej a, <m> aby zmienić jej referencję <m> (nawet gdy użyjemy tej samej nazwy żyją one w innych przestrzeniach), <m> więc ona nadal wskazuje na wartość <1>[jeden]. <m>'
+			'Następnie funkcja tworzy nowy obiekt związany <m> ze zwiększeniem wartości x o jeden <m> i przypisuje referencję do niego do zmiennej x. <m>'
+			'Ale funkcja nie ma dostępu do zewnętrznej zmiennej a, <m> aby zmienić jej referencję <m> (nawet gdy użyjemy tej samej nazwy żyją one w innych przestrzeniach), <m> więc ona nadal wskazuje na wartość <1>[jeden]. <m> <break time="200ms"/>'
 			
 			'Sytuacja zmienia się w przypadku obiektów <m> które możemy zmienić bez tworzenia nowego obiektu. <mark name="przyp_lista" />'
 			

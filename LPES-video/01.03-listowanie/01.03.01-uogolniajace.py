@@ -34,7 +34,7 @@ clipData += [
 			[10.0, eduMovie.runCommandString(r"echo *", cwd='demo')],
 		],
 		'text' : [
-			'Wspomnieliśmy o poleceniu echo które służy <m> do wypisywania jakiś informacji na ekran. <m>'
+			'Wspomnieliśmy o poleceniu echo, które służy <m> do wypisywania jakiś informacji na ekran. <m>'
 			'Polecenie to, gdy napiszemy echo gwiazdka, <m> może zostać użyte do wylistowania wszystkich <m> (nie ukrytych) plików w bieżącym katalogu. <m>'
 			'Nie jest to jednak funkcjonalność samej komendy echo, <m> a powłoki ją wywołującej – to bash przed uruchomieniem polecenia echo <m> zastąpił w jego linii poleceń gwiazdkę listą wszystkich nie ukrytych plików. <m>'
 			

@@ -52,7 +52,7 @@ clipData += [
 	
 	{ 'comment': 'wskaźniki - podstawy' },
 	{
-		'console': [
+		'image': [
 			[0.0, ""]
 		],
 		'text' : [

@@ -369,7 +369,7 @@ clipData += [
 		],
 		'text' : [
 			"Mamy jeszcze jedną metodę wykonania kodu z pliku <m> – możemy tego dokonać takim magicznym zaklęciem, <m> jakie widoczne jest teraz na ekranie. <m>"
-			"Ogólnie polega to na otwarciu i przeczytaniu <m> wskazanego pliku (dzięki czemu uzyskujemy napis reprezentujący jego treść) <m>, a następnie wywołaniu na tej treści funkcji exec, <m> która wykonuje podany napis jako kod pythonowy. <m>"
+			"Ogólnie polega to na otwarciu i przeczytaniu <m> wskazanego pliku (dzięki czemu uzyskujemy napis reprezentujący jego treść), <m> a następnie wywołaniu na tej treści funkcji exec, <m> która wykonuje podany napis jako kod pythonowy. <m>"
 			"Po takim wykonaniu pliku, podobnie jak przy użyciu python <-i>[minus i], <m> zmienne i inne obiekty utworzone przez kod zawarty w tym pliku, <m> będą dostępne w bieżącym interpreterze Pythona. <m>"
 			"Oczywiście do funkcji exec nie należy przekazywać <m> danych wprowadzonych przez użytkownika do naszego programu, <m> ponieważ umożliwia to stworzenie dziury bezpieczeństwa polegającej <m> na wykonaniu obcego kodu z prawami naszego programu. <m>"
 			"O czytaniu i zapisywaniu plików będziemy mówić na dalszych zajęciach. <m>"

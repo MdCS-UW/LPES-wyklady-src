@@ -63,23 +63,25 @@ clipData += [
 	{ 'comment': 'C C++ pętle warunki' },
 	{
 		'console': [
-			[0.0, ""], # TODO może jakaś ilustracja ?
+			[0.0, ""], # TODO może jakaś ilustracja ? a może przenieść do 09.04-programowalne ?
 		],
 		'text' : [
 			'Zanim przejdziemy do omówienia konstrukcji składniowych takich jak <m> pętle i warunki warto powiedzieć trochę o technicznym tle ich działania. <m>'
 			
 			'Wiemy już że kod programu w C rozpoczyna się od funkcji main. <m>'
-			'Wiemy także iż C jest kompilowany do kodu maszynowego, <m>'
-			'czyli przyjazne programiście konstrukcje składniowe, <m> nazwy zmiennych, <itp.>[i tym podobne] zamieniane są na numeryczne identyfikatory <m> instrukcji, rejestrów, adresów w pamięci zrozumiałe dla procesora. <m>'
+			'Wiemy także iż C jest kompilowany do kodu maszynowego, <m> czyli przyjazne programiście konstrukcje składniowe, <m>'
+			'nazwy zmiennych, <itp.>[i tym podobne] zamieniane są na numeryczne identyfikatory <m> instrukcji, rejestrów, adresów w pamięci zrozumiałe dla procesora. <m>',
 			
-			'Procesor posiada coś takiego jak licznik programu <m> w którym trzyma adres kolejnej instrukcji do wykonania. <m>'
+			'Co do zasady wykonywanie programu komputerowego <m> polega na wykonywaniu kolejnych instrukcji, jedna po drugiej. <m>'
+			'W tym celu procesor posiada tak zwany licznik programu <m> w którym trzyma adres pamięci, pod którym znajduje się kolejna instrukcja do wykonania. <m>'
+			'I typowo zwiększa adres w nim zawarty o jeden w każdym cyklu rozkazowym. <m>'
+			'Możliwa jest jednak zmiana wartości tego licznika na wskazaną wartość <m> – w ten sposób realizowane są różnego rodzaju skoki, <m>'
+			'takie jak te stanowiące elementy instrukcji warunkowych i pętli <m> lub stanowiące wywołania funkcji. <m>'
 			'Jeżeli wykonujemy pętle to na końcu pętli <m> wykonywany jest skok do jej początku. <m>'
-			"Jeżeli wykonujemy instrukcję if to w zależności od wyniku <m> sprawdzenia warunków wykonywany może być skok do kolejnego warunku <m> else if, bloku else lub za blok kodu związany z if'em. <m>"
-			'Realizacja tych skoków to właśnie <m> warunkowa modyfikacja wartości tego licznika <m>'
-			'– załadowanie do niego adresu pamięci pod którym jest cel naszego skoku <m> (np. początek pętli) zamiast prostego zwiększenia licznika o jeden <m> celem przejścia do kolejnej instrukcji. <m>'
+			"Jeżeli wykonujemy instrukcję if to w zależności od wyniku <m> sprawdzenia warunków wykonywany może być skok do kolejnego warunku <m> else if, bloku else lub za blok kodu związany z if'em. <m>",
 			
 			'Na większości architektur pętla jest instrukcją złożoną <m> realizowaną jako zestaw instrukcji <m> (na przykład inkrementacji zmiennej, sprawdzania warunku, skoku). <m>'
-			'Niektóre procesory mogą mieć na przykład pętle typu "powtórz n razy" <m> realizowane sprzętowo przy pomocy pojedynczej instrukcji <m> – jest to częste w architekturach DSP dedykowanych cyfrowemu przetwarzaniu sygnałów. <m>'
+			'Niektóre procesory mogą mieć na przykład pętle typu "powtórz n razy" <m> realizowane sprzętowo przy pomocy pojedynczej instrukcji <m> (jest to częste w architekturach DSP dedykowanych cyfrowemu przetwarzaniu sygnałów). <m>'
 		]
 	},
 	{

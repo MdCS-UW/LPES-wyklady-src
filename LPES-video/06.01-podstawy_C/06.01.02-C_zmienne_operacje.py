@@ -127,7 +127,7 @@ int main() {
 	float z = 1 / 2;
 	float q = 1 / 2.0;
 	
-	printf("ABC %f %f %f\n", x, y, z, q);
+	printf("ABC %f %f %f %f\n", x, y, z, q);
 	return 0;
 }
 """

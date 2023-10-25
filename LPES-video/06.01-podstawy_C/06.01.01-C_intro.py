@@ -90,7 +90,7 @@ clipData += [
 			'Proces utworzenia pliku binarnego w oparciu o źródła składa się z kilku etapów. <mark name="etapy" />'
 			'Warto tutaj powiedzieć o rozdzieleniu kompilacji, <m> czyli zamiany kodu w postaci tekstu na kod maszynowy <m> oraz linkowania, czyli połączenia wielu takich plików binarnych <m> w plik wykonywalny lub bibliotekę. <m>'
 			'Pozwala to na łatwy podział źródeł na wiele plików, <m> ich niezależną (nawet równoległą) kompilację, <m> a następnie złączenie w jeden program. <m>'
-			'W procesie linkowania przetwarzane są także odwołania do bibliotek, w tym przypadku do biblioteki standardowej C dostarczającej funkcję puts. <m>'
+			'W procesie linkowania przetwarzane są także odwołania do bibliotek, <m> w tym przypadku do biblioteki standardowej C dostarczającej funkcję puts. <m>'
 		]
 	},
 	{

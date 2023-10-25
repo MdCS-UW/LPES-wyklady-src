@@ -102,7 +102,7 @@ clipData += [
 			
 			'Możemy przyłożyć bezpośrednio masę, bo wtedy prąd nie płynie. <mark name="npn_bez_rezystora2" />'
 			
-			'Ale jeżeli przyłożyli byśmy tutaj bezpośrednio jakiś potencjał większy <m>, to wtedy jak widzimy prądy nam rosną katastrofalnie <m>'
+			'Ale jeżeli przyłożyli byśmy tutaj bezpośrednio jakiś potencjał większy, <m> to wtedy jak widzimy prądy nam rosną katastrofalnie <m>'
 				'<–>[.] w symulacji doszliśmy do jakichś milionów zeta amperów, <m> po czym symulator się zatrzymał. <m>'
 			'Oczywiście w rzeczywistym układzie tyle nie osiągniemy, <m> ponieważ źródło ma jakąś skończoną wydajność prądową, <m>'
 				'a tranzystor uległby zniszczeniu już przy znacznie mniejszych wartościach. <m>'

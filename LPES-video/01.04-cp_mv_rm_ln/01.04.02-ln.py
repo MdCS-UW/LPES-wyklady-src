@@ -41,7 +41,7 @@ clipData += [
 			'Do ważniejszych opcji <ln>[LN] należy zaliczyć <-s>[minus s], <m> która tworzy linki symboliczne zamiast domyślnych linków twardych <m>'
 			'oraz <-r>[minus r], która powoduje użycie ścieżki względnej <m> w tworzonych linkach symbolicznych. <m>'
 			
-			'Warto zauważyć iż w odróżnieniu od <cp>[CP], <m> polecenie <ln>[LN] <m> nie ma opcji do działania rekurencyjnego – jeżeli chcemy utworzyć kopie katalogu, <m>'
+			'Warto zauważyć iż w odróżnieniu od <cp>[CP], polecenie <ln>[LN] <m> nie ma opcji do działania rekurencyjnego – jeżeli chcemy utworzyć kopie katalogu, <m>'
 			'w której zamiast kopiowania plików tworzone byłyby linki do nich <m> to możemy wywołać <cp>[CP] z odpowiednimi opcjami. <m>'
 		]
 	},

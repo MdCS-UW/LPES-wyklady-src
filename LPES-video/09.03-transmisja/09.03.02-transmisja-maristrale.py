@@ -36,7 +36,7 @@ clipData += [
 				'Magistralę (linear bus), w której wszystkie urządzenia są podłączone do jednej linii <m> (wspólnego medium transmisyjnego), okablowanie nie wyróżnia punktu centralnego. <m>'
 				'Łańcuch (daisy chain), który jest podobny do magistrali, <m> ale medium transmisyjne jest podzielone. <m>'
 				'Pierścień (ring), który jest zapętlonym na końcach łańcuchem. <m>'
-				'Gwiazdę (star), w której wszystkie podłączenia biorą początek w węźle centralnym. <m> <m>'
+				'Gwiazdę (star), w której wszystkie podłączenia biorą początek w węźle centralnym. <m>'
 				'Krate (mesh), w której każde urządzenie ma bezpośrednie połączenie <m> punkt-punkt do każdego innego urządzenia. <m>'
 			'Ponadto występują topologie mieszane takie jak: <m>'
 				'gwiazda wielokrotna, czyli taka gwiazda gdzie niektóre z węzłów <m> stanowią punkty centralne kolejnych gwiazd, <m>'

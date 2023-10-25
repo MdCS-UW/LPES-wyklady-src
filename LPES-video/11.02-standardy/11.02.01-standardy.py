@@ -48,7 +48,7 @@ clipData += [
 			'Drugi zapewnia gigabit na sekundę, <m> jednak do tego celu używa wszystkich czterech par skrętki. <m>'
 			
 			'Skoro jesteśmy przy standardach i wiemy że za Ethernet odpowiada <IEEE>[aj tripol i]. <m>'
-			'To jak wygląda z kwestia z protokołami IP? <break time="500ms"/> <m>'
+			'To jak wygląda kwestia z protokołami IP? <break time="500ms"/> <m>'
 			
 			'Internet, czy też protokoły z nim związane, nie są standaryzowane przez żadną <m> z powszechnie uznanych organizacji standaryzacyjnych, <m> takich jak <IEEE>[aj tripol i], ISO, IEC, ANSI i tym podobne. <m>'
 		]

@@ -42,8 +42,8 @@ clipData += [
 			'Może on być wykorzystywany jako samodzielny element do załączania <m> jakiegoś odbiornika pod biegun dodatni bądź biegun ujemny. <m>'
 			'Przykładem odbiornika wymagającego takiego załączania <m> jest bramka tranzystora mosfet. <m>'
 			
-			'Niekiedy do sterowania dużym tranzystorem mosfet, mającym też sporą pojemność, którą trzeba przeładować przy przełączaniu, używany jest półmostek <m>'
-				'zbudowany z mniejszych tranzystorów mosfet, które mają mniejszą pojemność i szybciej się przełączają. <m>'
+			'Niekiedy do sterowania dużym tranzystorem mosfet, <m> mającym też sporą pojemność, którą trzeba przeładować <m> przy przełączaniu, używany jest półmostek <m>'
+				'zbudowany z mniejszych tranzystorów mosfet, <m> które mają mniejszą pojemność i szybciej się przełączają. <m>'
 			
 			'Mostki, czy też półmostki możemy budować zarówno <m> z tranzystorów <bipolarnych>[bi-polarnych] jak i polowych. <m>'
 			'Budując mostek z tranzystorów należy zastosować oczywiście odpowiednie ich typy <m> – jako S1 i S3 używamy tranzystorów typu P czyli PNP lub P-MOSFET, <m> a jako S2 i S4 tranzystorów NPN lub N-MOSFET. <m>'

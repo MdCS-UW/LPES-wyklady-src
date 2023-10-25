@@ -107,6 +107,7 @@ clipData += [
 		'text' : [
 			'Można by używać operatora dolar i podwójne nawiasy okrągłe także <m> do obliczania wartości wyrażeń logicznych a nawet bitowych. <m>'
 			'Natomiast jest to bardzo rzadko spotykane i do obliczania wartości <m> wyrażeń logicznych typowo stosuje się nawiasy kwadratowe <mark name="kwadratowe" /> lub komendę test (zapisy te są równoważne). <m>'
+			'Można się też spotkać z operatorem podwójnego nawiasu kwadratowego, <m> ale jest to niestandardowe rozszerzenie basha, <m> którego nie będziemy tu omawiali. <m>'
 			
 			'Wynika to zapewne z dwóch ich cech. <m>'
 			'Po pierwsze wynik testowanego wyrażenia logicznego zwracają jako <m> kod powrotu, co okazuje się bardzo wygodne do łączenia ich z innymi poleceniami. <m>'

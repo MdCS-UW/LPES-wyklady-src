@@ -100,7 +100,7 @@ clipData += [
 			["bezx2 + 3.3", eduMovie.runCommandString(r"/lib64/ld-linux-x86-64.so.2 ./abc  | head", cwd="/tmp")],
 		],
 		'text' : [
-			'Jeżeli plik ma prawo wykonywalności, to możemy go uruchomić <m> poprzez podanie ścieżki do tego pliku, ale nie poprzez jego nazwę. <m>'
+			'Jeżeli plik ma prawo wykonywalności, to możemy go uruchomić <m> poprzez podanie ścieżki do tego pliku <m> (lub jego nazwy, gdy katalog go zawierający znajduje się w ścieżce wyszukiwania). <m>'
 			'Jeżeli plik jest w bieżącym katalogu to i tak musimy określić go <m> poprzez ścieżkę, ponieważ bash nie traktuje jako ścieżek <m> nazw poleceń nie zawierających ukośnika. <m>'
 			'Bash zakłada w takim przypadku że są to nazwy poleceń wbudowanych, funkcji <m> lub programów znajdujących się w ścieżce wyszukiwania, <m> określonej zmienną PATH. <mark name="path" />'
 			'Natomiast katalog bieżący zazwyczaj nie znajduje się w ścieżce wyszukiwania. <m>'

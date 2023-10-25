@@ -97,7 +97,7 @@ clipData += [
 			'Niekiedy wspierany jest też jednoprzewodowy <UART>[uart] <m> ze wspólną linią nadawania i odbioru typu open kolektor. <m>'
 			
 			'<UART>[uart] jest wykorzystywany razem z wieloma różnymi <m> standardami elektrycznymi dla takiej magistrali. <m>'
-			'Może ona występować jako <RS232>[RS dwa trzy dwa], <m> czyli ten standard który występował kiedyś w komputerach PC jako porty com, <m> używane między innymi do podłączenia modemu czy myszek. <m>'
+			'Może ona występować jako <RS232>[RS dwa trzy dwa], <m> czyli ten standard który występował kiedyś w komputerach PC jako porty COM, <m> używane między innymi do podłączenia modemu czy myszek. <m>'
 			'Może być też w standardzie <RS422>[RS cztery dwa dwa] albo <485>[cztery osiem pięć], <m> które z kolei korzystają z transmisji różnicowej full duplex albo half duplex, <m> w zależności od użytego rozwiązania i ilości przewodów. <m>'
 			
 			'<RS232>[RS dwa trzy dwa] jest standardem dosyć starym, wywodzącym się z dalekopisów <m> i przyjmuje bardzo oryginalne poziomy logiczne: jedynka jest to napięcie <m> od minus 15 do minus 3 woltów, a zero od 3 do 15 woltów. <m>'

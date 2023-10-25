@@ -37,8 +37,8 @@ def text2audioFile(txt, fileName):
 		raise BaseException("Empty Google cloud Text to Speach token")
 	
 	txt = txt.replace('. <', '.<break time="300ms"/> <')
-	txt = txt.replace(' - ', ' <break time="200ms"/> ')
-	txt = txt.replace(' – ', ' <break time="200ms"/> ')
+	txt = txt.replace(' - ', ' -<break time="200ms"/> ')
+	txt = txt.replace(' – ', ' –<break time="200ms"/> ')
 	txt = txt.replace(', ',  ',<break time="100ms"/> ')
 	# prepare and send request
 	r = '''{

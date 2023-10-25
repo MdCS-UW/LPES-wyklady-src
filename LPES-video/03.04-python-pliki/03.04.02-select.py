@@ -122,7 +122,7 @@ clipData += [
 			[1.0, eduMovie.runCommandString(r"/bin/echo -e 'A\nB C\nD 1 2 3' | python3 przykład.py", cwd="/tmp")],
 		],
 		'text' : [
-			'Jako że wyjście z select oznacza dostępność jakichś <m>, ale nie koniecznie wszystkich danych to warto tego typu odczyt prowadzić w pętli, <m>'
+			'Jako że wyjście z select oznacza dostępność jakichś, <m> ale nie koniecznie wszystkich danych to warto tego typu odczyt prowadzić w pętli, <m>'
 			"która zostanie przerwana jeżeli select nie zwrócił możliwości <m> wykonania operacji na żadnym z wskazanych plików, <m> co w Pythonie jest równoważne z upłynięciem timeout'u. <m>"
 			'Pythonowa funkcja select (w odróżnieniu od tej z C) kończy się <m> normalnie tylko gdy są dane do odczytu lub nastąpił timeout. <m>'
 			'W pozostałych wypadkach może generować wyjątki. <m>'

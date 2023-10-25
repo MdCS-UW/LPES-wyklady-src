@@ -93,7 +93,7 @@ clipData += [
 			'Możemy odwoływać się do poszczególnych elementów <m> napisu z użyciem nawiasów kwadratowych. <m>'
 			'Indeksowanie jest od zera, <m> czyli pierwszy znak w napisie ma indeks zero. <m>'
 			'Możemy też podawać indeksy ujemne, <m> które adresują napis od tyłu. <m>'
-			'Minus jeden oznacza ostatni znak,  <m>minus dwa przedostatni i tak dalej. <m>'
+			'Minus jeden oznacza ostatni znak, <m> minus dwa przedostatni i tak dalej. <m>'
 			'Jeżeli wyjdziemy poza zakres związany <m> z długością danego napisu Python zgłosi błąd. <mark name="len" />'
 			'Długość napisu możemy uzyskać wywołując na napisie funkcję len. <m>'
 		]

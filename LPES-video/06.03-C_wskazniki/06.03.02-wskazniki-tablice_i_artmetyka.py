@@ -123,12 +123,12 @@ clipData += [
 		],
 		'text' : [
 			'Skoro zaczęliśmy używać rzutowania typów wskaźnikowych to zobaczmy <m> co się stanie jeżeli na tablicę liczb <16>[szesnasto] bitowych, <m> zaczniemy patrzeć jak na tablicę liczb <8>[ośmio] bitowych. <m>'
-			'Zrobimy to na dwa sposoby <m> – z użyciem operacji bitowych oraz wykorzystując rzutowanie. <m>'
+			'Zrobimy to na dwa sposoby – z użyciem operacji bitowych oraz wykorzystując rzutowanie. <m>'
 			'Pierwsza operacja działa chyba tak jak wszyscy się spodziewali – <m> jeżeli wypisujemy starsze <8>[osiem] bitów dostajemy dwie starsze cyfry szesnastkowe, <m>'
 			'jeżeli wypisujemy młodsze osiem bitów to dostajemy dwie młodsze cyfry szesnastkowe. <m>'
 			
 			'Działanie drugiej operacji nie tylko jest nie oczywiste, <m> ale nawet niezdefiniowane przez standard. <m>'
-			'Jest to jeden z licznych przypadków gdy twórcy języka C i C++ powiedzieli <m> że nie definiują danego zachowania i może ono być różne w zależności <m> np. od architektury, kompilatora czy systemu operacyjnego. <m>'
+			'Jest to jeden z licznych przypadków gdy twórcy języka C i C++ powiedzieli <m> że nie definiują danego zachowania i może ono być różne w zależności <m> np. od architektury, kompilatora czy systemu operacyjnego. <m>',
 			
 			'Zapewne większość osób intuicyjnie spodziewałaby się <m> że wynik będzie taki jak wcześniej czyli dostaniemy 12 34 56 i 78. <m>'
 			'Jednak u większości osób które spróbowałyby uruchomić ten kod <m> wynik będzie inny – 34 12 78 i 56. <m>'
@@ -137,6 +137,7 @@ clipData += [
 			'W pierwszym z nich najbardziej znaczący bajt umieszczany jest jako pierwszy, <m> czyli tak jak ma to miejsce z cyframi w stosowanym na co dzień systemie pozycyjnym. <m>'
 			'W drugim z nich najbardziej znaczący bajt umieszczany jest jako ostatni, <m> czyli kolejność bajtów jest odwrócona. <m>'
 			'Najpopularniejsza aktualnie architektura komputerów domowych (i nie tylko), <m> czyli <x86>[iks osiem sześć] (względnie <amd64>[AMD sześćdziesiąt cztery]) stosuje właśnie little endian, <m> co tłumaczy ten dziwny wynik. <m>',
+			
 			'Procesory stosujące kolejność little endian to na przykład Motorola <68k>[sześćdziesiąt osiem tysięcy], <m> które były używane między innymi w komputerach domowych serii Amiga, <m>'
 				'lub procesory <SPARC>[spark], na których oparte komputery używane są jeszcze w niektórych miejscach. <m>'
 			'Jeżeli uruchomilibyśmy ten program na jednym z tych komputerów, to wynik miałby inną kolejność. <m>'

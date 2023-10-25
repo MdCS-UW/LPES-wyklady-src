@@ -95,7 +95,7 @@ clipData += [
 			'Spróbujmy ustalić czy adres <172.137.217.181>[sto siedemdziesiąt dwa kropka 137 kropka 217 kropka 181] <m> należy do sieci <172.137.208.0/21>[sto siedemdziesiąt dwa kropka 137 kropka 208 kropka 0 slash 21]. <mark name="Ipv4" />'
 			'Widzimy że sieć ta kończy się na adresie <172.137.215.255>[sto siedemdziesiąt dwa kropka 137 kropka 215 kropka 255], <m> zatem podany adres nie należy do tej sieci. <m>',
 			
-			'Operację taką możemy też wykonać także tak jak robi to komputer. <m> Użyjemy do tego Pythona. <m>'
+			'Operację taką możemy też wykonać także w taki sposób jak robi to komputer. <m> Użyjemy do tego Pythona. <m>'
 		]
 	},
 ]

@@ -148,19 +148,27 @@ def LaTex2Image(inFilePath, convertTeX = None, convertTeXAgs = None, dpi = 170, 
 	
 	return outFilePath
 
-def convertFile(inFilePath, outFilePath = None, **opts):
+def convertFile(inFilePath, convertSource = None, convertSourceAgs = None, outFilePath = None, **opts):
 	ext = inFilePath.rsplit(".", 1)[-1]
 	
 	if ext == 'tex':
 		return LaTex2Image(inFilePath, **opts)
 	
+	if convertSourceAgs:
+		idStr = convertSourceAgs.__repr__() + "–" + os.path.basename(inFilePath)
+	else:
+		idStr = os.path.basename(inFilePath)
+	
 	if not outFilePath:
-		outFilePath, _ = getCachedFilename( open(inFilePath, "rb").read() )
+		outFilePath, _ = getCachedFilename( (idStr + "\n\r" + inFilePath + "\n\r").encode() + open(inFilePath, "rb").read() )
 	
 	if ext == 'svg':
 		outFilePath += ".svg.png"
-		if not checkCachedFile(outFilePath, inFilePath.rsplit("/", 1)[-1]):
+		if not checkCachedFile(outFilePath, idStr):
 			logInfo("convert \"" + inFilePath + "\" into \"" + outFilePath + "\"", yellow)
+			
+			if convertSourceAgs:
+				inFilePath = convertSource(inFilePath, buildDir + os.path.basename(outFilePath) + ".svg", convertSourceAgs)
 			
 			dpi, area = "", "--export-area-drawing"
 			if "dpi" in opts:
@@ -172,8 +180,11 @@ def convertFile(inFilePath, outFilePath = None, **opts):
 			addMargins(outFilePath, opts=opts)
 	elif ext == 'sch':
 		outFilePath += ".sch.png"
-		if not checkCachedFile(outFilePath, inFilePath.rsplit("/", 1)[-1]):
+		if not checkCachedFile(outFilePath, idStr):
 			logInfo("convert \"" + inFilePath + "\" into \"" + outFilePath + "\"", yellow)
+			
+			if convertSourceAgs:
+				inFilePath = convertSource(inFilePath, buildDir + os.path.basename(outFilePath) + ".sch", convertSourceAgs)
 			
 			dpi = "--dpi=250"
 			if "dpi" in opts:
@@ -222,7 +233,8 @@ def getAudioClipAndSubtitles(txt, startOffset, localStartOffset, speed=1.0):
 	
 	# create subtitles
 	subtitles = []
-	txt = re.sub("<([^<>]*?)>\[.*?\]", "\\1", txt)
+	txt = re.sub("<([^<>]*?)>\[.*?\]", "\\1", txt) # pronunciation tips <world>[pronunciation] -> world
+	txt = re.sub("<break[^<>]*?>", "", txt)
 	txt = re.sub("<mark [^<>]*?>", "<m>", txt)
 	txt = txt.split("<m>")
 	timepoints = sorted(times.values())
@@ -676,12 +688,9 @@ if __name__ == "__main__":
 		if not workdir:
 			os.chdir(screenplay[0])
 			workdir = screenplay[0]
-			if len(sys.argv) > 2:
-				movieid = screenplay[0].split("-", maxsplit=1)[0]
-			else:
-				movieid = screenplay[1].split("-", maxsplit=1)[0]
+			movieid = screenplay[0].split("/")[-1]
 		elif workdir != screenplay[0]:
-			raise BaseException("difreant workdir exctracted from cmdline args:\n   " + workdir + " vs " + screenplay[0])
+			raise BaseException("different workdir extracted from cmdline args:\n   " + workdir + " vs " + screenplay[0])
 		
 		# include screenplay file
 		exec( open(screenplay[1]).read() )

@@ -37,7 +37,7 @@ clipData += [
 			'Kondensator wprowadza do układu pojemność związaną ze swoją wartością nominalną, <m> czyli jest elementem na którym może gromadzić się ładunek elektryczny. <m>'
 			'Kondensator oprócz ładunku musi gromadzić też energię w polu elektrycznym <m> – inaczej mielibyśmy problem z zasadą zachowania energii. <m>'
 			
-			'Kondensator oznaczany jest, tak jak widzimy na ekranie, <m> w formie takich dwóch pionowych kresek, jedna z nich może być albo prostokątem <m> albo być zaokrąglona, co oznacza polaryzację kondensatora. <m>'
+			'Kondensator oznaczany jest, tak jak widzimy na ekranie, <m> w formie dwóch pionowych kresek, jedna z nich może być albo prostokątem <m> albo być zaokrąglona, co oznacza polaryzację kondensatora. <m>'
 			'Wiąże się to z tym że niektóre kondensatory ze względu na swoją konstrukcję, <m> mogą być podłączone do układu tylko w ten sposób, że na jednej z jego okładek <m> musi być napięcie wyższe niż na drugiej, <m>'
 				'bo inaczej element może ulec zniszczeniu. <m>'
 			'Wtedy takie kondensatory również na schematach są stosownie oznaczone. <mark name="wzory1" />'
@@ -69,7 +69,7 @@ clipData += [
 			'Kondensator początkowo był nie naładowany, więc aktualnie prąd nie płynie. <mark name="cap_ladowanie" />'
 			'Zatem gdy podłączymy ładowanie kondensatora <m> to widzimy na wykresie oscyloskopowym wzrost napięcia na tym kondensatorze <m> do momentu aż osiąga ono prawie 5 woltów, gdyż tyle wynosi napięcie zasilania. <m>'
 			
-			'Przełączmy teraz na rozładowywanie, <mark name="cap_rozladowanie" /> jak widzimy dzięki zastosowaniu większej rezystancji zachodzi on znacznie wolniej. <m>'
+			'Przełączmy teraz na rozładowywanie, <mark name="cap_rozladowanie" /> jak widzimy dzięki zastosowaniu większej rezystancji zachodzi ono znacznie wolniej. <m>'
 			'Mamy tutaj rezystancję ponad dziesięciokrotnie większą, <m> w związku z czym rozładowywanie zachodzi również ponad dziesięciokrotnie dłużej. <m>'
 			
 			'Możemy naładować ponownie ten kondensator <mark name="cap_rozladowanie2" /> i zmienić tutaj na przykład też na 100 omów. <m>'

@@ -142,7 +142,7 @@ clipData += [
 			'W tym wypadku ustawiamy wejście typu pływającego, czyli takie jak w <m> standardowej bramce, gdzie użytkownik musi wymusić oba stany logiczne. <m>'
 			'Moglibyśmy także skonfigurować to wejście jako podciągnięte do zasilania, <m> bądź do masy z użyciem wewnętrznych rezystorów podciągających. <mark name="di1" />'
 			
-			'W ramach tej pętli dokonujemy odczytu wartości portu A do zmiennej. <m>'
+			'W ramach tej pętli dokonujemy odczytu wartości portu A <break time="150ms"/> do zmiennej stan a. <m>'
 			'Warto zauważyć że czytamy cały szesnastobitowy port A, <m> czyli stan wszystkich pinów składających się na ten port, <m> a nie tylko jeden bit z tego portu. <m>'
 			'W związku z tym sprawdzamy w warunku if tylko stan tego jednego, najmłodszego <m> bitu – w tym celu korzystamy z operacji bitowego and z odpowiednią maską. <mark name="di2" />'
 			

@@ -78,7 +78,7 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'title': [ "#03.1", "Python:", "listy", "i słowniki" ] },
+	{ 'title': [ "#02.7", "Python:", "listy", "i słowniki" ] },
 	
 	{ 'comment': 'listy' },
 	{
@@ -133,7 +133,7 @@ clipData += [
 			'Dla przypomnienia – napis był niemodyfikowalny <m> i składał się tylko ze znaków unicode. <mark name="modyfikowalnosc" />'
 			
 			'Modyfikowalność listy pozwala na zmianę <m> wartości (a nawet typu) wskazanego elementu. <m>'
-			'Pozwala na dodawanie nowych elementów zarówno na końcu listy <m> (z użyciem metody append) <m>, jak i w dowolnym miejscu listy z użyciem metody insert. <mark name="delelement" />'
+			'Pozwala na dodawanie nowych elementów zarówno na końcu listy <m> (z użyciem metody append), <m> jak i w dowolnym miejscu listy z użyciem metody insert. <mark name="delelement" />'
 			
 			'Możemy też usuwać elementy z listy korzystając <m> z instrukcji del do której przekazujemy element do usunięcia. <m>'
 		]

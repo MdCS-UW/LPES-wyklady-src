@@ -350,7 +350,7 @@ clipData += [
 			'Jest to zunifikowany sposób zapisu informacji o lokalizacji zasobu. <m>'
 			'Może określać on używany protokół, <m> nazwę użytkownika i hasło potrzebne do dostępu, <m> nazwę lub adres serwera, numer portu, <m> ścieżkę na systemie zdalnym i dodatkowe argumenty. <m>'
 			'Często wiele z tych elementów jest pomijanych, <m> gdyż nie jest wymaganych czy nawet sensownych w danym wypadku. <m>'
-			'Jeżeli host określany jest adresem IPv6 adres ten zapisywany jest <m> w nawiasach kwadratowych, aby oddzielić go jednoznacznie od numeru portu. <m>'
+			'Jeżeli host określany jest adresem IPv6 to adres ten zapisywany jest <m> w nawiasach kwadratowych, aby oddzielić go jednoznacznie od numeru portu. <m>'
 		]
 	},
 	{

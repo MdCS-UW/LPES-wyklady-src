@@ -286,7 +286,7 @@ clipData += [
 			'Jeżeli zakresem tym będzie % to operacja obejmie wszystkie linie w pliku. <mark name="zastepowanieD" />'
 			
 			'Możemy też zastępowanie robić na fragmencie zaznaczonym w trybie wizualnym, <m> wtedy po wciśnięciu dwukropka vim nam już podpowiada zakres <m> jakiego najprawdopodobniej chcemy użyć, <m>'
-			'czyli zakres oznaczający aktualne zaznaczenie w trybie wizualnym.'
+			'czyli zakres oznaczający aktualne zaznaczenie w trybie wizualnym. <m>'
 			'Oczywiście jako przedziały możemy też podawać numery linii, <m> czy też ilość linii od bieżącej w przód, bądź w tył i tak dalej. <m>'
 			'Szczegóły opisane są w dokumentacji, a ich streszczenie <m> znaleźć można w skrypcie do dzisiejszych zajęć. <m>'
 			
@@ -394,7 +394,7 @@ clipData += [
 		],
 		'text' : [
 			"Vim pozwala nam też na otwarcie kilku plików naraz. <m>"
-			"Pomiędzy kolejnymi plikami możemy się przełączać przy pomocy <:n>[dwukropek n] <m>, n małe - do przodu, czyli następny plik, N duże - do tyłu, czyli poprzedni plik. <m>"
+			"Pomiędzy kolejnymi plikami możemy się przełączać przy pomocy <:n>[dwukropek n], <m> n małe - do przodu, czyli następny plik, N duże - do tyłu, czyli poprzedni plik. <m>"
 			"Możemy także podzielić okno vim'a w poziomie poprzez <:split>[dwukropek split] <m> lub w pionie poprzez <:vs>[dwukropek VS] i przełączać się pomiędzy tymi oknami <m> poprzez <Control W>[Control Wu] i strzałka w odpowiednim kierunku. <m>"
 			"W różnych takich pod okienkach możemy mieć otwarte różne pliki, <m> dzięki czemu możemy na przykład w łatwy sposób przekopiować dane z jednego pliku do innego. <m>"
 			"Poszczególne okienka zamykamy przy pomocy <:q>[dwukropek q], <m> zamykając ostatnie okienko opuścimy vim'a. <m>"

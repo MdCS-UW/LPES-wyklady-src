@@ -102,10 +102,10 @@ clipData += [
 		'text' : [
 			'Kolejnym elementem popularnym w C, <m> ale też i w C++ są tablice o zmiennej długości. <m>'
 			'W przypadku języka C od wersji 99 możemy określić długość tablicy <m> poprzez zmienną, są to tablice zmiennej długości VLA. <m>'
-			'C++ nie posiada tego typu tablic, <m> jednak na przykład kompilatory gnu czy <clang>[ce lang] pozwalają na ich używanie w C++. <m>'
-			'Brak tablic VLA w C++ wynika z tego że C++ posiada własny <m> typ dla tablic zmiennej długości. <mark name="vector" />'
+			'C++ nie posiada tego typu tablic, <m> jednak na przykład kompilatory gnu czy <clang>[ce lang] pozwalają na ich używanie w tym języku. <m>'
+			'Brak tablic VLA w C++ wynika z tego że posiada on własny typ <m> dla tablic zmiennej długości. <mark name="vector" />'
 			
-			'Jest to STD Vector, który też pełni funkcję tablic zmiennej długości, <m> w dodatku tablic których długość może być zmieniana już po ich utworzeniu. <m>'
+			'Jest to STD Vector, który nie tylko <m> pozwala na określenie rozmiaru tablicy z użyciem zmiennej, <m> ale także na późniejszą modyfikację tego rozmiaru. <m>'
 			'Czyli możemy je łatwo rozszerzyć w trakcie działania programu <m> – przynajmniej z punktu widzenia programisty piszącego kod. <m>'
 			'Bo niekoniecznie będzie to łatwe dla komputera wykonującego ten kod, <m> ponieważ jeżeli jest to duży wektor, za którym są już zaalokowane inne zmienne, <m>'
 			'to w celu jego rozszerzenia musimy przekopiować <m> wszystkie dane z tego wektora w inne miejsce. <m>'
@@ -130,7 +130,7 @@ clipData += [
 			'Kolejnym standardowym typem C++, <m> o którym na pewno warto wspomnieć, są listy. <m>'
 			'Listy znamy już z Pythona, przy czym w odróżnieniu od list pythonowych <m> (które w istocie były tablicą wskaźników) C++ oferuje nam prawdziwe listy. <m>'
 			
-			'Warto zauważyć że w nawiasie trójkątnym po STD List, <m> czy też wcześniej STD Vector, podawany jest typ <m>, który ma być przechowywany w danym kontenerze. <m>'
+			'Warto zauważyć że w nawiasie trójkątnym po STD List, <m> czy też wcześniej STD Vector, podawany jest typ, <m> który ma być przechowywany w danym kontenerze. <m>'
 			'W odróżnieniu od Pythona taki kontener przechowuje zmienne <m> jednego określonego wcześniej typu. <m>'
 			
 			'Możemy dodawać elementy na początku, na końcu, <m> czy też wewnątrz listy (po jakimś znanym nam elemencie listy) <m> z użyciem metod push back, push front lub insert. <m>'

@@ -239,7 +239,7 @@ clipData += [
 			'W funkcji tej na wstępie dokonujemy sprawdzenia <m> czy przerwanie było w związku z odbiorem danych. <m>'
 			'W tym przykładzie nie ma to większego znaczenia (byłoby użyteczne gdybyśmy <m> obsługiwali też inne przerwania z tego interfejsu), <m>'
 				'natomiast samo odczytanie tego rejestru jest ważne <m> aby wyczyścić flagę przerwania (inaczej byłoby ono generowane powtórnie). <m>'
-			'Warto zauważyć że wartość zwróconą przez <USART_SR>[usart sr] zapisaliśmy do zmiennej, <m> co byłoby użyteczne gdybyśmy chcieli rozbudować konstrukcję if <m>'
+			'Warto zauważyć że wartość zwróconą przez <USART_SR>[usart es er] zapisaliśmy do zmiennej, <m> co byłoby użyteczne gdybyśmy chcieli rozbudować konstrukcję if <m>'
 				'o obsługę innych powodów przerwań, <m> gdyż na skutek odczytu tego rejestru pewne flagi mogą być czyszczone <m> i kolejny odczyt może zwrócić inną wartość. <m>'
 			
 			'Jeżeli przerwanie było z powodu odbioru danych to <mark name="usart1_irs_B" /> odbieramy bajt danych i w zależności od jego parzystości <mark name="usart1_irs_C" /> zapalamy lub gasimy diodę na pinie C13. <m>'

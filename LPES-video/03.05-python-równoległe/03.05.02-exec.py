@@ -78,7 +78,7 @@ clipData += [
 			'Funkcja ta posiada kilka wariantów dostępnych w module <os>[O S] <m> i pozwala na uruchomienie wskazanego programu. <m>'
 			'Jeden z wariantów jej działania widzimy na ekranie, w tym przykładzie <m> powoduje on wykonanie w miejsce interpretera Pythona komendy <ls>[L S]. <m>'
 			'Funkcja exec nie powoduje zmiany identyfikatora procesu. <m>'
-			'Jeżeli funkcja exec uruchomiła się bez błędu to nigdy nie wraca <m>, czyli kod występujący po niej nie będzie wykonywany. <m>'
+			'Jeżeli funkcja exec uruchomiła się bez błędu to nigdy nie wraca, <m> czyli kod występujący po niej nie będzie wykonywany. <m>'
 			'W Pythonie w przypadku błędów generuje wyjątek, <m> więc po prostu nigdy nie wraca. <m>'
 		]
 	},
@@ -136,7 +136,7 @@ clipData += [
 			'W widocznym przykładzie na standardowe wejście przekazujemy <m> ciąg bajtowy utworzony z napisu zawartego w zmiennej <xx>[X X], <m>'
 			'a standardowe wyjście zostanie przechwycone i będzie dostępne <m> w polu <stdout>[S T D out] obiektu zwróconego przez tą funkcję. <m>'
 			
-			'Z obiektu zwróconego przez funkcję run możemy także uzyskać <m> kod powrotu uruchamianego polecenia. <m>'
+			'Z obiektu zwróconego przez funkcję <run>[ran] możemy także uzyskać <m> kod powrotu uruchamianego polecenia. <m>'
 		]
 	},
 ]

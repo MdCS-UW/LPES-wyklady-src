@@ -42,8 +42,8 @@ clipData += [
 			'Podobnie wysyłając ciąg do polecenia grep i sprawdzając kod <m> powrotu można sprawdzić czy napis ten pasuje do wyrażenia regularnego. <m>'
 			'Mamy zatem podstawowe narzędzia do modyfikacji <m> i wykonywania innych operacji na napisach. <mark name="wc" />'
 			
-			'W przypadku zarówno plików jak i napisów przydatna może być także <m> komenda <wc>[Wu Ce], która umożliwia nam liczenie liter (za pomocą opcji <-m>[minus M]), bajtów (opcja <-c>[minus C])'
-			', słów (opcja <-w>[minus wu]) oraz linii (<-l>[minus L]). <m>'
+			'W przypadku zarówno plików jak i napisów przydatna może być także komenda <wc>[Wu Ce], <m> która umożliwia obliczanie długości napisu. <m>'
+			'Z użyciem opcji <-m>[minus M] pozwala na liczenie liter, <m> <-c>[minus C] bajtów, <-w>[minus wu] słów, a <-l>[minus L] linii. <m>'
 			'Warto zauważyć różnicę pomiędzy liczeniem bajtów a znaków, <m> która objawia się dla znaków z poza podstawowego zakresu ASCII. <m>'
 			'W tym wypadku bajtów mamy o 2 więcej, <m> bo użyliśmy dwóch polskich znaków które w utf-8 są kodowane dwubajtowo. <m>'
 		]

@@ -89,7 +89,7 @@ clipData += [
 		],
 		'text' : [
 			'W przypadku najczęściej spotykanego w warunkach domowych czy biurowych <m> <ethernetu>[eternetu] realizowanego po kablu, wykorzystuje się typowo <m> ośmio żyłowe kable złożone z czterech skręconych par<.>[ .] <m>'
-			'Najpopularniejszym kablem jest kabel UTP kategorii piątej, <m> niekiedy określonej 5E. <m>'
+			'Najpopularniejszym kablem jest kabel UTP kategorii piątej, <m> niekiedy określanej 5E. <m>'
 			'UTP oznacza że jest to kabel nieekranowany, <m> możemy się spotkać również z kablami ekranowanymi, <m> na przykład FTP, SFTP i innymi tego typu kombinacjami nazw. <m>'
 			'Wiążą się one ze sposobem ekranowania, <m> czyli mogą być ekranowane poszczególne pary, może być ekranowana jedynie <m> całość kabla, bądź też może być ekranowana całość i poszczególne pary. <mark name="roznicowy" />'
 			

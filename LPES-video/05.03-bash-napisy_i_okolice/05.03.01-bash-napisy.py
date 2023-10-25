@@ -137,9 +137,10 @@ clipData += [
 			
 			'Mamy również operację obcięcia wskazanego podnapisu <m> od końca lub początku zmiennej uzyskiwaną z użyciem dolara i krzyżyka. <m>'
 			'Tutaj także działają znaki uogólniające powłoki. <m>'
-			'A operacja obcinania od końca jest szczególnie przydatna <m> do ucinania rozszerzenia z nazwy pliku celem zastąpienia go innym. <m>'
+			'Operacja obcinania od końca jest szczególnie przydatna <m> do ucinania rozszerzenia z nazwy pliku celem zastąpienia go innym. <m>'
 			
-			'Oczywiście w ciągach wyszukiwanych, zastępujących i obcinanych możemy <m> także odwoływać się do zmiennych powłoki z użyciem standardowego znaku dolara. <mark name="printf" />'
+			'Oczywiście w ciągach wyszukiwanych, zastępujących i obcinanych możemy <m> także odwoływać się do zmiennych powłoki z użyciem standardowego znaku dolara. <m>'
+			'Należy jednak pamiętać, że wiele tych operatorów jest rozszerzeniami basha, <m> nie występującymi w standardzie <sh>[es ha]. <mark name="printf" />'
 			
 			"Programując w bashu mamy też dostęp do instrukcji <printf>[print-f] <m> umożliwiającej <formatowane>[format'owane] wypisywanie zmiennych. <m>"
 			'Instrukcja ta będąca tak naprawdę osobnym programem działa analogicznie <m> jak funkcja <printf>[print-f] z C i potrafi obsługiwać także liczby zmiennoprzecinkowe. <m>'
