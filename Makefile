@@ -56,17 +56,8 @@ $(MAINDIR)/LPES-video/GoogleCloudTextToSpeach.py:
 
 .PHONY: checkout-submodules update-submodules protect-submodules
 
-update-subsubmodules:
-	# run `submodule update` action in selected submodules
-	(cd OpCode.eu.org && make checkout-submodules)
-
 checkout-submodules:
-	git submodule update --init
-	$(MAKE) update-subsubmodules
-
-update-submodules: | checkout-submodules
-	git submodule foreach 'git pull origin master; git checkout -f .'
-	$(MAKE) update-subsubmodules
+	git submodule update --init --recursive
 
 #
 # include core makefile from TextUtils
