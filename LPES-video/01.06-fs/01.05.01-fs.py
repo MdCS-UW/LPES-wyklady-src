@@ -46,7 +46,7 @@ clipData += [
 			'W katalogach umieszczonych bezpośrednio w katalogu głównym <m> umieszczane były programy i biblioteki <m> niezbędne do uruchomienia systemu. <m>'
 			'Natomiast w <usr>[U S R] znajdowały się programy i narzędzia oraz biblioteki <m> niebędące niezbędnymi do uruchomienia systemu, <m>'
 			'dzięki czemu katalog <usr>[U S R] mógł być montowany po uruchomieniu systemu <m> i wtedy stawały się one dostępne. <m>'
-			'Obecnie podział ten bardzo często nie jest już stosowany, <m> a w celu zachowania kompatybilności wstecznej, <m> w katalogu głównym znajdują linki symboliczne do podkatalogów w <usr>[U S R]. <m>'
+			'Obecnie podział ten bardzo często nie jest już stosowany, <m> a w celu zachowania kompatybilności wstecznej, <m> w katalogu głównym znajdują się linki symboliczne do podkatalogów w <usr>[U S R]. <m>'
 		]
 	},
 	{

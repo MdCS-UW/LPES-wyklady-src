@@ -1,5 +1,5 @@
 # Copyright (c) 2020-2021 Matematyka dla Ciekawych Świata (http://ciekawi.icm.edu.pl/)
-# Copyright (c) 2020-2021 Robert Ryszard Paciorek <rrp@opcode.eu.org>
+# Copyright (c) 2020-2024 Robert Ryszard Paciorek <rrp@opcode.eu.org>
 # 
 # MIT License
 # 
@@ -36,10 +36,20 @@ clipData += [
 			[0, eduMovie.convertFile('komputer.svg', margins=0)]
 		],
 		'text' : [
-			"Komputer potrafi wykonywać jedynie jakiś zaprogramowany wcześniej ciąg instrukcji. <m>"
-			"Każde polecenie wydawane przez użytkownika wiąże się z uruchomieniem takiego ciągu instrukcji. <m>"
-			"Może nim być program komputerowy albo też jakaś konkretna funkcja w ramach danego programu. <m>"
-			"Podstawowym sposobem wydawania poleceń, <m> czyli właśnie uruchamiania takich ciągów instrukcji, <m> w systemach typu UNIX jest wpisywanie ich w terminalu. <m>"
+			"Komputer jest urządzeniem służącym do wykonywania <m> ciągów instrukcji składających się na program komputerowy. <m>"
+			"Z punktu widzenia procesora je wykonującego, <m> mają one zawsze postać kodu maszynowego, <m> czyli numeru instrukcji do wykonania i jej argumentów. <m>"
+			"Z punktu widzenia programisty, mogą być one reprezentowane <m> przez złożone instrukcje języków wyższego poziomu <m> lub wywołania funkcji bibliotecznych. <m>"
+			"Natomiast z punktu widzenia użytkownika, często są nimi całe gotowe programy, czy też jakieś konkretne funkcje w ramach danego programu. <m>",
+			
+			"Zawsze jednak potrzebna jest metoda wprowadzenia takigo ciągu instrukcji <m> oraz odebrania wyników działania programu. <m>"
+			"Dawno temu polegało to na przygotowaniu całości programu na jakimś nośniku (np. kartach perforowanych), <m>"
+				"uruchomieniu komputera, a następnie odebraniu wygenerowanych wyników <m> na jakimś nośniku (np. w postaci wydruku). <m>"
+			"Interakcja z komuterem ograniczała się do możliwości <m> niskopoziomowego podglądania stanu jego działania <m>"
+				"i ewentualnie możliwości wpłynięcia na działanie programu, <m> z poziomu pulpitu technicznego. <m>"
+			
+			"Pracę interaktywną umożliwiła dopiero komunikacja tekstowa, <m> pozwalająca na prowadzenie swego rodzaju dialogu z komputerem, <m> w trakcie jego pracy. <m>"
+			"Dialogu polegającego na przesyłaniu do komputera poleceń i danych <m> oraz odbieraniu wyników jego działania. <m>"
+			"Urządzenie umożliwiające taką tekstową komunikację z komputerem nazywamy terminalem. <m>"
 		]
 	},
 	{
@@ -50,7 +60,7 @@ clipData += [
 			"Terminal może pracować zarówno w środowisku graficznym <m> - jako tak zwany emulator terminala, <m> działający pod kontrolą X serwera. <m>"
 			"Może on także działać w ramach linuxowej wirtualnej konsoli <m> - czyli w trybie tekstowym lub pseudo tekstowym nie wymagającym środowiska graficznego <m>"
 			"lub być uruchomiony na prawdziwym połączeniu czysto tekstowym, <m> takim jak na przykład port szeregowy. <m>"
-			"Terminal zapewnia obsługę wejścia-wyjścia <m> czyli wprowadzania znaków (przyjmowanych typowo z klawiatury) <m> oraz wyświetlania znaków na ekranie. <m>"
+			"Terminal zapewnia obsługę wejścia-wyjścia <m> czyli wprowadzania znaków (przyjmowanych typowo z klawiatury) <m> oraz wyświetlania znaków, typowo na ekranie. <m>"
 			"Szczegóły tego działania zależne są od konkretnej implementacji <m> terminala i sprzętu na którym funkcjonuje. <m>"
 			"Inaczej będzie realizowane działanie terminala na porcie szeregowym, <m> a inaczej w środowisku X serwera. <m>"
 			"Terminal zapewnia też obsługę sekwencji sterujących <m> związanych z ruchem kursora, ustalaniem miejsca wypisywania informacji, <m> przełączania kolorów i innego formatowania tekstu. <m>"
@@ -128,7 +138,11 @@ clipData += [
 			"Pojedyncze naciśnięcie klawisza Tab powoduje dopełnienie <m> wpisywanego tekstu, jeżeli jest ono jednoznaczne. <m>"
 			'Jeżeli jest kilka możliwości, <m> dopełniony zostanie najdłuższy jednoznaczny fragment, <m> w widocznym przykładzie jest to python. <mark name="tab2" />'
 			"Dwukrotne naciśnięcie klawisza Tab spowoduje wyświetlenie dostępnych możliwości. <m>"
-			"Po ujednoznacznieniu możemy ponownie użyć klawisza Tab, <m> aby nastąpiło dopełnienie, i tak dalej. <m>"
+			"Po ujednoznacznieniu możemy ponownie użyć klawisza Tab, <m> aby nastąpiło dopełnienie, i tak dalej. <m>",
+			
+			"Warto zauważyć że taka obsługa linii poleceń i jej historii nie jest cechą terminala, tylko samej powłoki. <m>"
+			"A jako że jest to funkcjonalnośc dostarczana przez dedykowaną biblioteką można ją spotkać nie tylko w bashu ale także wielu innych programach (np. wspomnianym już Pythonie). <m>",
+			
 			"Oprócz samej powłoki i terminala możemy mieć także do czynienia <m> z programami określanymi jako multipleksery terminala. <m> Są one niejako pomiędzy terminalem a powłoką. <m>"
 		]
 	},
