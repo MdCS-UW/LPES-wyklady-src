@@ -120,13 +120,12 @@ clipData += [
 			'Diff przyjmuje kilka opcji związanych z formatowaniem swojego outputu. <m>'
 			'Na przykład opcja <-u>[minus u] powoduje formatowanie powszechnie stosowane <m> przez programistów i spotykane w serwisach obsługujących repozytoria kodu. <m>'
 			'Minus oznacza linie usuniętą, plus oznacza linię dodaną. <m>'
-			'Mamy też podawane adresy linii, które zostały wyświetlone, <m> czyli np. numer pierwszej wyświetlanej w danym bloku linii oraz ilość tych linii, <m> zarówno dla pliku oryginalnego jak i zmodyfikowanego. <mark name="minusr" />'
+			'Mamy też podawane adresy linii, które zostały wyświetlone, <m> zarówno dla pliku oryginalnego jak i zmodyfikowanego. <m> Zależnie od wybranego formatu, <m> może to być numer pierwszej i liczba linii <m> lub numer pierwszej i ostatniej.<mark name="minusr" />'
 			
 			'Diff może działać rekurencyjnie i porównywać całe katalogi. <m> Służy to tego opcja <-r>[minus r]. <mark name="patch" />'
 			
 			'Jeżeli wyjście polecenia diff zapiszemy do pliku <m> możemy je użyć w poleceniu patch do uzyskania zmodyfikowanej <m> wersji pliku z oryginalnej lub oryginalnej ze zmodyfikowanej. <m>'
-			'Wygenerowane przez diff pliki z różnicami, <m> nazywane plikami łat mogą być przesyłane pomiędzy <m> systemami, czy też osobami celem naniesienia tych samych zmian <m>'
-				'w innym miejscu bez konieczności transmisji całej zawartości, <m> gdyż wysyłamy tylko różnicę a nie cały aktualny stan jakiegoś pliku czy katalogu. <m>'
+			'Bywa to przydatne na przykład do aplikowania naszych zmian <m> na źródła jakiegoś programu, <m> po aktualizacji ich do nowej wersji. <m>'
 		]
 	},
 ]

@@ -253,7 +253,7 @@ def getAudioClipAndSubtitles(txt, startOffset, localStartOffset, speed=1.0):
 # circuitjs simulation to video
 #
 
-circuitjsBaseURL = "http://circuitjs.opcode.eu.org/circuitjs.html?"
+circuitjsBaseURL = "http://circuitjs.opcode.eu.org/circuitjs.html?hideMenu=true&hideSidebar=true&"
 circuitjsSimulationList = mainDir + "simulations.txt"
 
 def runActionOnCircuitjs(browser, action, test=None):

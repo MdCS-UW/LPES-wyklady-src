@@ -41,7 +41,7 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'comment': 'funkcje' },
+	{ 'section': 'funkcje' },
 	{
 		'consoleTop': [
 			[0.0, eduMovie.clear],
@@ -58,7 +58,7 @@ clipData += [
 			["funBrun", eduMovie.runCode(code_fun_B_run, [], cmd="bash")],
 		],
 		'text' : [
-			'Bash, jak każdy porządny język programowania, <m> pozwala także na definiowanie funkcji. <mark name="funA" />'
+			'Bash pozwala także na definiowanie funkcji. <mark name="funA" />'
 			
 			'Definicja funkcji w bashu rozpoczyna się od podania <m> nazwy funkcji, następnie zawsze następują puste nawiasy okrągłe. <m>'
 			'Nawet jeżeli funkcja będzie przyjmowała argumenty, te nawiasy są puste. <m>'
@@ -178,7 +178,8 @@ clipData += [
 			["grupB", eduMovie.runCode(code_grup_B, [], cmd="bash")],
 		],
 		'text' : [
-			'Omawiając funkcje warto też wspomnieć o możliwości <m> grupowania poleceń bez definiowania funkcji. <m>'
+			{ 'section': 'grupowanie poleceń' },
+			'Należy także wspomnieć o możliwości <m> grupowania poleceń bez definiowania funkcji. <m>'
 			'Możemy użyć do tego nawiasów klamrowych (dokładnie tak samo jak przy <m> definiowaniu funkcji i z tymi samymi wymogami <m> dotyczącymi spacji i średników) lub nawiasów okrągłych. <m>'
 			
 			'Instrukcje podane w nawiasach klamrowych będą wykonane <m> w bieżącej powłoce basha, czyli mogą modyfikować zmienne. <m>'

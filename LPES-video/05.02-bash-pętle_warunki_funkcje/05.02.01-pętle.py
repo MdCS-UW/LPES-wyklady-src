@@ -22,11 +22,24 @@
 # SOFTWARE.
 
 code_while = r"""
-zm=0; ps -f
+zm=0;
 cat /etc/fstab | while read x; do
-	[ $zm -lt 1 ] && ps -f
 	zm=13
 done
+echo $zm
+"""
+
+code_while2 = r"""
+zm=0;
+while read x; do
+	zm=13
+done < /etc/fstab
+echo $zm
+
+zm=0;
+while read x; do
+	zm=13
+done < <$(cat /etc/fstab)
 echo $zm
 """
 
@@ -38,7 +51,7 @@ endTitleSVG="JS.svg"
 clipData += [
 	{ 'title': [ "#05.2", "Pętle, warunki", "i funkcje", "w bash'u" ] },
 	
-	{ 'comment': 'pętle' },
+	{ 'section': 'pętle' },
 	{
 		'console': [
 			[0.0, ""],
@@ -111,15 +124,21 @@ clipData += [
 	{
 		'consoleTop': [
 			[0.0, eduMovie.clear + eduMovie.code2console(code_while, "sh")],
+			[0.0, eduMovie.clear + eduMovie.code2console(code_while2, "sh")],
 		],
 		'consoleDown': [
 			[0.0, eduMovie.runCode(code_while, [], cmd="bash")],
+			[0.0, eduMovie.clear + eduMovie.code2console(code_while2, "sh")],
 		],
 		'text' : [
 			'Jako że pętla while bardzo często używana jest w powiązaniu <m> z przekierowaniami strumieni trzeba w tym miejscu zwrócić uwagę, <m>'
 				'że przekierowanie standardowego wyjścia na standardowe wejście <m> odbywa się między dwoma różnymi procesami. <m>'
 			'Zatem w konstrukcjach typu while read, pętla while może być <m> uruchamiana w procesie potomnym obecnej powłoki, <m>'
-				'efektem czego będzie to że w tych przypadkach wykonywane modyfikacje <m> zmiennych wewnątrz takiej pętli nie będą widoczne poza nią. <m>'
+				'efektem czego będzie to że w tych przypadkach wykonywane modyfikacje <m> zmiennych wewnątrz takiej pętli nie będą widoczne poza nią. <mark name="code_while2" />'
+			'Problem ten można obejść przekazując dane do pętli z pliku. <m>'
+			'Jeżeli dane te są wynikiem działania jakiegoś polecenia, <m> możemy skorzystać a pliku tymczasowego <m>'
+				'lub ze składni basha pozwalającej na podstawienie <m> standardowego wyjścia polecenia jako pliku. <m>'
+			'Możliwe jest też uruchmienie pętli while jako osobnego skryptu <m> lub funkcji bashowej i skorzystanie z kodu powrotu <m> do odebrania informacji z wnętrza pętli. <m>'
 		]
 	},
 ]

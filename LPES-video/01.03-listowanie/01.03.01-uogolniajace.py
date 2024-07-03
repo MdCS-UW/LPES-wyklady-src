@@ -65,6 +65,7 @@ clipData += [
 			["kwadratowe + 7.0", eduMovie.runCommandString(r"echo [!Aa]*", cwd='demo')],
 			["kwadratowe + 9.3", eduMovie.runCommandString(r"echo [-a!]*", cwd='demo')],
 			["ukryte", eduMovie.runCommandString(r"echo .*", cwd='demo')],
+			["ukryte2", eduMovie.runCommandString(r"echo .[!.]*", cwd='demo')],
 		],
 		'text' : [
 			'Innymi znakami uogólniającymi powłoki jest pytajnik, <m> którym możemy zastąpić pojedynczy, dowolny znak. <m>'
@@ -73,7 +74,8 @@ clipData += [
 			'Natomiast korzystając z nawiasów kwadratowych możemy zastąpić <m> pojedynczy znak z podanego w nich zbioru znaków. <m>'
 			'Zbiór ten może być określony poprzez wymienienie poszczególnych znaków, <m> podanie zakresu z użyciem myślnika lub zanegowanie zbioru <m> poprzez podanie po otwierającym nawiasie <m> kwadratowym wykrzyknika (lub dzióbka w górę). <m>'
 			'Jeżeli wymieniając elementy zbioru chcemy uwzględnić <m> w nich myślnik, powinien być on podany jako pierwszy lub ostatni znak, <m> a wykrzyknik (lub dzióbek w górę) jako nie pierwszy znak. <mark name="ukryte" />'
-			'Kropka gwiazdka pozwoli wypisać wszystkie ukryte pliki, <m> wliczając w to odwołanie do bieżącego i nadrzędnego katalogu, <m> w postaci kropki i dwóch kropek. <m>'
+			'Kropka gwiazdka pozwoli wypisać wszystkie ukryte pliki, <m> wliczając w to odwołanie do bieżącego i nadrzędnego katalogu, <m> w postaci kropki i dwóch kropek. <mark name="ukryte2" />'
+			'Jeżeli chemy je wyeliminować, to możemy zarządać, <m> aby po kropce znajdował się jeden znak nie będący kropką, <m> tak jak jest to widoczne na ekranie <m>'
 		]
 	},
 ]

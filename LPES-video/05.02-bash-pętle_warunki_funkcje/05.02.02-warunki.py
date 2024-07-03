@@ -61,7 +61,7 @@ try: clipData
 except NameError: clipData = []
 
 clipData += [
-	{ 'comment': 'warunki' },
+	{ 'section': 'warunki' },
 	{
 		'consoleTop': [
 			[0.0, eduMovie.clear],

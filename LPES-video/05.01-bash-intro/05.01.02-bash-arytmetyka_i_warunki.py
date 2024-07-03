@@ -68,8 +68,8 @@ clipData += [
 	{
 		'console': [
 			[0.0, ""],
-			["float2", eduMovie.runCommandString(r'e=`python -c "print($d * 2)"` ;  echo $e', env=shenv)],
-			["float3", eduMovie.runCommandString(r'e=$(python -c "print($d * 2)") ;  echo $e', env=shenv)],
+			["float2", eduMovie.runCommandString(r'e=$(python -c "print($d * 2)") ;  echo $e', env=shenv)],
+			["float3", eduMovie.runCommandString(r'e=`python -c "print($d * 2)"` ;  echo $e', env=shenv)],
 			["float4", eduMovie.runCommandString(r'e=$( x=$(python -c "print(13/3)"); python -c "print($d * $x)" ) ;  echo $e', env=shenv)],
 			["callcat", eduMovie.runCommandString(r'e=$( cat /etc/resolv.conf ) ;  echo $e', env=shenv)],
 			["callcat + 1", eduMovie.runCommandString(r'e=$( cat /etc/resolv.conf ) ;  echo "$e"', env=shenv)],
@@ -81,14 +81,12 @@ clipData += [
 			
 			'Możemy zatem użyć innego programu <m> do wykonania operacji zmiennoprzecinkowych. <m>'
 			'Na ekranie widzimy użycie Pythona <m> do wykonania operacji zmiennoprzecinkowej na bashowej zmiennej d. <m>'
-			'Należy zwrócić uwagę na ujęcie kodu pythonowego w podwójne cudzysłowa, <m> co pozwala na podstawienie pod dolar d wartości zmiennej d. <m>'
-			'Oraz na użycie tzw. backticks (jest to znak umieszczony na standardowej <m> klawiaturze na lewo od jedynki i nie należy mylić go z apostrofem) <m>'
-				'do pobrania standardowego wyjścia uruchomionego polecenia, <m> na którym Python wypisał wynik. <mark name="float3" />'
+			'Należy zwrócić uwagę na umieszczenie kodu pythonowego w podwójnych cudzysłowach, <m> co pozwala na podstawienie pod dolar d wartości zmiennej d. <m>'
+			'Oraz na umieszczenie całego tego polecenia w pojedynczych nawiasach okrągłych, <m> przed którymi wystepuje znak dolara, <m>'
+				'Jest to operator umożliwiający pobranie do zmiennej <m> standardowego wyjścia uruchomionego polecenia, <m> na którym Python wypisał wynik. <mark name="float3" />'
+			'Alternatywnym zapisem, widocznym teraz na ekranie, jest użycie tzw. backticks.  <m>'
 			
-			'Zamiast backticks możemy użyć operatora dolar nawiasy okrągłe, <m> tak jak jest to teraz pokazane na ekranie. <m>'
-			
-			'Zaletą tego podejścia jest możliwość zagnieżdżania takich wywołań, <mark name="float4" /> czyli wewnątrz kodu którego wyjście przechwytujemy <m> możemy też definiować zmienną przechwytującą jakieś wyjście. <m>'
-			'Tak jak to pokazano na ekranie w trochę bezsensownym przykładzie <m> (bo obie te operacje możemy wykonać w jednym wywołaniu Pythona). <mark name="callcat" />'
+			'W odróznieniu od nich, jednak operator dolar nawiasy okrągłe może być zagnieżdzany, <mark name="float4" /> czyli wewnątrz kodu którego wyjście przechwytujemy <m> możemy też definiować zmienną przechwytującą jakieś wyjście. <mark name="callcat" />'
 			
 			'Warto także zwrócić uwagę na znaczenie cudzysłowów <m> przy odwołaniu się do zmiennych zawierających wiele linii. <m>'
 			'Jeżeli wypiszemy taką zmienną bez użycia cudzysłowów <m> to nowe linie zostaną zastąpione przez echo spacjami (podobnie jak <m>'
