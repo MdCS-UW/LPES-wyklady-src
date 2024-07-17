@@ -125,6 +125,26 @@ int main() {
 }
 """
 
+code_lamba = r"""
+#include <iostream>
+int main() {
+    int x = 1, y = 1;
+
+    // ta lamba będzie używać:
+    //  wartości x z chwili wywołania (i jej zmiana bedzie widoczna na zewnątrz)
+    //  wartości y z chwili utworzenia
+    auto moja_lambda = [&x, y](int z) { x += z * y; return 11; };
+
+    moja_lambda(2);
+    std::cout << x << std::endl; // 3 bo x = 1 + 2 * 1
+
+    x = 0; y = 0;
+
+    int z = moja_lambda(2);
+    std::cout << x << " " << z << std::endl; // 2 bo x = 0 + 2 * 1
+}
+"""
+
 clipData += [
 	{
 		'consoleTop': [
@@ -191,6 +211,22 @@ clipData += [
 			'Było to dość zwięzłe wprowadzenie do C i C++, <m> nie omawiające wielu aspektów tych języków i ich bibliotek standardowych, <m> a jedynie nakreślające główne koncepcje. <m>'
 			'Warto także zauważyć że to czego uczyliśmy się w trakcie <m> programowania w Pythonie ma też przełożenie na programowanie w C i C++. <m>'
 			'W szczególności funkcje systemowe takie jak select, fork, exec <m> są dostępne z poziomu C i są tak naprawdę oryginalnymi funkcjami, <m> które Python obudowuje i pozwala uruchomić ze swojego kodu. <m>'
+		]
+	},
+	{
+		'consoleTop': [
+			[0.0, eduMovie.clear + eduMovie.code2console(code_lamba, "cpp")],
+		],
+		'consoleDown': [
+			[0.0, eduMovie.runCode(code_lamba, args=["&& ./a.out"], cmd="g++")],
+		],
+		'text' : [
+			'C++ pozwala także na definiowanie i używanie lamb. <m>'
+			'Definicja taka skłąda się z listy przechwytywanych zmiennych, listy argumentów i ciała funkcji. <m>'
+			'Lista przechwytywania może określiać <m> przechwytywanie przez wartość lub przez referencję. <m>'
+			'W pierwszym przypadku wartość zmiennej z miejsca <m> utworzenia funkcji zostanie w niej "zamrożona", <m> czyli jej dalsze zmiany nie będą widoczne w wyołaniach lambdy. <m>'
+			'W drugim przypadku lmba będzie widzieć zawsze aktualną wartość, <m> a zmiany tej zmiennej wewnątrz lambdy będą widoczne takze na zewnątrz. <m>'
+			'Lista argumentów i ciało funkcji działa jak w zwykłych funkcjach. <m> Lamba może zwrać lub może nie zwracać wartość z użyciem return. <m>'
 		]
 	},
 ]
