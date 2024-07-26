@@ -107,6 +107,17 @@ clipData += [
 			[0.0, ""],
 		],
 		'text' : [
+			"Jak być może zauważyliście programowanie w C jest dość mocno <m> niżej poziomowe od programowania np. w Pythonie. <m>"
+			"A co za tym idzie często trudniejsze i wymagające więcej wysiłku i czasu. <m>"
+			"Natomiast wykonanie takiego skompilowanego <m> do kodu maszynowego programu jest znacznie szybsze. <m>"
+			"Jeżeli w jakimś zastosowaniu potrzebujemy kompilowalnego, <m> szybkiego języka takiego jak C, <m>"
+				"ale z wyżejpoziomowymi mechanizmami, z jakimi można <m> spotkać się na przykład w Pythonie warto zwrócić uwagę na C++. <m>"
+			"Język ten oferuje nam dynamiczne typowanie, <m> podobne do znanego z pythona z uzycie słowa kluczowego auto. <m>"
+			"Pozwala na programowanie generyczne, niezależne od typów z użyciem szablonów. <m>"
+			"Oferuję pętlę for iterującą po elementach kolekcji, <m> wsparcie dla programowania obiektowego, funkcji typu lambda." <m>
+			"A także oferuje listy i słowniki i to znacznie bardziej rozbudowane <m> niż te z którymi mieliśmy doczynienia w Pythonie,  <m>"
+				"możemy mieć np. słownik z wieloma jednakowymi kluczami, <m> zbiór samych unikalnych kluczy, itd. <m>",
+			
 			"Zarówno język C jak i C++ nie są językami nowymi, <m> C powstał z rozwinięcia języka B w 72 roku ubiegłego wieku, <m> C++ powstał jako rozwinięcie się języka C 7 lat później, w 79 roku ubiegłego wieku. <m>"
 			"Języki te dość długo dojrzewały do uzyskania oficjalnego standardu, <m> pierwszy oficjalny standard C pochodzi z 1989 roku, a C++ dopiero z 1998 roku. <m>"
 			"W chwili obecnej języki te są standaryzowane jako <m> standardy ISO IEC z odpowiednimi numerkami. <m>"
