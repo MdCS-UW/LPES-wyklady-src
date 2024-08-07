@@ -86,11 +86,11 @@ clipData += [
 				'Jest to operator umożliwiający pobranie do zmiennej <m> standardowego wyjścia uruchomionego polecenia, <m> na którym Python wypisał wynik. <mark name="float3" />'
 			'Alternatywnym zapisem, widocznym teraz na ekranie, jest użycie tzw. backticks.  <m>'
 			
-			'W odróznieniu od nich, jednak operator dolar nawiasy okrągłe może być zagnieżdzany, <mark name="float4" /> czyli wewnątrz kodu którego wyjście przechwytujemy <m> możemy też definiować zmienną przechwytującą jakieś wyjście. <mark name="callcat" />'
+			'W odróżnieniu od nich, jednak operator dolar nawiasy okrągłe może być zagnieżdżony, <mark name="float4" /> czyli wewnątrz kodu którego wyjście przechwytujemy <m> możemy też definiować zmienną przechwytującą jakieś wyjście. <mark name="callcat" />'
 			
 			'Warto także zwrócić uwagę na znaczenie cudzysłowów <m> przy odwołaniu się do zmiennych zawierających wiele linii. <m>'
 			'Jeżeli wypiszemy taką zmienną bez użycia cudzysłowów <m> to nowe linie zostaną zastąpione przez echo spacjami (podobnie jak <m>'
-				'ciąg dowolnej ilości spacji zostanie zastąpiony pojedynczą spacją), <m> a jeżeli zastosujemy cudzysłowa zmienna zostanie wypisana w nie zmienionej formie. <m>'
+				'ciąg dowolnej ilości spacji zostanie zastąpiony pojedynczą spacją), <m> a jeżeli zastosujemy cudzysłów zmienna zostanie wypisana w nie zmienionej formie. <m>'
 			'Przyczyną tego jest to iż w pierwszym wypadku echo każdy wyraz <m> potraktuje jako osobny swój argument i wypisze go oddzielając od innych argumentów spacją, <m>'
 				'a w drugim dostanie jeden argument ze zmienną <m> w oryginalnej postaci i go w takiej postaci wypisze. <m>'
 		]

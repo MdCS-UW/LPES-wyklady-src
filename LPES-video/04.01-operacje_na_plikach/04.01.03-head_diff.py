@@ -117,7 +117,7 @@ clipData += [
 			'Kolejna grupa komend wiąże się z porównywaniem plików. <m> Są to diff i patch. <m>'
 			'Polecenie diff porównuje dwa pliki, typowo dwie wersje jakiegoś pliku <m> i wypisuje na swoje standardowe wyjście informację o różnicach. <mark name="minusu" />'
 			
-			'Diff przyjmuje kilka opcji związanych z formatowaniem swojego outputu. <m>'
+			'Diff przyjmuje kilka opcji związanych z formatowaniem swojego wyjścia. <m>'
 			'Na przykład opcja <-u>[minus u] powoduje formatowanie powszechnie stosowane <m> przez programistów i spotykane w serwisach obsługujących repozytoria kodu. <m>'
 			'Minus oznacza linie usuniętą, plus oznacza linię dodaną. <m>'
 			'Mamy też podawane adresy linii, które zostały wyświetlone, <m> zarówno dla pliku oryginalnego jak i zmodyfikowanego. <m> Zależnie od wybranego formatu, <m> może to być numer pierwszej i liczba linii <m> lub numer pierwszej i ostatniej.<mark name="minusr" />'

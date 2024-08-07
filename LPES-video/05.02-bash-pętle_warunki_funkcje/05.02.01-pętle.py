@@ -115,7 +115,7 @@ clipData += [
 			'Domyślnym separatorem używanym do podziału linii na pola <m> jest dowolny ciąg białych znaków (spacji lub tabulatorów). <mark name="while5" />'
 			
 			'Separator ten możemy zmienić przy pomocy zmiennej IFS, <m> tak jak jest to pokazane w przykładzie na ekranie. <m>'
-			'Warto zauważyć że w wywołaniu echo dodaliśmy cudzysłowa, <m> co jest ważne dla poprawnego wypisania zawartości zmiennej c. <m>'
+			'Warto zauważyć że w wywołaniu echo dodaliśmy cudzysłów, <m> co jest ważne dla poprawnego wypisania zawartości zmiennej c. <m>'
 			
 			'Ustawiając IFS, należy pamiętać o przywróceniu wartości <m> domyślnej poprzez usunięcie tej zmiennej (komenda unset), <m>'
 				'bo późniejsze działanie różnych poleceń z ustawionym tym <m> separatorem na wartość inną niż domyślna może nas zaskoczyć. <m>'
@@ -138,7 +138,7 @@ clipData += [
 			'Problem ten można obejść przekazując dane do pętli z pliku. <m>'
 			'Jeżeli dane te są wynikiem działania jakiegoś polecenia, <m> możemy skorzystać a pliku tymczasowego <m>'
 				'lub ze składni basha pozwalającej na podstawienie <m> standardowego wyjścia polecenia jako pliku. <m>'
-			'Możliwe jest też uruchmienie pętli while jako osobnego skryptu <m> lub funkcji bashowej i skorzystanie z kodu powrotu <m> do odebrania informacji z wnętrza pętli. <m>'
+			'Możliwe jest też uruchomienie pętli while jako osobnego skryptu <m> lub funkcji bashowej i skorzystanie z kodu powrotu <m> do odebrania informacji z wnętrza pętli. <m>'
 		]
 	},
 ]

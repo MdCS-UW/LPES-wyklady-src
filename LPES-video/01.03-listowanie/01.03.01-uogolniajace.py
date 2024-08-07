@@ -75,7 +75,7 @@ clipData += [
 			'Zbiór ten może być określony poprzez wymienienie poszczególnych znaków, <m> podanie zakresu z użyciem myślnika lub zanegowanie zbioru <m> poprzez podanie po otwierającym nawiasie <m> kwadratowym wykrzyknika (lub dzióbka w górę). <m>'
 			'Jeżeli wymieniając elementy zbioru chcemy uwzględnić <m> w nich myślnik, powinien być on podany jako pierwszy lub ostatni znak, <m> a wykrzyknik (lub dzióbek w górę) jako nie pierwszy znak. <mark name="ukryte" />'
 			'Kropka gwiazdka pozwoli wypisać wszystkie ukryte pliki, <m> wliczając w to odwołanie do bieżącego i nadrzędnego katalogu, <m> w postaci kropki i dwóch kropek. <mark name="ukryte2" />'
-			'Jeżeli chemy je wyeliminować, to możemy zarządać, <m> aby po kropce znajdował się jeden znak nie będący kropką, <m> tak jak jest to widoczne na ekranie <m>'
+			'Jeżeli chcemy je wyeliminować, to możemy zażądać, <m> aby po kropce znajdował się jeden znak nie będący kropką, <m> tak jak jest to widoczne na ekranie <m>'
 		]
 	},
 ]

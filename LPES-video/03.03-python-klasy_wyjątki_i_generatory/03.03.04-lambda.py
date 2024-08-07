@@ -75,7 +75,7 @@ clipData += [
 			["argument", eduMovie.runCode(funkcja_B, [], cmd="python3")],
 		],
 		'text' : [
-			'Python pozwala na definiowanie funcji wewnątrz funkcji <m> oraz łatwe przechowywanie funkcji w zmiennych, <m> także kolekcjach takich jak listy i słowniki. <m>'
+			'Python pozwala na definiowanie funkcji wewnątrz funkcji <m> oraz łatwe przechowywanie funkcji w zmiennych, <m> także kolekcjach takich jak listy i słowniki. <m>'
 			'Warto zwrócić uwagę na sposób obsługi zmiennych globalnych, <m> czy też zewnętrznych w takich przypadkach. <m>'
 			'W przykładzie widocznym na ekranie widzimy, <m> że funkcje tak zdefiniowane nie korzystają z wartości <m> zmiennej x z miejsca definicji, tylko z miejsca wywołania. <mark name="argument" />'
 			
@@ -90,9 +90,9 @@ clipData += [
 			[0.0, eduMovie.runCode(lamba, [], cmd="python3")],
 		],
 		'text' : [
-			'Innym sposobem lokalnego definiowania funkcji, <m> często dostępnym także w językach nie pozwalajacych <m> na tak swobodne fefiniowanie zwykłych funkcji, <m> jest tak zwana lamba. <m>'
-			'W tym przypadku fefinicja jest jeszcze bardziej lokalna, <m> funkcja nawet nie posiada swojej nazwy. <m>'
-			'A taka lamba może być bezpośrednio przypisana <m> do jakiejś zmiennej lub przekazana w argumencie. <m>'
+			'Innym sposobem lokalnego definiowania funkcji, <m> często dostępnym także w językach nie pozwalających <m> na tak swobodne definiowanie zwykłych funkcji, <m> jest tak zwana lamba. <m>'
+			'W tym przypadku definicja jest jeszcze bardziej lokalna, <m> funkcja nawet nie posiada swojej nazwy. <m>'
+			'A taka lambda może być bezpośrednio przypisana <m> do jakiejś zmiennej lub przekazana w argumencie. <m>'
 			'Widzimy też że sposób traktowania zmiennych zewnętrznych jest analogiczny. <m>'
 		]
 	}

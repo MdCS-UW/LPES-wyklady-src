@@ -41,10 +41,10 @@ clipData += [
 			"Z punktu widzenia programisty, mogą być one reprezentowane <m> przez złożone instrukcje języków wyższego poziomu <m> lub wywołania funkcji bibliotecznych. <m>"
 			"Natomiast z punktu widzenia użytkownika, często są nimi całe gotowe programy, czy też jakieś konkretne funkcje w ramach danego programu. <m>",
 			
-			"Zawsze jednak potrzebna jest metoda wprowadzenia takigo ciągu instrukcji <m> oraz odebrania wyników działania programu. <m>"
+			"Zawsze jednak potrzebna jest metoda wprowadzenia takiego ciągu instrukcji <m> oraz odebrania wyników działania programu. <m>"
 			"Dawno temu polegało to na przygotowaniu całości programu na jakimś nośniku (np. kartach perforowanych), <m>"
 				"uruchomieniu komputera, a następnie odebraniu wygenerowanych wyników <m> na jakimś nośniku (np. w postaci wydruku). <m>"
-			"Interakcja z komuterem ograniczała się do możliwości <m> niskopoziomowego podglądania stanu jego działania <m>"
+			"Interakcja z komputerem ograniczała się do możliwości <m> niskopoziomowego podglądania stanu jego działania <m>"
 				"i ewentualnie możliwości wpłynięcia na działanie programu, <m> z poziomu pulpitu technicznego. <m>"
 			
 			"Pracę interaktywną umożliwiła dopiero komunikacja tekstowa, <m> pozwalająca na prowadzenie swego rodzaju dialogu z komputerem, <m> w trakcie jego pracy. <m>"

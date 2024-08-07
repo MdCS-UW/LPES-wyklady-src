@@ -222,11 +222,11 @@ clipData += [
 		],
 		'text' : [
 			'C++ pozwala także na definiowanie i używanie lamb. <m>'
-			'Definicja taka skłąda się z listy przechwytywanych zmiennych, listy argumentów i ciała funkcji. <m>'
-			'Lista przechwytywania może określiać <m> przechwytywanie przez wartość lub przez referencję. <m>'
-			'W pierwszym przypadku wartość zmiennej z miejsca <m> utworzenia funkcji zostanie w niej "zamrożona", <m> czyli jej dalsze zmiany nie będą widoczne w wyołaniach lambdy. <m>'
-			'W drugim przypadku lmba będzie widzieć zawsze aktualną wartość, <m> a zmiany tej zmiennej wewnątrz lambdy będą widoczne takze na zewnątrz. <m>'
-			'Lista argumentów i ciało funkcji działa jak w zwykłych funkcjach. <m> Lamba może zwrać lub może nie zwracać wartość z użyciem return. <m>'
+			'Definicja taka składa się z listy przechwytywanych zmiennych, listy argumentów i ciała funkcji. <m>'
+			'Lista przechwytywania może określać <m> przechwytywanie przez wartość lub przez referencję. <m>'
+			'W pierwszym przypadku wartość zmiennej z miejsca <m> utworzenia funkcji zostanie w niej "zamrożona", <m> czyli jej dalsze zmiany nie będą widoczne w wywołaniach lambdy. <m>'
+			'W drugim przypadku lambda będzie widzieć zawsze aktualną wartość, <m> a zmiany tej zmiennej wewnątrz lambdy będą widoczne także na zewnątrz. <m>'
+			'Lista argumentów i ciało funkcji działa jak w zwykłych funkcjach. <m> Lambda może zwracać lub może nie zwracać wartość z użyciem return. <m>'
 		]
 	},
 ]
