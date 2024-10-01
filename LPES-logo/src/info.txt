@@ -7,4 +7,4 @@ web-network-programming-banner-drawing-rrp-tło.jpg composed from:
  - programming-swirl.jpg                           https://pixy.org/5760420/  (licence: CC0)
  - web-network-programming-drawing.jpg             https://pixy.org/5761753/  (licence: CC0)
 
-snake-312561.svg                                   https://pixabay.com/vectors/snake-python-serpent-green-reptile-312561/  (licence: pixabay.com / Free for commercial use,  No attribution required)
+snake-312561.svg                                   https://pixabay.com/vectors/snake-python-serpent-green-reptile-312561/  (licence: CC0, because published before 9 January 2019 → published date: 4 August 2014)

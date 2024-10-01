@@ -12,9 +12,9 @@ DEC_VT100_terminal.jpg
 	Author: Jason Scott
 
 computer-158675.svg
-	https://pixabay.com/vectors/computer-desktop-workstation-office-158675/
-	Pixabay License (Free for commercial use, No attribution required)
+	source: https://pixabay.com/vectors/computer-desktop-workstation-office-158675/
+	licence: CC0, because published before 9 January 2019 → published date: 15 October 2013
 
 electric-1294863.svg
-	https://pixabay.com/vectors/electric-outlet-plug-socket-vga-1294863/
-	Pixabay License (Free for commercial use, No attribution required)
+	source: https://pixabay.com/vectors/electric-outlet-plug-socket-vga-1294863/
+	licence: CC0, because published before 9 January 2019 → published date: 31 March 2016

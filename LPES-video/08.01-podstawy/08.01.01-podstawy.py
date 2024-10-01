@@ -74,8 +74,8 @@ clipData += [
 			'Potencjał ten może być równy potencjałowi ziemi, <m> masie ochronnej określanej jako <PE>[Pe E]. <m>'
 			'Natomiast nie musi być z nim związany – układy te mogą być izolowane, <m> czyli masa naszego układu elektronicznego niekoniecznie musi być powiązana <m> z potencjałem masy ochronnej, czyli tak zwanym uziemieniem. <m>'
 			
-			'Można też spotkać się z układami w których mamy więcje niż jedną masę. <m>'
-			'Występuje to w sytuacji gdy w układzie <m> występują częsci nie połączone ze sobą elektrycznie. <m> Na przykład zasilane z osobnych źródeł napięcia lub odizolowane transformatorem. <m>'
+			'Można też spotkać się z układami w których mamy więcej niż jedną masę. <m>'
+			'Występuje to w sytuacji gdy w układzie <m> występują części nie połączone ze sobą elektrycznie. <m> Na przykład zasilane z osobnych źródeł napięcia lub odizolowane transformatorem. <m>'
 		]
 	},
 	{
