@@ -168,6 +168,7 @@ echo $a
 """
 
 clipData += [
+	{ 'section': 'grupowanie poleceń' },
 	{
 		'consoleTop': [
 			[0.0, eduMovie.clear + eduMovie.code2console(code_grup_A, "sh")],
@@ -178,7 +179,6 @@ clipData += [
 			["grupB", eduMovie.runCode(code_grup_B, [], cmd="bash")],
 		],
 		'text' : [
-			{ 'section': 'grupowanie poleceń' },
 			'Należy także wspomnieć o możliwości <m> grupowania poleceń bez definiowania funkcji. <m>'
 			'Możemy użyć do tego nawiasów klamrowych (dokładnie tak samo jak przy <m> definiowaniu funkcji i z tymi samymi wymogami <m> dotyczącymi spacji i średników) lub nawiasów okrągłych. <m>'
 			

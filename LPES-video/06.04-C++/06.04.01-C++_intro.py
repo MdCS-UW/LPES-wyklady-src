@@ -114,7 +114,7 @@ clipData += [
 				"ale z wyżej poziomowymi mechanizmami, z jakimi można <m> spotkać się na przykład w Pythonie warto zwrócić uwagę na C++. <m>"
 			"Język ten oferuje nam dynamiczne typowanie, <m> podobne do znanego z pythona z użycie słowa kluczowego auto. <m>"
 			"Pozwala na programowanie generyczne, niezależne od typów z użyciem szablonów. <m>"
-			"Oferuję pętlę for iterującą po elementach kolekcji, <m> wsparcie dla programowania obiektowego, funkcji typu lambda." <m>
+			"Oferuję pętlę for iterującą po elementach kolekcji, <m> wsparcie dla programowania obiektowego, funkcji typu lambda. <m>"
 			"A także oferuje listy i słowniki i to znacznie bardziej rozbudowane <m> niż te z którymi mieliśmy do czynienia w Pythonie,  <m>"
 				"możemy mieć np. słownik z wieloma jednakowymi kluczami, <m> zbiór samych unikalnych kluczy, itd. <m>",
 			

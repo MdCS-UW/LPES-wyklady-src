@@ -44,15 +44,15 @@ def text2audioFile(txt, fileName):
 	r = '''{
 		"audioConfig": {
 			"audioEncoding": "LINEAR16",
-			"pitch": -2,
-			"speakingRate": 0.98
+			"pitch": -1.6,
+			"speakingRate": 0.93
 		},
 		"enable_time_pointing" : [
 			"SSML_MARK"
 		],
 		"voice": {
 			"languageCode": "pl-PL",
-			"name": "pl-PL-Wavenet-E"
+			"name": "pl-PL-Wavenet-B"
 		},
 		"input": {
 			"ssml": "<speak>''' + txt.replace('"', '\\"') + '''</speak>"

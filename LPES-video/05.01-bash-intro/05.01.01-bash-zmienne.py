@@ -30,8 +30,6 @@ shenv = {
 try: clipData
 except NameError: clipData = []
 
-endTitleSVG="JS.svg"
-
 clipData += [
 	{ 'title': [ "#05.1", "Wprowadzenie do", "programowania", "w bash'u"] },
 	

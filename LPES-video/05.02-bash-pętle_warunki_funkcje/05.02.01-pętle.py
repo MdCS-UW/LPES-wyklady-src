@@ -46,8 +46,6 @@ echo $zm
 try: clipData
 except NameError: clipData = []
 
-endTitleSVG="JS.svg"
-
 clipData += [
 	{ 'title': [ "#05.2", "Pętle, warunki", "i funkcje", "w bash'u" ] },
 	

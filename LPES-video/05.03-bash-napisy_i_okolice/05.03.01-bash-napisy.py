@@ -52,8 +52,6 @@ echo ${#a}
 try: clipData
 except NameError: clipData = []
 
-endTitleSVG="JS.svg"
-
 clipData += [
 	{ 'title': [ "#05.3", "Bash: obsługa", "napisów, eval", "i podsumowanie" ] },
 	

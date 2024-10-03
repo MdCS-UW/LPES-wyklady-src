@@ -100,10 +100,10 @@ clipData += [
 	{ #  
 		'consoleTop': [
 			[0.0, eduMovie.clear + code_xml_A_fmt],
-			["znaczniki", eduMovie.clear + code_xml_A_fmt.replace('<', eduMovie.markBegin+'<').replace('>', '>'+code_xml_A_markEnd)]
-			["znaczniki_parami", eduMovie.clear + code_xml_A_fmt.replace('<b>', eduMovie.markBegin+'<b>'+code_xml_A_markEnd).replace('</b>', eduMovie.markBegin+'</b>'+code_xml_A_markEnd)]
-			["znaczniki_zawartosc", eduMovie.clear + code_xml_A_fmt.replace('<b>', '<b>'+eduMovie.markBegin).replace('</b>', code_xml_A_markEnd+'</b>')]
-			["znaczniki_atrybuty", eduMovie.clear + re.sub(' ([a-z]*=[^"]*"[^"]*")', ' '+eduMovie.markBegin+'\\1'+code_xml_A_markEnd, code_xml_A_fmt)]
+			["znaczniki", eduMovie.clear + code_xml_A_fmt.replace('<', eduMovie.markBegin+'<').replace('>', '>'+code_xml_A_markEnd)],
+			["znaczniki_parami", eduMovie.clear + code_xml_A_fmt.replace('<b>', eduMovie.markBegin+'<b>'+code_xml_A_markEnd).replace('</b>', eduMovie.markBegin+'</b>'+code_xml_A_markEnd)],
+			["znaczniki_zawartosc", eduMovie.clear + code_xml_A_fmt.replace('<b>', '<b>'+eduMovie.markBegin).replace('</b>', code_xml_A_markEnd+'</b>')],
+			["znaczniki_atrybuty", eduMovie.clear + re.sub(' ([a-z]*=[^"]*"[^"]*")', ' '+eduMovie.markBegin+'\\1'+code_xml_A_markEnd, code_xml_A_fmt)],
 			["etree", eduMovie.clear + eduMovie.code2console(code_xml_B, "py")],
 		],
 		'consoleDown': [

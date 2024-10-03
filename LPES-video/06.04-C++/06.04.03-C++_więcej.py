@@ -134,12 +134,10 @@ int main() {
     //  wartości x z chwili wywołania (i jej zmiana bedzie widoczna na zewnątrz)
     //  wartości y z chwili utworzenia
     auto moja_lambda = [&x, y](int z) { x += z * y; return 11; };
-
     moja_lambda(2);
     std::cout << x << std::endl; // 3 bo x = 1 + 2 * 1
 
     x = 0; y = 0;
-
     int z = moja_lambda(2);
     std::cout << x << " " << z << std::endl; // 2 bo x = 0 + 2 * 1
 }

@@ -24,8 +24,6 @@
 try: clipData
 except NameError: clipData = []
 
-endTitleSVG="JS.svg"
-
 clipData += [
 	{ 'title': [ "#05.4", "Wprowadzenie", "do systemów", "operacyjnych" ] },
 	
