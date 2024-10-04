@@ -150,7 +150,7 @@ clipData += [
 			'Wspomnieliśmy że w związku z bezpołączeniowością UDP nasz klient może <m> otrzymać odpowiedź z innych adresów niż ten z którym się łączył. <m>'
 			'Spróbujmy to sprawdzić. <m>'
 			
-			'Adres na którym słucha nasz klient można ustalić na kilka sposobów <m> - na przykład podsłuchując wysyłany przez niego pakiet (jest tam adres i port źródłowy) <mark name="findPort" />'
+			'Adres na którym słucha nasz klient można ustalić na kilka sposobów <m> – na przykład podsłuchując wysyłany przez niego pakiet (jest tam adres i port źródłowy) <mark name="findPort" />'
 			'lub korzystając z polecenia <netstat>[net stat] potrafiącego wypisać <m> wszystkie otwarte połączenia na danym hoście, procesy je obsługujące i tak dalej. <m>'
 			
 			'Widzimy że najprawdopodobniej jest to 39106, <mark name="send2client" /> zatem spróbujmy coś wysłać na ten numer portu. <m>'

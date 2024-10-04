@@ -73,7 +73,7 @@ clipData += [
 			'W pokazanym przykładzie zignorowane <m> (poprzez przekierowanie do </dev/null>[dev null]) <m> zostały błędy związane z brakiem dostępu do pewnych plików w <etc>[e te ce]. <m>'
 			'Zwykły użytkownik nie może czytać niektórych <m> podkatalogów <etc>[e te ce] i jest to normalne. <m>',
 			
-			'Grep potrafi wyszukiwać równocześnie wiele wyrażeń <m> - w tym celu można podawać je w opcjach <-e>[minus E] <m> lub pliku określonym przez <-f>[minus F]. <m>'
+			'Grep potrafi wyszukiwać równocześnie wiele wyrażeń <m> – w tym celu można podawać je w opcjach <-e>[minus E] <m> lub pliku określonym przez <-f>[minus F]. <m>'
 		]
 	},
 	{
@@ -88,13 +88,13 @@ clipData += [
 			["minusE + 5", eduMovie.runCommandString(r"grep '(ad.*)' /etc/passwd", hiddenargs="--color=always")],
 		],
 		'text' : [
-			"Grep potrafi korzystać z trzech dialektów wyrażeń regularnych <m> - podstawowych, rozszerzonych i perl'owskich. <m>"
+			"Grep potrafi korzystać z trzech dialektów wyrażeń regularnych <m> – podstawowych, rozszerzonych i perl'owskich. <m>"
 			"Domyślnie grep korzysta z wyrażeń podstawowych, <m> wyrażenia rozszerzone możemy włączyć opcją <-E>[minus E duże], a perl'owskie <-P>[minus P duże]. <m>"
 			
 			'''Najbardziej podobne do tego czego uczyliśmy się na zajęciach <m> związanych z pythonem są wyrażenia perl'owskie <mark name="minusP" /> - zadziałają w nich podwyrażenia grupowane nawiasami okrągłymi, <m>'''
 				'krotności powtórzeń wyrażane w nawiasach klamrowych, <mark name="minusP2" /> a także nie zachłanne dopasowania z użyciem gwiazdka pytajnik. <m>'
 			
-			"Wyrażenia rozszerzone są niejako pomiędzy perl'owskimi a podstawowymi <m> - nie obsługują dopasowań nie zachłannych, <m> natomiast reszta będzie działała w taki sposób <m> w jaki używaliśmy wyrażeń regularnych w Pythonie. <m>"
+			"Wyrażenia rozszerzone są niejako pomiędzy perl'owskimi a podstawowymi <m> – nie obsługują dopasowań nie zachłannych, <m> natomiast reszta będzie działała w taki sposób <m> w jaki używaliśmy wyrażeń regularnych w Pythonie. <m>"
 			
 			'Z kolei wyrażenia podstawowe pozwalają w zasadzie na to samo <m> co rozszerzone, różnią się jednak zapisem. <mark name="minusE" />'
 			'Niektóre ze znaków sterujących używanych w wyrażeniach rozszerzonych <m> (na przykład nawiasy okrągłe, klamrowe, pytajnik) <m>'

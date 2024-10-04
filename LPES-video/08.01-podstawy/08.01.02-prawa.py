@@ -52,8 +52,8 @@ clipData += [
 	{
 		'image': [
 			[0.0, eduMovie.convertFile("Kirchhoff_1.sch", negate=True)], 
-			["kirchhoff2", eduMovie.convertFile("Kirchhoff_2.sch", negate=True)],
-			["kirchhoff_szeregowe", eduMovie.convertFile("Kirchhoff_szeregowe.sch", negate=True)]
+			["kirchhoff2", eduMovie.convertFile("Kirchhoff_2.sch", negate=True, dpi=160)],
+			["kirchhoff_szeregowe", eduMovie.convertFile("Kirchhoff_szeregowe.sch", negate=True, dpi=140)]
 		],
 		'text' : [
 			"Kolejnymi prawami które się przydają i na dodatek są dość <fundamentalnymi>[fundament'alnymi] <m> prawami przyrody są prawa Kirchhoffa. <m>"

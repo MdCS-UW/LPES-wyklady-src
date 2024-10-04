@@ -36,7 +36,7 @@ clipData += [
 				("switch", 160, 320), ("wait", 1.7), ("switch", 160, 320), ("wait", 1.7),
 				("switch", 160, 185), ("wait", 1.7), ("switch", 160, 185), ("wait", 1.7),
 			])],
-			["trzystanowe2 - 2.7", eduMovie.circuitjs("ster", 2, 2, [("switch", 300, 320)])],
+			["trzystanowe2 - 2.5", eduMovie.circuitjs("ster", 2, 2, [("switch", 300, 320)])],
 		],
 		'text' : [
 			'Typowa bramka logiczna wymusza w sposób silny stan na swoim wyjściu, <m> czyli podłącza je do napięcia zasilania lub do poziomu masy. <m>'

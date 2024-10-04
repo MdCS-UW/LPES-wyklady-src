@@ -81,7 +81,7 @@ clipData += [
 			'Trochę podobne działanie mają multipleksery i demultipleksery cyfrowe. <m>'
 			
 			'Multiplekser posiada <n>[eN] wejść, m-bitowe wejście sterujące i jedno wyjście. <m>'
-			'Wejście sterujące pełni funkcję analogiczną jak w dekoderze <m> - podajemy na nim numer linii, tyle że nie jest to linia która ma być aktywowana, <m> a linia której stan ma być odzwierciedlony na wyjściu. <mark name="mux" />'
+			'Wejście sterujące pełni funkcję analogiczną jak w dekoderze <m> – podajemy na nim numer linii, tyle że nie jest to linia która ma być aktywowana, <m> a linia której stan ma być odzwierciedlony na wyjściu. <mark name="mux" />'
 			
 			'Tak jak pokazano na ekranie multiplekser można by skonstruować <m> podłączając do każdego wyjścia dekodera bramkę AND z sygnałem wejściowym <m> i łącząc wyjścia tych bramek do jednej bramki OR. <m>'
 			'Dekoder wybiera która z bramek jest aktywna i ta bramka (zawsze tylko jedna) <m> przepuszcza swój sygnał na wyjście. <mark name="demux" />'

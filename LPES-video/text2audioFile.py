@@ -23,7 +23,7 @@
 
 
 import urllib.request
-import json, codecs
+import json, codecs, re
 
 try:
 	from GoogleCloudTextToSpeach import token
@@ -37,8 +37,7 @@ def text2audioFile(txt, fileName):
 		raise BaseException("Empty Google cloud Text to Speach token")
 	
 	txt = txt.replace('. <', '.<break time="300ms"/> <')
-	txt = txt.replace(' - ', ' -<break time="200ms"/> ')
-	txt = txt.replace(' – ', ' –<break time="200ms"/> ')
+	txt = re.sub('<mark name="([^"]*)"/>([ \t\n]*)– ', ' –<break time="200ms"/> <mark name="\\1"/> ', txt) # <break> just after mark cause ignoring <mark> by Google TTS ...
 	txt = txt.replace(', ',  ',<break time="100ms"/> ')
 	# prepare and send request
 	r = '''{

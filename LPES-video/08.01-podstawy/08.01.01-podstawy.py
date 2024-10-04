@@ -80,8 +80,8 @@ clipData += [
 	},
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("elektronik_vs_szkoła.sch", negate=True)],
-			["line_crossing", eduMovie.convertFile("line_crossing.sch", negate=True)],
+			[0.0, eduMovie.convertFile("elektronik_vs_szkoła.sch", negate=True, dpi=160)],
+			["line_crossing", eduMovie.convertFile("line_crossing.sch", negate=True, dpi=180)],
 			["current", eduMovie.convertFile("current.sch", negate=True)],
 		],
 		'text' : [

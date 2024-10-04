@@ -199,7 +199,7 @@ clipData += [
 		],
 		'text' : [
 			'Innym poleceniem związanym z konfiguracją sieci, <m> którego szczegółowo nie będziemy omawiać, <m> jest tc od Traffic Control. <m>'
-			'Umożliwia ono konfigurację ustawień kontroli przepływu <m> - na przykład kolejkowania, związanych z tym prędkości ruchu i tak dalej <m> na poszczególnych interfejsach sieciowych. <m>'
+			'Umożliwia ono konfigurację ustawień kontroli przepływu <m> – na przykład kolejkowania, związanych z tym prędkości ruchu i tak dalej <m> na poszczególnych interfejsach sieciowych. <m>'
 			'Przydatny jest jeżeli nasz Linux ma pełnić funkcje routingowe <m> i mamy potrzebę na przykład regulacji bądź ograniczenia <m> przepustowości na konkretnych interfejsach. <m>',
 			
 			"Należy wspomnieć także o narzędziach używanych do konfiguracji sieci bezprzewodowych takich jak <m>"

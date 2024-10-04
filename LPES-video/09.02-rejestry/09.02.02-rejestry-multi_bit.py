@@ -97,9 +97,9 @@ clipData += [
 			'Na symulacji widzimy że w chwili narastającego zbocza zegara <m> stan znajdujący się w rejestrze zostaje przesunięty, <m> tak aby zrobić miejsce dla nowo wczytanego bitu. <m>'
 			
 			'Aby wczytać całą zawartość n bitowego rejestru potrzebujemy <m> n taktów zegara, podczas których podawane będą kolejne bity <m> wartości która ma znaleźć się w rejestrze. <m>'
-			'Stąd też nazwa tego typu rejestrów <m> - dane przesyłane są do nich szeregowo, bit za bitem. <m>'
+			'Stąd też nazwa tego typu rejestrów <m> – dane przesyłane są do nich szeregowo, bit za bitem. <m>'
 			
-			'Pozwala to na zaoszczędzenie na liniach przesyłających dane <m> - w pokazanym przykładzie <4>[cztery] bity przesyłamy dwoma liniami, <m>'
+			'Pozwala to na zaoszczędzenie na liniach przesyłających dane <m> – w pokazanym przykładzie <4>[cztery] bity przesyłamy dwoma liniami, <m>'
 				'a rozbudowując ten rejestr tymi samymi liniami (tylko trochę wolniej) <m> możemy przesłać 8, 10, 16 i więcej bitów. <m>'
 			'Oczywiście oszczędność ta odbywa się kosztem większej liczby cykli zegara <m> potrzebnych do wprowadzenia danych do takiego rejestru. <m>'
 			

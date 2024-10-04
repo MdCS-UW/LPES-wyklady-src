@@ -228,7 +228,7 @@ clipData += [
 			'Możemy spróbować uruchomić nasz serwer i sprawdzić jego działanie. <m>'
 			'Jak widzimy połączenia nawiązywane zarówno w <m> czwartej jak i szóstej wersji IP obsługiwane są prawidłowo. <m>'
 			'Każdy z klientów dostaje tylko odpowiedzi które powinny do niego trafić. <m>'
-			'Również ograniczenie na ilość potomków działa zgodnie z założeniami <m> - do serwera może być podłączonych maksymalnie <3>[trzech] klientów. <m>'
+			'Również ograniczenie na ilość potomków działa zgodnie z założeniami <m> – do serwera może być podłączonych maksymalnie <3>[trzech] klientów. <m>'
 			'Podłączenie się kolejnego możliwe jest dopiero po zakończeniu któregoś <m> z istniejących połączeń i związanej z tym śmierci danego potomka. <m>'
 		]
 	},

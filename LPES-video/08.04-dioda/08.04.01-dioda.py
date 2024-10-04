@@ -151,7 +151,7 @@ clipData += [
 			'Na symulacji widzimy prostownik oparty na pojedynczej diodzie, <m> który prąd przemienny 40 herców (czyli trochę mniej niż w gniazdku) <m>'
 				'zamienia na prąd wyprostowany jednopołówkowo, <m> w którym nie ma już ujemnych połówek wejściowej sinusoidy. <m>'
 			'Oczywiście też maksimum sinusoidy napięcia wyjściowego <m> jest obniżone o spadek napięcia na diodzie. <m>'
-			'Wadą tego rozwiązania jest tracenie połowy sinusoidy <m> - w trakcie ujemnej połówki nasz układ nie może pobierać energii. <mark name="prost2" />'
+			'Wadą tego rozwiązania jest tracenie połowy sinusoidy <m> – w trakcie ujemnej połówki nasz układ nie może pobierać energii. <mark name="prost2" />'
 			
 			'Lepszym rozwiązaniem jest prostownik dwupołówkowy, <m> w postaci mostka prostowniczego. <m>'
 			'Jak widzimy układ ten potrafi odbić dolną połówkę sinusoidy, <m> czyli układ może pobierać prąd o stałej polaryzacji <m> w obu połówkach wejściowej sinusoidy. <m>'

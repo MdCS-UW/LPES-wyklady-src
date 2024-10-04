@@ -43,7 +43,7 @@ clipData += [
 			'Kondensator magazynował energię w polu elektrycznym <m> i działał stabilizująco na napięcie <m> (można powiedzieć że przeciwstawiał się zmianom napięcia, opóźniał, łagodził je). <m>'
 			'Widzimy to w pokazanej na ekranie symulacji - krótkie obniżenie napięcia <m> zasilającego jest wyraźnie łagodzone przez kondensator. <mark name="stab_cewka" />'
 			'Cewka magazynuje energię w polu magnetycznym i działa stabilizująco na prąd <m> (można powiedzieć że przeciwstawia się zmianom prądu <m> przez nią płynącego, opóźnia, łagodzi je). <m>'
-			'Widzimy to także w pokazanej na ekranie symulacji <m> - spadek prądu w obwodzie spowodowany krótkotrwałym obniżeniem <m> napięcia zasilającego jest wyraźnie łagodzony przez cewkę. <m>'
+			'Widzimy to także w pokazanej na ekranie symulacji <m> – spadek prądu w obwodzie spowodowany krótkotrwałym obniżeniem <m> napięcia zasilającego jest wyraźnie łagodzony przez cewkę. <m>'
 			
 			'Jeżeli naładowany kondensator po prostu odetniemy <m> od obwodu to na nim ten ładunek pozostanie. <m>'
 			'Analogicznie jeżeli wypniemy naładowaną cewkę to można powiedzieć <m> że prąd w niej pozostanie – będzie nadal chciał płynąć, <m> co objawi się wzrostem napięcia na cewce. <m>'

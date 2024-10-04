@@ -57,8 +57,8 @@ clipData += [
 			[0, eduMovie.convertFile('terminal_szeregowy_diagram.svg')]
 		],
 		'text' : [
-			"Terminal może pracować zarówno w środowisku graficznym <m> - jako tak zwany emulator terminala, <m> działający pod kontrolą X serwera. <m>"
-			"Może on także działać w ramach linuxowej wirtualnej konsoli <m> - czyli w trybie tekstowym lub pseudo tekstowym nie wymagającym środowiska graficznego <m>"
+			"Terminal może pracować zarówno w środowisku graficznym <m> – jako tak zwany emulator terminala, <m> działający pod kontrolą X serwera. <m>"
+			"Może on także działać w ramach linuxowej wirtualnej konsoli <m> – czyli w trybie tekstowym lub pseudo tekstowym nie wymagającym środowiska graficznego <m>"
 			"lub być uruchomiony na prawdziwym połączeniu czysto tekstowym, <m> takim jak na przykład port szeregowy. <m>"
 			"Terminal zapewnia obsługę wejścia-wyjścia <m> czyli wprowadzania znaków (przyjmowanych typowo z klawiatury) <m> oraz wyświetlania znaków, typowo na ekranie. <m>"
 			"Szczegóły tego działania zależne są od konkretnej implementacji <m> terminala i sprzętu na którym funkcjonuje. <m>"
@@ -107,7 +107,7 @@ clipData += [
 		],
 		'text' : [
 			"Po uruchomieniu Pythona widzimy że zmienił się znak zachęty <m> – przyjął on postać trzech znaków większości. <m>"
-			"Jeżeli zakończymy działanie Pythona <m> (na przykład przy pomocy Control D, oznaczającego koniec wprowadzanych danych tekstowych) <m> to wrócimy do wcześniej używanego interpretera poleceń <m> - w tym wypadku basha. <m>"
+			"Jeżeli zakończymy działanie Pythona <m> (na przykład przy pomocy Control D, oznaczającego koniec wprowadzanych danych tekstowych) <m> to wrócimy do wcześniej używanego interpretera poleceń <m> – w tym wypadku basha. <m>"
 		]
 	},
 	{

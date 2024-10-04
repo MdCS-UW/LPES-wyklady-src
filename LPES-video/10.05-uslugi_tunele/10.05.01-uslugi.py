@@ -324,7 +324,7 @@ clipData += [
 			
 			'Zasadniczo w poczcie elektronicznej, tak jak tej tradycyjnej, jedyną wiarygodną informacją jest adres odbiorcy podany na kopercie. <m>'
 			'Aby zapewnić wiarygodność informacji o nadawcy i o treści należy stosować podpis elektroniczny. <m>'
-			'W odróżnieniu jednak od tradycyjnej poczty, koperty w poczcie elektronicznej, <m> można powiedzieć że są przeźroczyste <m> - każdy po drodze może zobaczyć treść listu. <m>'
+			'W odróżnieniu jednak od tradycyjnej poczty, koperty w poczcie elektronicznej, <m> można powiedzieć że są przeźroczyste <m> – każdy po drodze może zobaczyć treść listu. <m>'
 			'Aby zapewnić jego poufność należy stosować szyfrowanie end-to-end, <m> czyli takie gdzie dopiero odbiorca odszyfrowuje swoim tajnym kluczem <m> treść zaszyfrowaną przez nadawcę przed jej wysłaniem. <m>'
 		]
 	},

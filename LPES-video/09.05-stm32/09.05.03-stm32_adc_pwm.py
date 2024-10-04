@@ -30,9 +30,9 @@ clipData += [
 		'image': [
 			[0.0, ""],
 			["adc",  eduMovie.convertFile('adc.svg')], # plot sin(x) lc "blue", floor(16*sin(x))/16.0+1/32.0 with histeps lc "red"
-			["xEOL", eduMovie.convertFile('xEOL.sch', negate=True)],
+			["xEOL", eduMovie.convertFile('xEOL.sch', negate=True, dpi=140)],
 			["pwm",  eduMovie.convertFile('pwm.svg', negate=True)],
-			["dac",  eduMovie.convertFile("dac.sch", negate=True)],
+			["dac",  eduMovie.convertFile("dac.sch", negate=True, dpi=140)],
 		],
 		'text' : [
 			"W materiałach do zajęć z programowania mikrokontrolerów STM32 <m> znajdują się także przykładowe kody związane z użyciem <m>"

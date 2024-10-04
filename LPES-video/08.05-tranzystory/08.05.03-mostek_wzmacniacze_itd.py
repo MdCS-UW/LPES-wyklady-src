@@ -28,7 +28,7 @@ clipData += [
 	{ 'comment': 'mostek, wzmacniacze, ...' },
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/mostek_H_switche.sch", negate=True)],
+			[0.0, eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/mostek_H_switche.sch", negate=True, dpi=200)],
 		],
 		'text' : [
 			'Kolejną rzeczą związaną poniekąd z tranzystorami, <m> ale tak naprawdę nawet ze zwykłymi przełącznikami, <m> czy też przekaźnikami jest tak zwany mostek H. <m>'
@@ -86,7 +86,7 @@ clipData += [
 	},
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("triak.sch", negate=True)],
+			[0.0, eduMovie.convertFile("triak.sch", negate=True, dpi=200)],
 		],
 		'text' : [
 			'Drugim z tematów na zakończenie tranzystorów <m> są elementy do przełączania w obwodach prądu przemiennego. <m>'

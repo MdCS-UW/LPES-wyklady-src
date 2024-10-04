@@ -61,7 +61,7 @@ clipData += [
 	},
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("npn_pnp.sch")],
+			[0.0, eduMovie.convertFile("npn_pnp.sch", dpi=120, negate=True)],
 		],
 		'text' : [
 			'Tranzystor zarówno w funkcji klucza jak i w pracy liniowej <m> (wzmacniania sygnału) współpracuje z jakimś obciążeniem, <m> oznaczonym na widocznych schematach jako rezystor R load. <m>'
@@ -145,9 +145,9 @@ clipData += [
 	{
 		'image': [
 			[0.0, eduMovie.circuitjs("pnp", 0, 6)],
-			["pnp_nasycenie - 16", eduMovie.circuitjs("pnp", 13, 6, [("switch", 340, 250)])],
-			["pnp_rezystor", eduMovie.circuitjs("pnp", 3, 6, [("switch", 460, 310), ("wait", 3.0), ("switch", 340, 250)])],
-			["pnp_wzmac - 1.1", eduMovie.circuitjs("pnp", 3, 16, preActions=[("switch", 340, 250)], actions=[
+			["pnp_nasycenie - 17", eduMovie.circuitjs("pnp", 13, 6, [("switch", 340, 250)])],
+			["pnp_rezystor - 0.5", eduMovie.circuitjs("pnp", 3, 6, [("switch", 460, 310), ("wait", 3.0), ("switch", 340, 250)])],
+			["pnp_wzmac - 1.2", eduMovie.circuitjs("pnp", 3, 16, preActions=[("switch", 340, 250)], actions=[
 				("setSlider", 2, 0.0), ("wait", 1.3),
 				("setSlider", 3, 0.2), ("wait", 1.3), ("setSlider", 3, 0.3), ("wait", 1.3), ("setSlider", 3, 0.4), ("wait", 1.3), ("setSlider", 3, 0.5),
 				("setSlider", 3, 0.6), ("wait", 1.3), ("setSlider", 3, 0.7), ("wait", 1.3), ("setSlider", 3, 0.8), ("wait", 1.3), ("setSlider", 3, 0.98)

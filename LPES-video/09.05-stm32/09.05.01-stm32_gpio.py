@@ -107,7 +107,7 @@ clipData += [
 			
 			'Na ekranie widzimy kod takiego programu stworzonego w C. <m>'
 			'Mamy tutaj jedynie funkcję main, w której najpierw przygotowujemy <m> nasz mikrokontroler do zadań, które chcemy wykonywać, <m> a następnie uruchamiamy nieskończoną pętlę w trakcie której będą one wykonywane. <m>'
-			'Jest to typowe podejście w programowaniu mikrokontrolerów, <m> funkcja main w programowaniu mikrokontrolerów na ogół nigdy się nie kończy <m> - jest w niej realizowana pętla nieskończona, nazywana pętlą główną. <m>'
+			'Jest to typowe podejście w programowaniu mikrokontrolerów, <m> funkcja main w programowaniu mikrokontrolerów na ogół nigdy się nie kończy <m> – jest w niej realizowana pętla nieskończona, nazywana pętlą główną. <m>'
 			
 			'Program ma za zadanie migać diodą świecącą podłączoną do pinu C13. <mark name="blink1" />'
 			
@@ -124,7 +124,7 @@ clipData += [
 			'Jak wiemy pętla for nie jest pojedynczą instrukcją procesora, <m> zatem wykonanie takiej pętli zajmie kilka razy więcej niż 150 tysięcy cykli. <m>'
 			'Użycie wstawki asemblerowej z instrukcją pustą, <m> zamiast zakończenia tej pętli średnikiem, <m> służy uniemożliwieniu zoptymalizowania takiej pętli przez kompilator. <mark name="blink4" />'
 			
-			'Następnie dokonujemy zmiany stanu pinu wyjściowego na przeciwny <m> - czyli jeżeli był niski ustawiamy wysoki, a gdy był wysoki ustawiamy niski. <m>'
+			'Następnie dokonujemy zmiany stanu pinu wyjściowego na przeciwny <m> – czyli jeżeli był niski ustawiamy wysoki, a gdy był wysoki ustawiamy niski. <m>'
 		]
 	},
 	{
