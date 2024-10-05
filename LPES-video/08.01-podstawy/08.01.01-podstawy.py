@@ -46,7 +46,7 @@ clipData += [
 		'image': [
 			[0.0, eduMovie.convertFile('napięcie.svg', negate=True)],
 			["potencjal_def", eduMovie.convertFile("potencjał-definicja.tex", negate=True)],
-			["potencjal_sym", eduMovie.convertFile("potencjał.sch", negate=True)],
+			["potencjal_sym", eduMovie.convertFile("potencjał.sch", negate=True, dpi=220)],
 			["gnd_sym", eduMovie.convertFile("masa.sch", negate=True)],
 		],
 		'text' : [

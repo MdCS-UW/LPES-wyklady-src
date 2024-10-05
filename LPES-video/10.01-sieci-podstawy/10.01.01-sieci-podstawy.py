@@ -38,7 +38,7 @@ clipData += [
 			'Sieć komputerowa jest to zbiór hostów, komputerów, innych urządzeń <m> sieciowych, okablowania oraz protokołów określających zasady komunikacji. <m>'
 			'Służy do zapewnienia komunikacji pomiędzy komputerami, przesyłu danych. <m>'
 			'Sieci komputerowe działają na zasadzie przesyłania informacji <m> w ramach pewnych fragmentów z których każdy posiada przynajmniej informacje <m> o adresie odbiorcy do którego ma trafić. <m>'
-			'Fragmenty takie nazywane są ramkami bądź pakietami <m> i zwykle oprócz adresu odbiorcy jest tam też adres nadawcy <m> i kilka innych informacji pomagających obsłużyć taki pakiet. <mark name="chmurkiA" /> <m>'
+			'Fragmenty takie nazywane są ramkami bądź pakietami <m> i zwykle oprócz adresu odbiorcy jest tam też adres nadawcy <m> i kilka innych informacji pomagających obsłużyć taki pakiet. <mark name="chmurkiA" />'
 			
 			'Umieszczanie w nagłówku każdego z pakietów adresów umożliwia kierowanie <m> ruchem takich pakietów bez wcześniejszego fizycznego zestawiania łącz. <m>'
 			'W oparciu o ten adres host jest w stanie rozpoznać czy pakiet <m> jest przeznaczony dla niego czy nie, a przełączniki i routery mogą <m> kierować pakiety do odpowiednich fragmentów sieci. <m>'

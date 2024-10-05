@@ -420,6 +420,7 @@ def sequenceToClip(cdata, timepoints, length, mode, screen = None, overlay=False
 	lasttime = 0
 	for i in range(len(cdata)):
 		if isinstance(cdata[i][0], str):
+			logInfo("  Processing timepoints named tag: " + cdata[i][0])
 			cdata[i][0] = eval(cdata[i][0], {'__builtins__': None}, timepoints) # if "TypeError: 'NoneType' object is not subscriptable" here, probably cdata[i][0] marker is missing in timepoints
 		if lasttime > cdata[i][0]:
 			logInfo("  Warning: not monotonic time values in clip data (" + str(lasttime) + " " + str(cdata[i][0]) + ")", red)

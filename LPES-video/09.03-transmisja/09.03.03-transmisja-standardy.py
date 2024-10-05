@@ -29,7 +29,7 @@ clipData += [
 	{
 		'image': [
 			[0.0, ""],
-			["spi", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/spi.sch", dpi=180, negate=True)],
+			["spi", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/spi.sch", dpi=80, negate=True)],
 		],
 		'text' : [
 			'Współcześnie zdecydowana większość interfejsów to interfejsy szeregowe. <m>'
@@ -50,7 +50,7 @@ clipData += [
 	{
 		'image': [
 			[0.0, eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/twi.sch", dpi=95, negate=True)],
-			["onewire", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/onewire.sch", dpi=190, negate=True)],
+			["onewire", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/onewire.sch", dpi=110, negate=True)],
 		],
 		'text' : [
 			'Inną często stosowaną i bardzo użyteczną magistralą jest <I2C>[i kwadrat c], <m> która posiada tylko dwie linie – dwukierunkową linię danych i linię zegara. <m>'
@@ -76,8 +76,8 @@ clipData += [
 	},
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/uart1.sch", dpi=170, negate=True)],
-			["uart2", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/uart2.sch", dpi=120, negate=True)],
+			[0.0, eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/uart1.sch", dpi=80, negate=True)],
+			["uart2", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/uart2.sch", dpi=55, negate=True)],
 			["usbpci", ""], # TODO jakiś slajd z USB, PCI, SATA, ... (zdjęcia ?)
 		],
 		'text' : [

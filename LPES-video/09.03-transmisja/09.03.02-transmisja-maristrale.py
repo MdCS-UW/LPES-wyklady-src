@@ -28,7 +28,7 @@ clipData += [
 	{ 'section': 'magistrale' },
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("../../LPES-booklets//images-src/elektronika/topologie.sch", dpi=210, negate=True)],
+			[0.0, eduMovie.convertFile("../../LPES-booklets//images-src/elektronika/topologie.sch", dpi=110, negate=True)],
 		],
 		'text' : [
 			'W zależności od układu fizycznych połączeń komunikujących się urządzeń <m> wyróżnia się różne topologie połączeń. <m>'
@@ -52,8 +52,8 @@ clipData += [
 	{
 		'image': [
 			[0.0, eduMovie.convertFile('szeregowa_rowolegla_sygnaly.svg', negate=True)],
-			["rownolegla", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/magistrala_rownolegla.sch", dpi=105, negate=True)], # TODO podświetlanie omawianego elementu
-			["szeregowa - 5", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/magistrala_szeregowa.sch", dpi=110, negate=True)], # TODO podświetlanie omawianego elementu
+			["rownolegla", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/magistrala_rownolegla.sch", dpi=90, negate=True)], # TODO podświetlanie omawianego elementu
+			["szeregowa - 5", eduMovie.convertFile("../../LPES-booklets/images-src/elektronika/magistrala_szeregowa.sch", dpi=90, negate=True)], # TODO podświetlanie omawianego elementu
 		],
 		'text' : [
 			'Przy okazji poznawania różnych rodzajów rejestrów, spotkaliśmy się <m> z pojęciem transmisji jakiś danych równolegle bądź szeregowo. <m>'

@@ -80,7 +80,7 @@ clipData += [
 		'text' : [
 			'Do niedawna podstawowymi narzędziami konfiguryjącymi filtrację pakietów <m> były komendy <iptables>[IP tables] i <ip6tables>[IP 6 tables] (odpowiedzialne za filtrację ruchu IP) <m>'
 			"oraz wspomagające <ebtables>[EB tables] i <arptables>[arp tables] (odpowiedzialne odpowiednio za <m> filtrację ruchu na bridge'ach i filtrację na poziomie L2, <m> przed spojrzeniem na warstwę L3). <m>"
-			'Aktualnie są one nadal dostępne, lecz często stanowią jedynie ograniczoną <m> nakładkę na nowszy mechanizm, którym jest <nftables>[N F T tables], obsługiwany poleceniem <nft>[N F T]. <mark name="nftlist" /> <m>'
+			'Aktualnie są one nadal dostępne, lecz często stanowią jedynie ograniczoną <m> nakładkę na nowszy mechanizm, którym jest <nftables>[N F T tables], obsługiwany poleceniem <nft>[N F T]. <mark name="nftlist" />'
 			
 			'Komenda <nft>[N F T] pozwala na konfigurację wszystkich rodzajów filtrowania, <m> argumenty tego polecenia (podobnie jak w poleceniu ip) <m>'
 			'podawane są w linii poleceń jako ciąg instrukcji, <m>  bez używania opcji rozpoczynających się od myślników, <itp>[i tym podobnych]. <m>'

@@ -134,7 +134,7 @@ clipData += [
 			["codeC", eduMovie.runCode(code_adresy_C, [], cmd="python3")],
 		],
 		'text' : [
-			'W tym celu użyjemy modułu <ipaddress>[ip address], <m> który zapewni nam konwersję adresów na ich wartości liczbowe. <mark name="codeB" /> <m>'
+			'W tym celu użyjemy modułu <ipaddress>[ip address], <m> który zapewni nam konwersję adresów na ich wartości liczbowe. <mark name="codeB" />'
 			
 			'Na uzyskanych liczbach wykonamy operacje bitowe <m> mające na celu wyzerowanie części adresu identyfikującej hosta w obu adresach <m>'
                 'i pozostawienie nie wyzerowanej <m> jedynie części związanej z adresem sieci. <m>'

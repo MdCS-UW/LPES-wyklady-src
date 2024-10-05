@@ -49,7 +49,7 @@ clipData += [
 			'Typowo są to układy priorytetowe, czyli jeżeli mimo wszystko kilka wejść <m> będzie aktywnych to wystawiony zostanie numer jednego z nich <m> – w zależności od użytego układu tego z najniższym lub najwyższym numerem. <m>'
 			'Układ taki często posiada dodatkowe wyjście sygnalizujące, <m> że żadne z wejść nie jest w stanie aktywnym lub reprezentowane jest to <m> jakąś wartością w wystawianym kodzie binarnym. <m>'
 			
-			'Numer aktywnego wejścia na ogół podawany jest w NKB, <m> w niektórych układach mogą jednak być użyte inne kodowania. <mark name="dekoder" /> <m>'
+			'Numer aktywnego wejścia na ogół podawany jest w NKB, <m> w niektórych układach mogą jednak być użyte inne kodowania. <mark name="dekoder" />'
 			
 			'Odwrotne działanie realizuje dekoder <m>[eM] do <n>[eN]. <m>'
 			'Posiada on m-bitowe wejście i <n>[eN] wyjść. <m>'
@@ -68,14 +68,14 @@ clipData += [
 	},
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("mux.sch", negate=True)],
+			[0.0, eduMovie.convertFile("mux.sch", negate=True, dpi=120)],
 			["mux", eduMovie.circuitjs("mux", 1, 10, [
 				("switch", 460, 70), ("wait", 0.5), ("switch", 460, 70), ("wait", 0.5), ("switch", 460, 70), # przełączanie linii 1
 				("wait", 1), ("switch", 255, 460), ("wait", 1), # przełączenie na 3 linię
 				("switch", 460, 70), ("wait", 0.5), ("switch", 460, 70)  # przełączanie linii 1
 			])],
-			["demux", eduMovie.convertFile("mux.sch", negate=True)],
-			["analog_mux", eduMovie.convertFile("mux_analog.sch", negate=True)],
+			["demux", eduMovie.convertFile("mux.sch", negate=True, dpi=120)],
+			["analog_mux", eduMovie.convertFile("mux_analog.sch", negate=True, dpi=200)],
 		],
 		'text' : [
 			'Trochę podobne działanie mają multipleksery i demultipleksery cyfrowe. <m>'
@@ -102,8 +102,8 @@ clipData += [
 	},
 	{
 		'image': [
-			[0.0, eduMovie.convertFile("bufory.sch", negate=True)],
-			["tristate", eduMovie.convertFile("bramka_transmisyjna.sch", negate=True)],
+			[0.0, eduMovie.convertFile("bufory.sch", negate=True, dpi=200)],
+			["tristate", eduMovie.convertFile("bramka_transmisyjna.sch", negate=True, dpi=170)],
 		],
 		'text' : [
 			'Oprócz układów kompresujących i dekompresujących ilość linii mamy też <m> bardziej standardowe układy służące sterowaniu linii nazywane buforami. <m>'
