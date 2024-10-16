@@ -39,7 +39,7 @@ clipData += [
 		],
 		'text' : [
 			"Kolejną komendą wykonującą operacje na plikach jest sed. <m>"
-			"""Jest to kolejny edytor tekstu który poznamy, <m> jest on raczej mniej "przyjazny" od vim'a, mimo to jest bardzo użyteczny. <m>"""
+			"""Jest to kolejny edytor tekstu który poznamy, <m> jest on raczej mniej przyjazny od vim'a, mimo to jest bardzo użyteczny. <m>"""
 			'Sed umożliwia edytowanie plików z bezpośrednio linii komend, <m> w ramach opcji <-e>[minus E małe] przyjmuje polecenia które ma wykonać na treści pliku. <m>'
 			"Ścieżka do pliku może zostać podana w linii poleceń <m> lub jego treść może zostać przekazana na standardowe wejście sed'a. <m>"
 			"Sed zmodyfikowany plik domyślnie wypisuje na standardowe wyjście. <m>"

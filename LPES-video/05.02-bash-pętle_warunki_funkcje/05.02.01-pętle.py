@@ -87,8 +87,8 @@ clipData += [
 		'console': [
 			[0.0, eduMovie.runCommandString(r'while [ "$a" != "aaaa" ]; do echo $a; a=${a}a; done')],
 			["while2", eduMovie.runCommandString(r"while ! true; do echo x; done")],
-			["while3", eduMovie.runCommandString(r"while read x; do echo XX $x XX; done < /etc/resolv.conf")],
-			["while4", eduMovie.runCommandString(r"while read a b; do echo XX $a --- $b XX; done < /etc/resolv.conf")],
+			["while3", eduMovie.runCommandString(r"while read x; do echo XX $x XX; done < /etc/networks")],
+			["while4", eduMovie.runCommandString(r"while read a b; do echo XX $a --- $b XX; done < /etc/networks")],
 			["while5", eduMovie.runCommandString(r'IFS=":"; while read a b c; do echo "XX $a --- $c XX"; done < /etc/passwd | head; unset IFS')],
 		],
 		'text' : [
@@ -106,7 +106,7 @@ clipData += [
 			'Jako że czyta ona jedną linię, to aby móc przeczytać <m> wiele linii używamy pętli while. <m>'
 			'Pętla ta zakończy się gdy read zwróci nie zerowy kod powrotu <m> na skutek końca danych w czytanym pliku lub strumieniu. <m>'
 			
-			'W przykładzie widocznym na ekranie przy pomocy konstrukcji while - read <m> przeczytaliśmy plik resolv.conf przekazany na standardowe wejście pętli while. <mark name="while4" />'
+			'W przykładzie widocznym na ekranie przy pomocy konstrukcji while - read <m> przeczytaliśmy plik networks przekazany na standardowe wejście pętli while. <mark name="while4" />'
 			
 			'Jeżeli do polecenia read przekażemy kilka nazw zmiennych to dokona <m> ono podziału czytanej linii na pola i kolejne pola zapisze do kolejnych zmiennych. <m>'
 			'W ostatniej zmiennej znajdzie się pozostała część linii. <m>'

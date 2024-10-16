@@ -71,8 +71,8 @@ clipData += [
 			["float2", eduMovie.runCommandString(r'e=$(python -c "print($d * 2)") ;  echo $e', env=shenv)],
 			["float3", eduMovie.runCommandString(r'e=`python -c "print($d * 2)"` ;  echo $e', env=shenv)],
 			["float4", eduMovie.runCommandString(r'e=$( x=$(python -c "print(13/3)"); python -c "print($d * $x)" ) ;  echo $e', env=shenv)],
-			["callcat", eduMovie.runCommandString(r'e=$( cat /etc/resolv.conf ) ;  echo $e', env=shenv)],
-			["callcat + 1", eduMovie.runCommandString(r'e=$( cat /etc/resolv.conf ) ;  echo "$e"', env=shenv)],
+			["callcat", eduMovie.runCommandString(r'e=$( cat /etc/networks ) ;  echo $e', env=shenv)],
+			["callcat + 1", eduMovie.runCommandString(r'e=$( cat /etc/networks ) ;  echo "$e"', env=shenv)],
 			
 		],
 		'text' : [

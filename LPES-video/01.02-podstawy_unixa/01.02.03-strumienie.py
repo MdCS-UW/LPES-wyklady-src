@@ -153,7 +153,7 @@ clipData += [
 			[3.0, eduMovie.runCommandString(r"cat plik", cwd="/tmp")],
 		],
 		'text' : [
-			'Jeżeli poprzedzimy go liczbą <m> (też bez spacji pomiędzy nią a znakiem większości) <m> to zostanie przekierowany strumień o podanym numerze. <m>'
+			'Jeżeli znak większości poprzedzimy liczbą <m> (też bez spacji pomiędzy nimi) <m> to zostanie przekierowany strumień o podanym numerze. <m>'
 			'W przykładzie pokazanym na ekranie do pliku została dopisana <m> treść strumienia numer dwa, czyli standardowego wyjścia błędu. <m>'
 		]
 	},

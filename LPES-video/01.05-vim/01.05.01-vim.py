@@ -139,7 +139,7 @@ clipData += [
 			
 			'Kolejnym trybem pracy edytora vim jest tryb wizualny, <m> który pozwala nam na wizualne zaznaczanie jakiegoś fragmentu tekstu <m> i wykonanie na nim operacji na przykład jego usunięcia. <mark name="wklejanie" />'
 			
-			"Usuwanie, kopiowanie i tego typu operacji wykonywane są w trybie komend <m> (lub po zaznaczeniu fragmentu w trybie wizualnym) <m> i służą do tego odpowiednie skróty klawiszowe. <m>"
+			"Usuwanie, kopiowanie i tego typu operacje wykonywane są w trybie komend <m> (lub po zaznaczeniu fragmentu w trybie wizualnym) <m> i służą do tego odpowiednie skróty klawiszowe. <m>"
 			"x - kasuje znak pod kursorem lub zaznaczony fragment, <m> bardziej uniwersalny jest d, <m> który wymaga określenia po nim kierunku kasowania <m> przy pomocy klawiszy strzałek lub klawiszy h j k l. <m>"
 			'Na przykład <dl>[De L] lub <d>[De] <break time="100ms"/> strzałka w prawo działa jak x, kasując <m> jeden znak pod kursorem, a <dh>[De Ha] lub <d>[De] <break time="100ms"/> strzałka w lewo kasuje znak przed kursorem. <m>'
 			

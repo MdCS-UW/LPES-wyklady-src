@@ -108,10 +108,10 @@ clipData += [
 			'Zapewnia ona podstawienie występujących w tym napisie zmiennych, itd. <mark name="evalA" />'
 			
 			'Jednym z prostszych przypadków użycia eval <m> jest pobranie wartości zmiennej, której nazwa jest w innej zmiennej. <m>'
-			'W przykładzie widocznym na ekranie chcemy pobrać wartość zmiennej A, <m> w oparciu o jej nazwę w zmiennej B. <m>'
+			'W przykładzie widocznym na ekranie chcemy pobrać wartość zmiennej "A", <m> w oparciu o jej nazwę w zmiennej B. <m>'
 			'Można to też uzyskać poprzez odwołanie klamerkowe z wykrzyknikiem, <m> ale nie jest ono ujęte w standardzie <sh>[SH] <m> i może być nie wspierane na innych powłokach niż bash. <mark name="evalB" />'
 			
-			'Jeżeli chcielibyśmy aby kod znajdujący się w zmiennej A <m> także został przetworzony, czyli podstawiona wartość zmiennej <m> oraz output komendy ls, to możemy użyć eval dwukrotnie,<m>'
+			'Jeżeli chcielibyśmy aby kod znajdujący się w zmiennej "A" <m> także został przetworzony, czyli podstawiona wartość zmiennej <m> oraz output komendy ls, to możemy użyć eval dwukrotnie,<m>'
 				'tak jak pokazuje to przykład widoczny na ekranie. <mark name="evalC" />'
 			
 			'Z pomocą instrukcji eval możemy także budować kod bashowy <m> (np. fragmenty konstrukcji case) w oparciu o zawartość zmiennych, <m> tak jak pokazuje to kolejny przykład na ekranie. <m>'
@@ -120,7 +120,13 @@ clipData += [
 			'Innym poleceniem umożliwiającym podstawienie wartości <m> zmiennych występujących w jakimś napisie jest <envsubst>[enw subst]. <m>'
 			'W odróżnieniu od eval nie wykonuje on podanego kodu, <m> a jedynie przetwarza napis podstawiając wartości zmiennych <m>'
 				'(zatem jest bezpieczniejszy przy przetwarzaniu <m> danych niewiadomego pochodzenia). <m>'
-			'Jako że jest to zewnętrzny program to używane zmienne <m> muszą być dla niego dostępne, czyli muszą być wyeksportowane. <m>'
+			'Jako że jest to zewnętrzny program to używane zmienne <m> muszą być dla niego dostępne, czyli muszą być wyeksportowane. <m>',
+			
+			'Należy też wspomnieć o ograniczeniach dotyczących <m> maksymalnej długości listy argumentów <m> (zarówno całej jak i pojedynczego argumentu). <m>'
+			'Mogą one okazać się problemem na przykład, <m> gdy korzystamy ze znaków uogólniających powłoki <m> i dopasowanych zostanie zbyt wiele plików dopasowanych. <m>'
+			'Lub Gdy wykorzystujemy przechwycenie <m> standardowego wyjścia jakiegoś polecenia, <m> aby użyć go jako argumentów innego polecenia. <m>'
+			'W takich sytuacjach warto skorzystać na przykład <m> z pętli while-read działającej na standardowym wyjściu <m> polecenia zwracającego te dane. <m>'
+			'W przypadku listy plików może to być ls bez argumentów lub (gdy potrzebujemy wybrać tylko niektóre pliki) find. <m>'
 		]
 	},
 ]

@@ -47,7 +47,7 @@ clipData += [
 			'Żadna z tych komend tak naprawdę nie kłamie, po mimo że mówią co innego. <m>'
 			'<ls>[LS] informuje o tym ile mamy informacji w tym pliku, <m> czyli jaki jest rozmiar zawartości tego pliku <m> i zawartość tego pliku obejmuje 25 bajtów. <m>'
 			'Natomiast <du>[D U] mówi ile ten plik zajmuje na dysku twardym <m> w tym przypadku 4 kilo bajty. <m>'
-			'Dzieje się tak dlatego, <m> że miejsce na dysku twardym <alokowane>[a-lokowoane] jest w pewnych jednostkach, <m> zwanych blokami i w tym wypadku rozmiar bloku wynosi 4 kilobajty, <m>'
+			'Dzieje się tak dlatego, <m> że miejsce na dysku twardym <alokowane>[a-lokowane] jest w pewnych jednostkach, <m> zwanych blokami i w tym wypadku rozmiar bloku wynosi 4 kilobajty, <m>'
 			'czyli jest to najmniejsza część dysku, którą plik może zająć. <m>'
 			'Nawet jeżeli plik ma mieć jeden bajt danych, to na dysku twardym <m> musimy na niego przeznaczyć cztery kilobajty. <mark name="duvsls2" />',
 			
